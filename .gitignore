@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+venv/
+*.pyc
+# dữ liệu lớn, không đưa lên git
+data/
+*.jsonl
+arxiv-metadata-oai-snapshot.json
+results/

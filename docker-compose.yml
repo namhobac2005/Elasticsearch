@@ -1,0 +1,56 @@
+# Elasticsearch luôn chạy. PostgreSQL (baseline) và Kibana chạy khi bật profile.
+#   docker compose up -d                            -> chỉ Elasticsearch
+#   docker compose --profile baseline up -d         -> thêm PostgreSQL
+#   docker compose --profile tools up -d            -> thêm Kibana
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    container_name: arxiv-es
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false # chỉ dùng cho học tập/demo cục bộ
+      - ES_JAVA_OPTS=-Xms2g -Xmx2g # giảm xuống 1g nếu máy ít RAM
+    ports:
+      - '9200:9200'
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    ulimits:
+      memlock: { soft: -1, hard: -1 }
+    healthcheck:
+      test:
+        [
+          'CMD-SHELL',
+          'curl -fs http://localhost:9200/_cluster/health || exit 1',
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  postgres:
+    image: postgres:16
+    container_name: arxiv-pg
+    profiles: ['baseline']
+    environment:
+      POSTGRES_USER: arxiv
+      POSTGRES_PASSWORD: arxiv
+      POSTGRES_DB: arxiv
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.15.3
+    container_name: arxiv-kibana
+    profiles: ['tools']
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - '5601:5601'
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+volumes:
+  esdata:
+  pgdata:
