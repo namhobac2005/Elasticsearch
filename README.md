@@ -8,9 +8,10 @@
 .
 ├── app.py               # Giao diện Streamlit (chế độ dữ liệu mẫu + Elasticsearch)
 ├── prepare_data.py      # Lấy mẫu 10k/100k/500k và nạp vào Elasticsearch
-├── load_postgres.py     # Nạp cùng dữ liệu vào PostgreSQL (baseline)
-├── benchmark.py         # Đo độ trễ ES vs PostgreSQL LIKE vs tsvector+GIN
-├── docker-compose.yml   # Elasticsearch (+ PostgreSQL, Kibana qua profile)
+├── load_postgres.py     # Nạp cùng dữ liệu vào PostgreSQL (tsvector + GIN, chỉ mục BM25)
+├── benchmark.py         # Đo độ trễ/QPS: ES vs PostgreSQL FTS (tsvector+GIN) vs BM25 (pg_search)
+├── queries_load.tsv     # 200 truy vấn tải dùng chung cho benchmark (seed 42)
+├── docker-compose.yml   # Elasticsearch (+ PostgreSQL/ParadeDB, Kibana qua profile)
 ├── requirements.txt
 └── data/                # Đặt file dữ liệu ở đây (không đưa lên git)
 ```
@@ -80,18 +81,48 @@ Chọn **Elasticsearch** ở thanh bên (địa chỉ `http://localhost:9200`, i
 
 ### 7. Baseline PostgreSQL và đo hiệu năng
 
+PostgreSQL chạy bằng image ParadeDB (PostgreSQL 16 + extension `pg_search`). So sánh với các baseline phù hợp hiện tại thay vì `LIKE`:
+
+| Mã | Cách làm |
+| --- | --- |
+| `es` | `multi_match` trên `title^3`, `abstract` (best_fields, ghép OR các từ) |
+| `pg_fts_and` | tsvector (title trọng số A, abstract B) + GIN, `plainto_tsquery` (AND), `ts_rank_cd`, title nặng gấp 3 |
+| `pg_fts_or` | như trên nhưng ghép OR các từ, cùng luật khớp với ES |
+| `pg_bm25` | `pg_search`: BM25, `disjunction_max(title^3, abstract)`, tokenizer + stemmer + stopwords tiếng Anh |
+| `pg_like` | `ILIKE` từng từ, không xếp hạng; chỉ để tham chiếu, không chạy mặc định |
+
 ```bash
 docker compose --profile baseline up -d
-python load_postgres.py --file data/arxiv_100000.jsonl --recreate
-python benchmark.py --runs 20
+# 1. nạp từng mức dữ liệu vào bảng/index riêng (có đo thời gian nạp, dựng chỉ mục và dung lượng)
+python load_postgres.py --file data/arxiv_100000.jsonl --table papers_100k
+python prepare_data.py index --file data/arxiv_100000.jsonl --index arxiv_100k --recreate >> results/es_loading.log
+# 2. bộ truy vấn tải dùng chung (đã có sẵn trong repo: queries_load.tsv; chỉ sinh lại nếu cần)
+python benchmark.py gen-queries --file data/arxiv_10000.jsonl --n 200
+# 3. đo lần lượt từng hệ thống (tắt hệ thống còn lại trong lúc đo: docker compose stop ...).
+#    Muốn đo cả cache lạnh: dừng container, xả page cache của VM Docker, khởi động lại rồi thêm --cold-start
+#    (Windows: wsl -d docker-desktop sh -c "sync; echo 3 > /proc/sys/vm/drop_caches")
+python benchmark.py run --systems es --index arxiv_100k --dataset 100k --run-id run2 --cold-start
+python benchmark.py run --systems pg_bm25 --table papers_100k --dataset 100k --run-id run2 --cold-start
+# 4. số bài khớp của từng truy vấn (không bấm giờ chung với bước 3)
+python benchmark.py matches --systems pg_fts_and,pg_fts_or,pg_bm25 --table papers_100k --dataset 100k
+python benchmark.py matches --systems es --index arxiv_100k --dataset 100k
+# 5. độ trùng top-10 giữa các hệ thống, top-10 để gán nhãn, rồi tổng hợp
+python benchmark.py overlap
+python benchmark.py top10 --index arxiv_500k --table papers_500k
+python benchmark.py summary
 ```
 
 Kết quả nằm trong thư mục `results/`:
 
-- `latency.csv`: độ trễ median và p95 của từng hệ thống theo từng truy vấn.
-- `top10.csv`: 10 bài đầu của mỗi hệ thống. Điền cột `relevant(1/0)` bằng tay, rồi tính **Precision@10 = số bài liên quan / 10**.
+- `pg_loading.csv`, `es_loading.log`: thời gian nạp, thời gian dựng chỉ mục, dung lượng.
+- `latency.csv`: p50/p95/p99, QPS theo pha (`cold` = lượt đầu khi cache lạnh, `measure` = các lượt đo chính) và mức đồng thời 1/4/16, kèm version và cấu hình. Truy vấn quá thời gian chờ (`--timeout`, mặc định 30 s) được tính bằng đúng giá trị timeout, nên dòng có `timeouts > 0` là **cận dưới**.
+- `latency_raw.csv`: độ trễ của từng request (dùng để so trên cùng tập truy vấn, vẽ phân phối, phân tích theo truy vấn).
+- `matches.csv`: số bài khớp của từng truy vấn; `summary.md` dùng nó để xét độ trễ theo số bài khớp.
+- `topk.csv`, `overlap.csv`: top-10 ở lượt chạy đầu và độ trùng giữa các hệ thống (RBO, overlap@10), không cần gán nhãn.
+- `top10.csv`: 10 bài đầu của mỗi hệ thống cho 10 truy vấn mẫu. Chạy `python evaluate.py --index arxiv_500k` để tạo file gán nhãn (pooling) rồi tính **Precision@10**.
+- `summary.md`: bảng tổng hợp.
 
-Nên để cùng một người (hoặc cùng tiêu chí) gán nhãn cho cả ba hệ thống, và ghi rõ tiêu chí trong báo cáo.
+ES và PostgreSQL cùng bị giới hạn 4 CPU / 6 GB RAM trong `docker-compose.yml`; PostgreSQL đặt `shared_buffers` = 25% RAM. Nên để cùng một người (hoặc cùng tiêu chí) gán nhãn cho mọi hệ thống, và ghi rõ tiêu chí trong báo cáo.
 
 ### 8. Kibana (tùy chọn)
 
