@@ -8,9 +8,16 @@
 .
 ├── app.py               # Giao diện Streamlit (chế độ dữ liệu mẫu + Elasticsearch)
 ├── prepare_data.py      # Lấy mẫu 10k/100k/500k và nạp vào Elasticsearch
-├── load_postgres.py     # Nạp cùng dữ liệu vào PostgreSQL (baseline)
-├── benchmark.py         # Đo độ trễ ES vs PostgreSQL LIKE vs tsvector+GIN
-├── docker-compose.yml   # Elasticsearch (+ PostgreSQL, Kibana qua profile)
+├── load_postgres.py     # Nạp cùng dữ liệu vào PostgreSQL (tsvector + GIN, chỉ mục BM25)
+├── benchmark.py         # Đo độ trễ/QPS: ES vs PostgreSQL FTS (tsvector+GIN) vs BM25 (pg_search)
+├── queries_load.tsv     # 200 truy vấn tải dùng chung cho benchmark (seed 42)
+├── evaluate.py          # Gán nhãn 0/1/2 (pooling), Cohen's kappa, P@10, nDCG@10
+├── quality_queries.tsv  # 25 truy vấn đánh giá chất lượng, kèm ý định tìm kiếm và tiêu chí nhãn
+├── scripts/bench_run.sh # Chạy trọn một lượt đo PG rồi ES (khởi động lại, xả cache trước mỗi hệ thống)
+├── report/report.md     # Báo cáo phần benchmark
+├── BENCHMARK.md         # Hướng dẫn chạy lại benchmark trên Windows / macOS / Linux
+├── eval/                # Kết quả đo và nhãn liên quan dùng trong report (xem eval/README.md)
+├── docker-compose.yml   # Elasticsearch (+ PostgreSQL/ParadeDB, Kibana qua profile)
 ├── requirements.txt
 └── data/                # Đặt file dữ liệu ở đây (không đưa lên git)
 ```
@@ -80,18 +87,59 @@ Chọn **Elasticsearch** ở thanh bên (địa chỉ `http://localhost:9200`, i
 
 ### 7. Baseline PostgreSQL và đo hiệu năng
 
+Hướng dẫn chạy đầy đủ từng bước cho Windows / macOS / Linux: [BENCHMARK.md](BENCHMARK.md). Kết quả và phân tích: [report/report.md](report/report.md).
+
+PostgreSQL chạy bằng image ParadeDB (PostgreSQL 16 + extension `pg_search`). So sánh với các baseline phù hợp hiện tại thay vì `LIKE`:
+
+| Mã | Cách làm |
+| --- | --- |
+| `es` | `multi_match` trên `title^3`, `abstract` (best_fields, ghép OR các từ) |
+| `pg_fts_and` | tsvector (title trọng số A, abstract B) + GIN, `plainto_tsquery` (AND), `ts_rank_cd`, title nặng gấp 3 |
+| `pg_fts_or` | như trên nhưng ghép OR các từ, cùng luật khớp với ES |
+| `pg_bm25` | `pg_search`: BM25, `disjunction_max(title^3, abstract)`, tokenizer + stemmer + stopwords tiếng Anh |
+| `pg_like` | `ILIKE` từng từ, không xếp hạng; chỉ để tham chiếu, không chạy mặc định |
+
 ```bash
 docker compose --profile baseline up -d
-python load_postgres.py --file data/arxiv_100000.jsonl --recreate
-python benchmark.py --runs 20
+# 1. nạp từng mức dữ liệu vào bảng/index riêng (có đo thời gian nạp, dựng chỉ mục và dung lượng)
+python load_postgres.py --file data/arxiv_100000.jsonl --table papers_100k
+python prepare_data.py index --file data/arxiv_100000.jsonl --index arxiv_100k --recreate >> results/es_loading.log
+# 2. bộ truy vấn tải dùng chung (đã có sẵn trong repo: queries_load.tsv; chỉ sinh lại nếu cần)
+python benchmark.py gen-queries --file data/arxiv_10000.jsonl --n 200
+# 3. đo lần lượt từng hệ thống (tắt hệ thống còn lại trong lúc đo: docker compose stop ...).
+#    Muốn đo cả cache lạnh: dừng container, xả page cache của VM Docker, khởi động lại rồi thêm --cold-start
+#    (Windows: wsl -d docker-desktop sh -c "sync; echo 3 > /proc/sys/vm/drop_caches")
+python benchmark.py run --systems es --index arxiv_100k --dataset 100k --run-id run2 --cold-start
+python benchmark.py run --systems pg_bm25 --table papers_100k --dataset 100k --run-id run2 --cold-start
+# 4. số bài khớp của từng truy vấn (không bấm giờ chung với bước 3)
+python benchmark.py matches --systems pg_fts_and,pg_fts_or,pg_bm25 --table papers_100k --dataset 100k
+python benchmark.py matches --systems es --index arxiv_100k --dataset 100k
+# 5. độ trùng top-10 giữa các hệ thống, rồi tổng hợp
+python benchmark.py overlap
+python benchmark.py summary
+# 6. chất lượng: top-10 cho bộ truy vấn quality_queries.tsv, gán nhãn 0/1/2, chấm điểm
+python benchmark.py top10 --index arxiv_full --table papers_full
+python evaluate.py pool --index arxiv_full        # tạo results/labels.csv và results/labels_blind.csv
+#   điền cột label (0/1/2) theo cột intent / partial, lưu CSV UTF-8
+python evaluate.py agreement                      # Cohen's kappa giữa hai người gán
+python evaluate.py score                          # P@10, nDCG@10, kiểm định so với ES
 ```
 
 Kết quả nằm trong thư mục `results/`:
 
-- `latency.csv`: độ trễ median và p95 của từng hệ thống theo từng truy vấn.
-- `top10.csv`: 10 bài đầu của mỗi hệ thống. Điền cột `relevant(1/0)` bằng tay, rồi tính **Precision@10 = số bài liên quan / 10**.
+- `pg_loading.csv`, `es_loading.log`: thời gian nạp, thời gian dựng chỉ mục, dung lượng.
+- `latency.csv`: p50/p95/p99, QPS theo pha (`cold` = lượt đầu khi cache lạnh, `measure` = các lượt đo chính) và mức đồng thời 1/4/16, kèm version và cấu hình. Truy vấn quá thời gian chờ (`--timeout`, mặc định 30 s) được tính bằng đúng giá trị timeout, nên dòng có `timeouts > 0` là **cận dưới**.
+- `latency_raw.csv`: độ trễ của từng request (dùng để so trên cùng tập truy vấn, vẽ phân phối, phân tích theo truy vấn).
+- `matches.csv`: số bài khớp của từng truy vấn; `summary.md` dùng nó để xét độ trễ theo số bài khớp.
+- `topk.csv`, `overlap.csv`: top-10 ở lượt chạy đầu và độ trùng giữa các hệ thống (RBO, overlap@10), không cần gán nhãn.
+- `top10.csv`: 10 bài đầu của mỗi hệ thống cho 25 truy vấn trong `quality_queries.tsv` (mỗi câu có ý định tìm kiếm và tiêu chí nhãn 1/2).
+- `labels.csv`, `labels_blind.csv`: file gán nhãn sau khi gộp (pooling); không có cột hệ thống, thứ tự đã xáo. Cột `key` giữ mã bài ở dạng chữ để Excel không làm hỏng mã như `1811.00740`.
+- `quality_scores.csv`, `quality_per_query.csv`: **P@10**, **nDCG@10** theo hệ thống và theo từng truy vấn.
 
-Nên để cùng một người (hoặc cùng tiêu chí) gán nhãn cho cả ba hệ thống, và ghi rõ tiêu chí trong báo cáo.
+Thư mục `results/` không đưa lên git. Bản chép toàn bộ kết quả dùng trong report (đo hiệu năng run2, log nạp, nhãn và điểm chất lượng) nằm ở `eval/` (có trong git). So một lượt chạy mới với run2: `python benchmark.py compare --a eval/latency.csv --b results/latency.csv`.
+- `summary.md`: bảng tổng hợp.
+
+ES và PostgreSQL cùng bị giới hạn 4 CPU / 6 GB RAM trong `docker-compose.yml`; PostgreSQL đặt `shared_buffers` = 25% RAM. Nên để cùng một người (hoặc cùng tiêu chí) gán nhãn cho mọi hệ thống, và ghi rõ tiêu chí trong báo cáo.
 
 ### 8. Kibana (tùy chọn)
 

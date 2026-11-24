@@ -1,0 +1,318 @@
+== 2026-11-24 00:28:59 bắt đầu run2
+== 2026-11-24 00:29:07 pg_bm25 papers_10k
+== pg_bm25 trên papers_10k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_bm25       10k cold    c=1   p50=      2.7 p95=     4.55 p99=     5.86 ms  qps=  337.5  timeouts=0 errors=0
+pg_bm25       10k measure c=1   p50=     1.55 p95=     1.95 p99=     2.14 ms  qps=  631.3  timeouts=0 errors=0
+pg_bm25       10k measure c=4   p50=     1.62 p95=     2.17 p99=     2.78 ms  qps= 2352.4  timeouts=0 errors=0
+pg_bm25       10k measure c=16  p50=     3.06 p95=     7.27 p99=     49.1 ms  qps= 4202.6  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:29:14 pg_fts_and papers_10k
+== pg_fts_and trên papers_10k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_fts_and    10k cold    c=1   p50=     1.34 p95=     8.84 p99=    30.83 ms  qps=  376.7  timeouts=0 errors=0
+pg_fts_and    10k measure c=1   p50=     0.71 p95=     1.06 p99=     2.01 ms  qps= 1265.5  timeouts=0 errors=0
+pg_fts_and    10k measure c=4   p50=     0.74 p95=     1.16 p99=     2.88 ms  qps= 4623.1  timeouts=0 errors=0
+pg_fts_and    10k measure c=16  p50=     1.44 p95=     3.03 p99=     5.46 ms  qps= 8838.2  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:29:20 pg_fts_or papers_10k
+== pg_fts_or trên papers_10k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_fts_or     10k cold    c=1   p50=     5.39 p95=    26.67 p99=    33.81 ms  qps=   87.5  timeouts=0 errors=0
+pg_fts_or     10k measure c=1   p50=     5.05 p95=    26.42 p99=    30.75 ms  qps=   96.1  timeouts=0 errors=0
+pg_fts_or     10k measure c=4   p50=     4.54 p95=    25.45 p99=    29.14 ms  qps=  404.2  timeouts=0 errors=0
+pg_fts_or     10k measure c=16  p50=    16.88 p95=   168.44 p99=   201.24 ms  qps=  293.3  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:29:37 pg_bm25 papers_100k
+== pg_bm25 trên papers_100k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_bm25      100k cold    c=1   p50=     4.14 p95=     9.43 p99=     14.3 ms  qps=  197.4  timeouts=0 errors=0
+pg_bm25      100k measure c=1   p50=     2.33 p95=     3.14 p99=      3.4 ms  qps=  419.3  timeouts=0 errors=0
+pg_bm25      100k measure c=4   p50=     2.24 p95=     3.15 p99=     3.84 ms  qps= 1693.9  timeouts=0 errors=0
+pg_bm25      100k measure c=16  p50=     4.62 p95=    53.73 p99=    60.13 ms  qps= 1757.7  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:29:45 pg_fts_and papers_100k
+== pg_fts_and trên papers_100k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_fts_and   100k cold    c=1   p50=     2.89 p95=    82.48 p99=   257.91 ms  qps=   56.6  timeouts=0 errors=0
+pg_fts_and   100k measure c=1   p50=     0.95 p95=     4.17 p99=    12.21 ms  qps=  582.9  timeouts=0 errors=0
+pg_fts_and   100k measure c=4   p50=      0.9 p95=     4.51 p99=    14.43 ms  qps= 2082.8  timeouts=0 errors=0
+pg_fts_and   100k measure c=16  p50=     2.07 p95=     8.83 p99=    29.92 ms  qps= 2407.2  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:29:56 pg_fts_or papers_100k
+== pg_fts_or trên papers_100k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_fts_or    100k cold    c=1   p50=    47.86 p95=   244.68 p99=   401.53 ms  qps=   10.3  timeouts=0 errors=0
+pg_fts_or    100k measure c=1   p50=    45.31 p95=   227.49 p99=   247.92 ms  qps=   11.9  timeouts=0 errors=0
+pg_fts_or    100k measure c=4   p50=    48.24 p95=   261.09 p99=   315.81 ms  qps=   41.7  timeouts=0 errors=0
+pg_fts_or    100k measure c=16  p50=   301.48 p95=  1607.06 p99=  2004.16 ms  qps=   29.4  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:31:45 pg_bm25 papers_500k
+== pg_bm25 trên papers_500k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_bm25      500k cold    c=1   p50=     6.16 p95=    15.46 p99=    24.86 ms  qps=  133.2  timeouts=0 errors=0
+pg_bm25      500k measure c=1   p50=     3.07 p95=     5.17 p99=      9.5 ms  qps=  293.1  timeouts=0 errors=0
+pg_bm25      500k measure c=4   p50=     3.05 p95=     5.59 p99=     9.91 ms  qps= 1159.9  timeouts=0 errors=0
+pg_bm25      500k measure c=16  p50=     7.52 p95=    69.51 p99=    74.69 ms  qps=  923.7  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:31:55 pg_fts_and papers_500k
+== pg_fts_and trên papers_500k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_fts_and   500k cold    c=1   p50=     6.35 p95=   371.48 p99=  1180.77 ms  qps=   13.7  timeouts=0 errors=0
+pg_fts_and   500k measure c=1   p50=     1.81 p95=    18.24 p99=    62.06 ms  qps=  175.8  timeouts=0 errors=0
+pg_fts_and   500k measure c=4   p50=     1.69 p95=    19.08 p99=    75.35 ms  qps=  580.7  timeouts=0 errors=0
+pg_fts_and   500k measure c=16  p50=      4.7 p95=    99.41 p99=   271.56 ms  qps=  534.3  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:32:21 pg_fts_or papers_500k
+== pg_fts_or trên papers_500k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_fts_or    500k cold    c=1   p50=   229.53 p95=   496.49 p99=   642.11 ms  qps=    3.5  timeouts=0 errors=0
+pg_fts_or    500k measure c=1   p50=   224.22 p95=   479.83 p99=   569.82 ms  qps=    4.1  timeouts=0 errors=0
+pg_fts_or    500k measure c=4   p50=   475.06 p95=  1507.89 p99=  2911.71 ms  qps=    6.2  timeouts=0 errors=0
+pg_fts_or    500k measure c=16  p50=  1983.31 p95= 10397.51 p99= 12967.49 ms  qps=    5.0  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:39:25 pg_bm25 papers_full
+== pg_bm25 trên papers_full: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_bm25      full cold    c=1   p50=    15.27 p95=     28.7 p99=    40.38 ms  qps=   59.4  timeouts=0 errors=0
+pg_bm25      full measure c=1   p50=     9.97 p95=    14.37 p99=    17.21 ms  qps=  108.1  timeouts=0 errors=0
+pg_bm25      full measure c=4   p50=    13.04 p95=    64.39 p99=    73.67 ms  qps=  186.6  timeouts=0 errors=0
+pg_bm25      full measure c=16  p50=    82.15 p95=   178.39 p99=   200.22 ms  qps=  220.3  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:39:45 pg_fts_and papers_full
+== pg_fts_and trên papers_full: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+pg_fts_and   full cold    c=1   p50=    30.05 p95=  3072.36 p99=  9321.77 ms  qps=    1.6  timeouts=0 errors=0
+pg_fts_and   full measure c=1   p50=    28.05 p95=  2207.19 p99=  8128.93 ms  qps=    2.0  timeouts=0 errors=0
+pg_fts_and   full measure c=4   p50=    35.76 p95=  3273.58 p99= 12038.51 ms  qps=    4.6  timeouts=0 errors=0
+pg_fts_and   full measure c=16  p50=    95.45 p95=  9595.71 p99= 19148.09 ms  qps=    6.9  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 00:50:32 pg_fts_or papers_full
+== pg_fts_or trên papers_full: 50 truy vấn, đồng thời 1,4, lặp 1, run run2, cache lạnh
+pg_fts_or    full cold    c=1   p50=  7747.74 p95= 14654.94 p99= 16781.18 ms  qps=    0.1  timeouts=0 errors=0
+pg_fts_or    full measure c=1   p50=  7837.76 p95= 14935.62 p99= 16683.72 ms  qps=    0.1  timeouts=0 errors=0
+pg_fts_or    full measure c=4   p50=  9038.75 p95= 15808.24 p99= 18989.18 ms  qps=    0.4  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 01:06:18 matches PG papers_10k
+pg_bm25       10k số bài khớp: trung vị 1,226, lớn nhất 5,457, không khớp 0, lỗi 0 (0s)
+pg_fts_and    10k số bài khớp: trung vị 1, lớn nhất 941, không khớp 0, lỗi 0 (0s)
+pg_fts_or     10k số bài khớp: trung vị 1,224, lớn nhất 5,458, không khớp 0, lỗi 0 (1s)
+Đã ghi results/matches.csv
+== 2026-11-24 01:06:21 matches PG papers_100k
+pg_bm25      100k số bài khớp: trung vị 12,252, lớn nhất 55,104, không khớp 0, lỗi 0 (1s)
+pg_fts_and   100k số bài khớp: trung vị 6, lớn nhất 9,644, không khớp 0, lỗi 0 (3s)
+pg_fts_or    100k số bài khớp: trung vị 11,988, lớn nhất 55,099, không khớp 0, lỗi 0 (10s)
+Đã ghi results/matches.csv
+== 2026-11-24 01:06:34 matches PG papers_500k
+pg_bm25      500k số bài khớp: trung vị 61,453, lớn nhất 275,402, không khớp 0, lỗi 0 (1s)
+pg_fts_and   500k số bài khớp: trung vị 26, lớn nhất 47,632, không khớp 0, lỗi 0 (11s)
+pg_fts_or    500k số bài khớp: trung vị 60,426, lớn nhất 275,363, không khớp 0, lỗi 0 (28s)
+Đã ghi results/matches.csv
+== 2026-11-24 01:07:13 matches PG papers_full
+pg_bm25      full số bài khớp: trung vị 398,024, lớn nhất 1,788,031, không khớp 0, lỗi 0 (3s)
+pg_fts_and   full số bài khớp: trung vị 174, lớn nhất 308,306, không khớp 0, lỗi 0 (52s)
+pg_fts_or    full số bài khớp: trung vị 392,480, lớn nhất 1,787,718, không khớp 0, lỗi 0 (1148s)
+Đã ghi results/matches.csv
+== 2026-11-24 01:27:46 es arxiv_10k
+== es trên arxiv_10k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+es            10k cold    c=1   p50=     4.45 p95=     9.12 p99=    11.29 ms  qps=  190.5  timeouts=0 errors=0
+es            10k measure c=1   p50=     3.06 p95=     4.38 p99=     4.95 ms  qps=  329.7  timeouts=0 errors=0
+es            10k measure c=4   p50=      3.3 p95=      4.6 p99=    15.67 ms  qps= 1104.2  timeouts=0 errors=0
+es            10k measure c=16  p50=     7.67 p95=    47.35 p99=    68.55 ms  qps= 1113.1  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 01:28:09 es arxiv_100k
+== es trên arxiv_100k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+es           100k cold    c=1   p50=     4.85 p95=     9.71 p99=    27.37 ms  qps=  165.8  timeouts=0 errors=0
+es           100k measure c=1   p50=     3.51 p95=      4.9 p99=     5.59 ms  qps=  288.8  timeouts=0 errors=0
+es           100k measure c=4   p50=     3.55 p95=      5.1 p99=    20.82 ms  qps=  940.3  timeouts=0 errors=0
+es           100k measure c=16  p50=     8.42 p95=    53.84 p99=    57.46 ms  qps= 1042.2  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 01:28:31 es arxiv_500k
+== es trên arxiv_500k: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+es           500k cold    c=1   p50=      5.3 p95=    21.78 p99=    46.84 ms  qps=  122.8  timeouts=0 errors=0
+es           500k measure c=1   p50=     3.54 p95=     5.04 p99=     5.83 ms  qps=  285.1  timeouts=0 errors=0
+es           500k measure c=4   p50=     3.93 p95=    23.35 p99=    36.42 ms  qps=  712.4  timeouts=0 errors=0
+es           500k measure c=16  p50=     9.19 p95=    59.59 p99=    63.32 ms  qps=  938.7  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 01:28:54 es arxiv_full
+== es trên arxiv_full: 200 truy vấn, đồng thời 1,4,16, lặp 3, run run2, cache lạnh
+es           full cold    c=1   p50=    12.01 p95=    63.65 p99=    87.17 ms  qps=   49.8  timeouts=0 errors=0
+es           full measure c=1   p50=     5.75 p95=     8.52 p99=    10.67 ms  qps=  172.5  timeouts=0 errors=0
+es           full measure c=4   p50=      5.7 p95=    52.41 p99=    57.33 ms  qps=  396.4  timeouts=0 errors=0
+es           full measure c=16  p50=    18.55 p95=    77.97 p99=    89.55 ms  qps=  436.1  timeouts=0 errors=0
+Đã ghi results/latency.csv, results/latency_raw.csv, results/topk.csv
+== 2026-11-24 01:29:05 matches ES arxiv_10k
+es            10k số bài khớp: trung vị 1,213, lớn nhất 5,842, không khớp 0, lỗi 0 (0s)
+Đã ghi results/matches.csv
+== 2026-11-24 01:29:06 matches ES arxiv_100k
+es           100k số bài khớp: trung vị 11,957, lớn nhất 58,895, không khớp 0, lỗi 0 (0s)
+Đã ghi results/matches.csv
+== 2026-11-24 01:29:07 matches ES arxiv_500k
+es           500k số bài khớp: trung vị 60,310, lớn nhất 294,205, không khớp 0, lỗi 0 (1s)
+Đã ghi results/matches.csv
+== 2026-11-24 01:29:08 matches ES arxiv_full
+es           full số bài khớp: trung vị 391,966, lớn nhất 1,909,832, không khớp 0, lỗi 0 (1s)
+Đã ghi results/matches.csv
+== 2026-11-24 01:29:10 overlap + summary
+Độ trùng top-10, run run2, p = 0.9
+    10k es ~ pg_bm25: 196/200 truy vấn, RBO tb 0.984, overlap@10 tb 0.981
+    10k es ~ pg_fts_or: 196/200 truy vấn, RBO tb 0.352, overlap@10 tb 0.327
+    10k es ~ pg_fts_and: 47/200 truy vấn, RBO tb 0.399, overlap@10 tb 0.328
+    10k pg_bm25 ~ pg_fts_or: 196/200 truy vấn, RBO tb 0.352, overlap@10 tb 0.327
+   100k es ~ pg_bm25: 199/200 truy vấn, RBO tb 0.928, overlap@10 tb 0.928
+   100k es ~ pg_fts_or: 199/200 truy vấn, RBO tb 0.202, overlap@10 tb 0.197
+   100k es ~ pg_fts_and: 90/200 truy vấn, RBO tb 0.370, overlap@10 tb 0.347
+   100k pg_bm25 ~ pg_fts_or: 199/200 truy vấn, RBO tb 0.204, overlap@10 tb 0.199
+   500k es ~ pg_bm25: 199/200 truy vấn, RBO tb 0.895, overlap@10 tb 0.902
+   500k es ~ pg_fts_or: 199/200 truy vấn, RBO tb 0.113, overlap@10 tb 0.111
+   500k es ~ pg_fts_and: 120/200 truy vấn, RBO tb 0.298, overlap@10 tb 0.287
+   500k pg_bm25 ~ pg_fts_or: 199/200 truy vấn, RBO tb 0.114, overlap@10 tb 0.112
+   full es ~ pg_bm25: 199/200 truy vấn, RBO tb 0.897, overlap@10 tb 0.903
+   full es ~ pg_fts_or: 50/50 truy vấn, RBO tb 0.052, overlap@10 tb 0.052
+   full es ~ pg_fts_and: 154/200 truy vấn, RBO tb 0.243, overlap@10 tb 0.218
+   full pg_bm25 ~ pg_fts_or: 50/50 truy vấn, RBO tb 0.050, overlap@10 tb 0.054
+Đã ghi results/overlap.csv
+# Kết quả benchmark
+
+## Nạp vào Elasticsearch
+
+| index | docs | thời gian (s) | bản ghi/s | dung lượng |
+|---|---|---|---|---|
+| arxiv_10k | 9,945 | 3.1 | 3,204 | 11.3mb |
+| arxiv_100k | 99,961 | 17.9 | 5,572 | 41.7mb |
+| arxiv_500k | 500,031 | 62.6 | 7,988 | 536.5mb |
+| arxiv_full | 3,252,359 | 444.0 | 7,325 | 3.3gb |
+
+## Nạp vào PostgreSQL
+
+| bảng | dòng | COPY (s) | dòng/s | GIN (s) | BM25 (s) | heap MB | GIN MB | BM25 MB | tổng MB |
+|---|---|---|---|---|---|---|---|---|---|
+| papers_10k | 9,945 | 1.88 | 5289.9 | 0.46 | 0.95 | 14 | 6 | 7 | 37 |
+| papers_100k | 99,961 | 17.11 | 5842.3 | 5.85 | 4.16 | 143 | 43 | 50 | 332 |
+| papers_500k | 500,031 | 81.16 | 6161.1 | 24.3 | 20.76 | 715 | 165 | 270 | 1,624 |
+| papers_full | 3,252,359 | 523.34 | 6214.6 | 178.51 | 156.32 | 4,650 | 778 | 1,744 | 10,256 |
+
+## Độ trễ và thông lượng (run run2)
+
+Percentile tính cả truy vấn timeout bằng giá trị timeout: dòng có timeouts > 0 là cận dưới.
+
+| hệ thống | dataset | docs | đồng thời | truy vấn | p50 ms | p95 ms | p99 ms | QPS | timeouts | lỗi |
+|---|---|---|---|---|---|---|---|---|---|---|
+| es | 10k | 9,945 | 1 | 600 | 3.06 | 4.38 | 4.95 | 329.7 | 0 | 0 |
+| es | 10k | 9,945 | 4 | 600 | 3.3 | 4.6 | 15.67 | 1104.2 | 0 | 0 |
+| es | 10k | 9,945 | 16 | 600 | 7.67 | 47.35 | 68.55 | 1113.1 | 0 | 0 |
+| pg_bm25 | 10k | 9,945 | 1 | 600 | 1.55 | 1.95 | 2.14 | 631.3 | 0 | 0 |
+| pg_bm25 | 10k | 9,945 | 4 | 600 | 1.62 | 2.17 | 2.78 | 2352.4 | 0 | 0 |
+| pg_bm25 | 10k | 9,945 | 16 | 600 | 3.06 | 7.27 | 49.1 | 4202.6 | 0 | 0 |
+| pg_fts_and | 10k | 9,945 | 1 | 600 | 0.71 | 1.06 | 2.01 | 1265.5 | 0 | 0 |
+| pg_fts_and | 10k | 9,945 | 4 | 600 | 0.74 | 1.16 | 2.88 | 4623.1 | 0 | 0 |
+| pg_fts_and | 10k | 9,945 | 16 | 600 | 1.44 | 3.03 | 5.46 | 8838.2 | 0 | 0 |
+| pg_fts_or | 10k | 9,945 | 1 | 600 | 5.05 | 26.42 | 30.75 | 96.1 | 0 | 0 |
+| pg_fts_or | 10k | 9,945 | 4 | 600 | 4.54 | 25.45 | 29.14 | 404.2 | 0 | 0 |
+| pg_fts_or | 10k | 9,945 | 16 | 600 | 16.88 | 168.44 | 201.24 | 293.3 | 0 | 0 |
+| es | 100k | 99,961 | 1 | 600 | 3.51 | 4.9 | 5.59 | 288.8 | 0 | 0 |
+| es | 100k | 99,961 | 4 | 600 | 3.55 | 5.1 | 20.82 | 940.3 | 0 | 0 |
+| es | 100k | 99,961 | 16 | 600 | 8.42 | 53.84 | 57.46 | 1042.2 | 0 | 0 |
+| pg_bm25 | 100k | 99,961 | 1 | 600 | 2.33 | 3.14 | 3.4 | 419.3 | 0 | 0 |
+| pg_bm25 | 100k | 99,961 | 4 | 600 | 2.24 | 3.15 | 3.84 | 1693.9 | 0 | 0 |
+| pg_bm25 | 100k | 99,961 | 16 | 600 | 4.62 | 53.73 | 60.13 | 1757.7 | 0 | 0 |
+| pg_fts_and | 100k | 99,961 | 1 | 600 | 0.95 | 4.17 | 12.21 | 582.9 | 0 | 0 |
+| pg_fts_and | 100k | 99,961 | 4 | 600 | 0.9 | 4.51 | 14.43 | 2082.8 | 0 | 0 |
+| pg_fts_and | 100k | 99,961 | 16 | 600 | 2.07 | 8.83 | 29.92 | 2407.2 | 0 | 0 |
+| pg_fts_or | 100k | 99,961 | 1 | 600 | 45.31 | 227.49 | 247.92 | 11.9 | 0 | 0 |
+| pg_fts_or | 100k | 99,961 | 4 | 600 | 48.24 | 261.09 | 315.81 | 41.7 | 0 | 0 |
+| pg_fts_or | 100k | 99,961 | 16 | 600 | 301.48 | 1607.06 | 2004.16 | 29.4 | 0 | 0 |
+| es | 500k | 500,031 | 1 | 600 | 3.54 | 5.04 | 5.83 | 285.1 | 0 | 0 |
+| es | 500k | 500,031 | 4 | 600 | 3.93 | 23.35 | 36.42 | 712.4 | 0 | 0 |
+| es | 500k | 500,031 | 16 | 600 | 9.19 | 59.59 | 63.32 | 938.7 | 0 | 0 |
+| pg_bm25 | 500k | 500,205 | 1 | 600 | 3.07 | 5.17 | 9.5 | 293.1 | 0 | 0 |
+| pg_bm25 | 500k | 500,205 | 4 | 600 | 3.05 | 5.59 | 9.91 | 1159.9 | 0 | 0 |
+| pg_bm25 | 500k | 500,205 | 16 | 600 | 7.52 | 69.51 | 74.69 | 923.7 | 0 | 0 |
+| pg_fts_and | 500k | 500,205 | 1 | 600 | 1.81 | 18.24 | 62.06 | 175.8 | 0 | 0 |
+| pg_fts_and | 500k | 500,205 | 4 | 600 | 1.69 | 19.08 | 75.35 | 580.7 | 0 | 0 |
+| pg_fts_and | 500k | 500,205 | 16 | 600 | 4.7 | 99.41 | 271.56 | 534.3 | 0 | 0 |
+| pg_fts_or | 500k | 500,205 | 1 | 600 | 224.22 | 479.83 | 569.82 | 4.1 | 0 | 0 |
+| pg_fts_or | 500k | 500,205 | 4 | 600 | 475.06 | 1507.89 | 2911.71 | 6.2 | 0 | 0 |
+| pg_fts_or | 500k | 500,205 | 16 | 600 | 1983.31 | 10397.51 | 12967.49 | 5.0 | 0 | 0 |
+| es | full | 3,252,359 | 1 | 600 | 5.75 | 8.52 | 10.67 | 172.5 | 0 | 0 |
+| es | full | 3,252,359 | 4 | 600 | 5.7 | 52.41 | 57.33 | 396.4 | 0 | 0 |
+| es | full | 3,252,359 | 16 | 600 | 18.55 | 77.97 | 89.55 | 436.1 | 0 | 0 |
+| pg_bm25 | full | 3,250,552 | 1 | 600 | 9.97 | 14.37 | 17.21 | 108.1 | 0 | 0 |
+| pg_bm25 | full | 3,250,552 | 4 | 600 | 13.04 | 64.39 | 73.67 | 186.6 | 0 | 0 |
+| pg_bm25 | full | 3,250,552 | 16 | 600 | 82.15 | 178.39 | 200.22 | 220.3 | 0 | 0 |
+| pg_fts_and | full | 3,250,552 | 1 | 600 | 28.05 | 2207.19 | 8128.93 | 2.0 | 0 | 0 |
+| pg_fts_and | full | 3,250,552 | 4 | 600 | 35.76 | 3273.58 | 12038.51 | 4.6 | 0 | 0 |
+| pg_fts_and | full | 3,250,552 | 16 | 600 | 95.45 | 9595.71 | 19148.09 | 6.9 | 0 | 0 |
+| pg_fts_or | full | 3,250,552 | 1 | 50 | 7837.76 | 14935.62 | 16683.72 | 0.1 | 0 | 0 |
+| pg_fts_or | full | 3,250,552 | 4 | 50 | 9038.75 | 15808.24 | 18989.18 | 0.4 | 0 | 0 |
+
+## Cache lạnh và cache nóng (đồng thời 1)
+
+Lạnh = lượt đầu sau khi khởi động lại container và xả page cache; nóng = các lượt đo chính.
+
+| hệ thống | dataset | lạnh p50 | lạnh p95 | nóng p50 | nóng p95 | lạnh/nóng (p50) |
+|---|---|---|---|---|---|---|
+| es | 10k | 4.45 | 9.12 | 3.06 | 4.38 | 1.5× |
+| pg_bm25 | 10k | 2.7 | 4.55 | 1.55 | 1.95 | 1.7× |
+| pg_fts_and | 10k | 1.34 | 8.84 | 0.71 | 1.06 | 1.9× |
+| pg_fts_or | 10k | 5.39 | 26.67 | 5.05 | 26.42 | 1.1× |
+| es | 100k | 4.85 | 9.71 | 3.51 | 4.9 | 1.4× |
+| pg_bm25 | 100k | 4.14 | 9.43 | 2.33 | 3.14 | 1.8× |
+| pg_fts_and | 100k | 2.89 | 82.48 | 0.95 | 4.17 | 3.0× |
+| pg_fts_or | 100k | 47.86 | 244.68 | 45.31 | 227.49 | 1.1× |
+| es | 500k | 5.3 | 21.78 | 3.54 | 5.04 | 1.5× |
+| pg_bm25 | 500k | 6.16 | 15.46 | 3.07 | 5.17 | 2.0× |
+| pg_fts_and | 500k | 6.35 | 371.48 | 1.81 | 18.24 | 3.5× |
+| pg_fts_or | 500k | 229.53 | 496.49 | 224.22 | 479.83 | 1.0× |
+| es | full | 12.01 | 63.65 | 5.75 | 8.52 | 2.1× |
+| pg_bm25 | full | 15.27 | 28.7 | 9.97 | 14.37 | 1.5× |
+| pg_fts_and | full | 30.05 | 3072.36 | 28.05 | 2207.19 | 1.1× |
+| pg_fts_or | full | 7747.74 | 14654.94 | 7837.76 | 14935.62 | 1.0× |
+
+## full: so trên cùng 50 truy vấn (đồng thời 1)
+
+| hệ thống | p50 ms | p95 ms | trung bình ms |
+|---|---|---|---|
+| es | 5.84 | 8.26 | 6.07 |
+| pg_bm25 | 9.95 | 14.22 | 8.90 |
+| pg_fts_and | 26.00 | 1,328.19 | 254.34 |
+| pg_fts_or | 7,837.76 | 14,935.62 | 8,385.49 |
+
+## Độ trễ theo số bài khớp (đồng thời 1, trung vị độ trễ của từng truy vấn)
+
+ρ = tương quan hạng Spearman giữa số bài khớp và độ trễ.
+
+| hệ thống | dataset | truy vấn | khớp (trung vị) | ρ | <1k | 1k–10k | 10k–100k | ≥100k |
+|---|---|---|---|---|---|---|---|---|
+| es | 10k | 200 | 1,213 | 0.48 | 2.8 ms (n=78) | 3.1 ms (n=122) | - | - |
+| pg_bm25 | 10k | 200 | 1,226 | 0.57 | 1.5 ms (n=78) | 1.6 ms (n=122) | - | - |
+| pg_fts_and | 10k | 200 | 1 | 0.54 | 0.7 ms (n=200) | - | - | - |
+| pg_fts_or | 10k | 200 | 1,224 | 0.97 | 2.3 ms (n=82) | 18.8 ms (n=118) | - | - |
+| es | 100k | 200 | 11,957 | 0.71 | 2.6 ms (n=11) | 3.1 ms (n=66) | 3.6 ms (n=123) | - |
+| pg_bm25 | 100k | 200 | 12,252 | 0.75 | 1.8 ms (n=11) | 2.1 ms (n=67) | 2.5 ms (n=122) | - |
+| pg_fts_and | 100k | 200 | 6 | 0.81 | 0.9 ms (n=191) | 9.4 ms (n=9) | - | - |
+| pg_fts_or | 100k | 200 | 11,988 | 0.95 | 2.4 ms (n=11) | 22.0 ms (n=71) | 119.9 ms (n=118) | - |
+| es | 500k | 200 | 60,310 | 0.59 | 2.6 ms (n=5) | 3.0 ms (n=14) | 3.4 ms (n=121) | 4.0 ms (n=60) |
+| pg_bm25 | 500k | 200 | 61,453 | 0.94 | 2.0 ms (n=5) | 2.0 ms (n=14) | 2.9 ms (n=121) | 4.3 ms (n=60) |
+| pg_fts_and | 500k | 200 | 26 | 0.85 | 1.5 ms (n=164) | 9.4 ms (n=29) | 44.7 ms (n=7) | - |
+| pg_fts_or | 500k | 200 | 60,426 | 0.97 | 1.9 ms (n=5) | 22.0 ms (n=14) | 175.3 ms (n=123) | 421.8 ms (n=58) |
+| es | full | 200 | 391,966 | 0.61 | 3.9 ms (n=3) | 4.0 ms (n=3) | 4.8 ms (n=21) | 5.8 ms (n=173) |
+| pg_bm25 | full | 200 | 398,024 | 0.97 | 2.0 ms (n=3) | 2.0 ms (n=3) | 3.4 ms (n=21) | 10.4 ms (n=173) |
+| pg_fts_and | full | 200 | 174 | 0.95 | 15.8 ms (n=138) | 346.4 ms (n=38) | 1,684.5 ms (n=21) | 10,264.4 ms (n=3) |
+| pg_fts_or | full | 50 | 377,142 | -0.16 | - | 384.1 ms (n=2) | 5,233.3 ms (n=6) | 9,328.8 ms (n=42) |
+
+## Độ trùng top-10 giữa các hệ thống
+
+RBO (p = 0,9; Webber và cs., 2010): 1 = cùng thứ tự, 0 = không bài nào chung. Chỉ tính truy vấn mà cả hai hệ thống trả đủ 10 bài.
+
+| dataset | cặp | truy vấn | RBO tb | overlap@10 tb |
+|---|---|---|---|---|
+| 10k | es ~ pg_bm25 | 196 | 0.984 | 0.981 |
+| 10k | es ~ pg_fts_or | 196 | 0.352 | 0.327 |
+| 10k | es ~ pg_fts_and | 47 | 0.399 | 0.328 |
+| 10k | pg_bm25 ~ pg_fts_or | 196 | 0.352 | 0.327 |
+| 100k | es ~ pg_bm25 | 199 | 0.928 | 0.928 |
+| 100k | es ~ pg_fts_or | 199 | 0.202 | 0.197 |
+| 100k | es ~ pg_fts_and | 90 | 0.370 | 0.347 |
+| 100k | pg_bm25 ~ pg_fts_or | 199 | 0.204 | 0.199 |
+| 500k | es ~ pg_bm25 | 199 | 0.895 | 0.902 |
+| 500k | es ~ pg_fts_or | 199 | 0.113 | 0.111 |
+| 500k | es ~ pg_fts_and | 120 | 0.298 | 0.287 |
+| 500k | pg_bm25 ~ pg_fts_or | 199 | 0.114 | 0.112 |
+| full | es ~ pg_bm25 | 199 | 0.897 | 0.903 |
+| full | es ~ pg_fts_or | 50 | 0.052 | 0.052 |
+| full | es ~ pg_fts_and | 154 | 0.243 | 0.218 |
+| full | pg_bm25 ~ pg_fts_or | 50 | 0.050 | 0.054 |
+
+
+Đã ghi results/summary.md và results/summary_run2.md
+== 2026-11-24 01:29:10 XONG run2

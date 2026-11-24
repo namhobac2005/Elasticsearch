@@ -1,0 +1,946 @@
+system,query_id,query,rank,arxiv_id
+es,Q01,graph neural network traffic prediction,1,2301.12605
+es,Q01,graph neural network traffic prediction,2,2501.03635
+es,Q01,graph neural network traffic prediction,3,1811.00740
+es,Q01,graph neural network traffic prediction,4,2104.13096
+es,Q01,graph neural network traffic prediction,5,2003.02807
+es,Q01,graph neural network traffic prediction,6,2111.00869
+es,Q01,graph neural network traffic prediction,7,2303.00498
+es,Q01,graph neural network traffic prediction,8,2307.00495
+es,Q01,graph neural network traffic prediction,9,2401.02723
+es,Q01,graph neural network traffic prediction,10,2412.03188
+es,Q02,transformer language model,1,1904.09408
+es,Q02,transformer language model,2,2011.02323
+es,Q02,transformer language model,3,1905.04226
+es,Q02,transformer language model,4,1906.09777
+es,Q02,transformer language model,5,2003.11562
+es,Q02,transformer language model,6,1903.06965
+es,Q02,transformer language model,7,1904.08378
+es,Q02,transformer language model,8,2005.00581
+es,Q02,transformer language model,9,2108.00104
+es,Q02,transformer language model,10,2203.06211
+es,Q03,image recognition convolutional,1,2102.01523
+es,Q03,image recognition convolutional,2,2511.18699
+es,Q03,image recognition convolutional,3,1510.00921
+es,Q03,image recognition convolutional,4,2211.06163
+es,Q03,image recognition convolutional,5,1512.07502
+es,Q03,image recognition convolutional,6,1807.02265
+es,Q03,image recognition convolutional,7,1904.03582
+es,Q03,image recognition convolutional,8,1409.1556
+es,Q03,image recognition convolutional,9,1505.00296
+es,Q03,image recognition convolutional,10,1612.00983
+es,Q04,dense retrieval question answering,1,2004.04906
+es,Q04,dense retrieval question answering,2,2110.15439
+es,Q04,dense retrieval question answering,3,2109.11085
+es,Q04,dense retrieval question answering,4,2009.12756
+es,Q04,dense retrieval question answering,5,2103.12011
+es,Q04,dense retrieval question answering,6,2110.01599
+es,Q04,dense retrieval question answering,7,2401.04852
+es,Q04,dense retrieval question answering,8,2106.08433
+es,Q04,dense retrieval question answering,9,2208.03197
+es,Q04,dense retrieval question answering,10,2210.10176
+es,Q05,stochastic optimization adaptive,1,2001.06699
+es,Q05,stochastic optimization adaptive,2,1610.01970
+es,Q05,stochastic optimization adaptive,3,1710.11258
+es,Q05,stochastic optimization adaptive,4,1811.02525
+es,Q05,stochastic optimization adaptive,5,1904.04480
+es,Q05,stochastic optimization adaptive,6,2401.07170
+es,Q05,stochastic optimization adaptive,7,2402.10898
+es,Q05,stochastic optimization adaptive,8,1209.3570
+es,Q05,stochastic optimization adaptive,9,1705.02031
+es,Q05,stochastic optimization adaptive,10,1802.05811
+es,Q06,reinforcement learning robotics,1,2405.03113
+es,Q06,reinforcement learning robotics,2,1812.03201
+es,Q06,reinforcement learning robotics,3,2002.11952
+es,Q06,reinforcement learning robotics,4,2005.05719
+es,Q06,reinforcement learning robotics,5,2009.09689
+es,Q06,reinforcement learning robotics,6,2105.01006
+es,Q06,reinforcement learning robotics,7,2210.07397
+es,Q06,reinforcement learning robotics,8,2210.08126
+es,Q06,reinforcement learning robotics,9,2301.07137
+es,Q06,reinforcement learning robotics,10,2303.14693
+es,Q07,federated learning privacy,1,2408.08904
+es,Q07,federated learning privacy,2,2112.05423
+es,Q07,federated learning privacy,3,2206.05209
+es,Q07,federated learning privacy,4,2402.02230
+es,Q07,federated learning privacy,5,1911.01812
+es,Q07,federated learning privacy,6,1911.10071
+es,Q07,federated learning privacy,7,2109.13012
+es,Q07,federated learning privacy,8,2110.15252
+es,Q07,federated learning privacy,9,2202.03402
+es,Q07,federated learning privacy,10,2202.06053
+es,Q08,protein structure prediction,1,1510.05682
+es,Q08,protein structure prediction,2,1712.00407
+es,Q08,protein structure prediction,3,1006.2813
+es,Q08,protein structure prediction,4,1206.3509
+es,Q08,protein structure prediction,5,2212.07702
+es,Q08,protein structure prediction,6,2606.08647
+es,Q08,protein structure prediction,7,q-bio/0606012
+es,Q08,protein structure prediction,8,2310.11466
+es,Q08,protein structure prediction,9,2206.12240
+es,Q08,protein structure prediction,10,2605.22133
+es,Q09,graph convolution spatial temporal,1,1901.11164
+es,Q09,graph convolution spatial temporal,2,2103.06126
+es,Q09,graph convolution spatial temporal,3,2108.01309
+es,Q09,graph convolution spatial temporal,4,2206.10720
+es,Q09,graph convolution spatial temporal,5,1801.07455
+es,Q09,graph convolution spatial temporal,6,2202.08982
+es,Q09,graph convolution spatial temporal,7,2205.08689
+es,Q09,graph convolution spatial temporal,8,2206.03128
+es,Q09,graph convolution spatial temporal,9,2210.02737
+es,Q09,graph convolution spatial temporal,10,2401.11798
+es,Q10,self supervised representation learning,1,2111.12958
+es,Q10,self supervised representation learning,2,2007.06346
+es,Q10,self supervised representation learning,3,2010.07258
+es,Q10,self supervised representation learning,4,2210.10807
+es,Q10,self supervised representation learning,5,2308.11455
+es,Q10,self supervised representation learning,6,2407.13541
+es,Q10,self supervised representation learning,7,2609.29350
+es,Q10,self supervised representation learning,8,2112.05677
+es,Q10,self supervised representation learning,9,1901.09005
+es,Q10,self supervised representation learning,10,1912.01991
+es,G0001,gluon contribution open heavy-meson,1,1511.04009
+es,G0001,gluon contribution open heavy-meson,2,hep-ph/9411422
+es,G0001,gluon contribution open heavy-meson,3,hep-ph/9711276
+es,G0001,gluon contribution open heavy-meson,4,2603.08114
+es,G0001,gluon contribution open heavy-meson,5,0811.1058
+es,G0001,gluon contribution open heavy-meson,6,1205.2002
+es,G0001,gluon contribution open heavy-meson,7,2106.04190
+es,G0001,gluon contribution open heavy-meson,8,hep-ph/9706441
+es,G0001,gluon contribution open heavy-meson,9,hep-ph/9406262
+es,G0001,gluon contribution open heavy-meson,10,nucl-th/9509044
+es,G0004,neuron populations neuromorphic spike,1,2412.08816
+es,G0004,neuron populations neuromorphic spike,2,2201.07490
+es,G0004,neuron populations neuromorphic spike,3,2407.13534
+es,G0004,neuron populations neuromorphic spike,4,2109.01279
+es,G0004,neuron populations neuromorphic spike,5,2511.02868
+es,G0004,neuron populations neuromorphic spike,6,1103.0668
+es,G0004,neuron populations neuromorphic spike,7,1302.6952
+es,G0004,neuron populations neuromorphic spike,8,1911.09309
+es,G0004,neuron populations neuromorphic spike,9,2111.03621
+es,G0004,neuron populations neuromorphic spike,10,1909.10007
+es,G0005,phonemic graphemic,1,2201.10716
+es,G0005,phonemic graphemic,2,2004.06338
+es,G0005,phonemic graphemic,3,2506.04711
+es,G0005,phonemic graphemic,4,1708.01464
+es,G0005,phonemic graphemic,5,2207.13703
+es,G0005,phonemic graphemic,6,2412.09102
+es,G0005,phonemic graphemic,7,2506.04527
+es,G0005,phonemic graphemic,8,1711.04564
+es,G0005,phonemic graphemic,9,1904.03446
+es,G0005,phonemic graphemic,10,2006.14194
+es,G0007,helmholtz resonators including thermoviscous,1,2001.09353
+es,G0007,helmholtz resonators including thermoviscous,2,2212.09116
+es,G0007,helmholtz resonators including thermoviscous,3,0806.0105
+es,G0007,helmholtz resonators including thermoviscous,4,1402.6493
+es,G0007,helmholtz resonators including thermoviscous,5,1504.05425
+es,G0007,helmholtz resonators including thermoviscous,6,1709.00894
+es,G0007,helmholtz resonators including thermoviscous,7,1805.04014
+es,G0007,helmholtz resonators including thermoviscous,8,2212.08858
+es,G0007,helmholtz resonators including thermoviscous,9,2302.13981
+es,G0007,helmholtz resonators including thermoviscous,10,2611.15208
+es,G0008,multi-model inference natural selection,1,1906.02389
+es,G0008,multi-model inference natural selection,2,2511.17641
+es,G0008,multi-model inference natural selection,3,1901.02222
+es,G0008,multi-model inference natural selection,4,2307.06495
+es,G0008,multi-model inference natural selection,5,2606.05181
+es,G0008,multi-model inference natural selection,6,2502.02213
+es,G0008,multi-model inference natural selection,7,2506.02814
+es,G0008,multi-model inference natural selection,8,2602.22090
+es,G0008,multi-model inference natural selection,9,2011.06945
+es,G0008,multi-model inference natural selection,10,2305.12382
+es,G0009,buried threat,1,1806.01349
+es,G0009,buried threat,2,1612.03477
+es,G0009,buried threat,3,0906.3026
+es,G0009,buried threat,4,1803.03729
+es,G0009,buried threat,5,0804.0938
+es,G0009,buried threat,6,0810.4205
+es,G0009,buried threat,7,1301.1528
+es,G0009,buried threat,8,2401.10206
+es,G0009,buried threat,9,astro-ph/0201278
+es,G0009,buried threat,10,gr-qc/0412137
+es,G0011,centrosymmetric matrices sinc collocation,1,1507.06709
+es,G0011,centrosymmetric matrices sinc collocation,2,2210.04594
+es,G0011,centrosymmetric matrices sinc collocation,3,1910.13490
+es,G0011,centrosymmetric matrices sinc collocation,4,2301.12692
+es,G0011,centrosymmetric matrices sinc collocation,5,cond-mat/0601713
+es,G0011,centrosymmetric matrices sinc collocation,6,1304.6508
+es,G0011,centrosymmetric matrices sinc collocation,7,2109.01563
+es,G0011,centrosymmetric matrices sinc collocation,8,2503.20141
+es,G0011,centrosymmetric matrices sinc collocation,9,1409.7471
+es,G0011,centrosymmetric matrices sinc collocation,10,2310.08239
+es,G0014,markov chains,1,2305.19473
+es,G0014,markov chains,2,0706.2585
+es,G0014,markov chains,3,1204.5757
+es,G0014,markov chains,4,1304.7637
+es,G0014,markov chains,5,1401.3022
+es,G0014,markov chains,6,1408.0979
+es,G0014,markov chains,7,1510.03661
+es,G0014,markov chains,8,1801.07722
+es,G0014,markov chains,9,1807.04144
+es,G0014,markov chains,10,1810.11754
+es,G0017,large group delay microwave,1,1010.2976
+es,G0017,large group delay microwave,2,1811.12055
+es,G0017,large group delay microwave,3,2401.04724
+es,G0017,large group delay microwave,4,1101.1197
+es,G0017,large group delay microwave,5,2110.13678
+es,G0017,large group delay microwave,6,0904.4201
+es,G0017,large group delay microwave,7,2311.09414
+es,G0017,large group delay microwave,8,2502.08245
+es,G0017,large group delay microwave,9,1606.06571
+es,G0017,large group delay microwave,10,1606.07791
+es,G0018,bi-grid allen cahn equation,1,1707.09859
+es,G0018,bi-grid allen cahn equation,2,2610.28080
+es,G0018,bi-grid allen cahn equation,3,0911.5706
+es,G0018,bi-grid allen cahn equation,4,1311.2307
+es,G0018,bi-grid allen cahn equation,5,1512.08736
+es,G0018,bi-grid allen cahn equation,6,1608.06575
+es,G0018,bi-grid allen cahn equation,7,1801.09450
+es,G0018,bi-grid allen cahn equation,8,1812.08894
+es,G0018,bi-grid allen cahn equation,9,2501.15812
+es,G0018,bi-grid allen cahn equation,10,1203.3111
+es,G0021,energetic particle transport,1,2106.00716
+es,G0021,energetic particle transport,2,astro-ph/9806097
+es,G0021,energetic particle transport,3,1307.1585
+es,G0021,energetic particle transport,4,2409.12644
+es,G0021,energetic particle transport,5,1701.04286
+es,G0021,energetic particle transport,6,2006.11338
+es,G0021,energetic particle transport,7,2404.12164
+es,G0021,energetic particle transport,8,astro-ph/9812064
+es,G0021,energetic particle transport,9,1506.00825
+es,G0021,energetic particle transport,10,1301.7162
+es,G0023,influence wetting properties,1,cond-mat/9912067
+es,G0023,influence wetting properties,2,1103.6125
+es,G0023,influence wetting properties,3,1606.06870
+es,G0023,influence wetting properties,4,cond-mat/9812218
+es,G0023,influence wetting properties,5,2309.02927
+es,G0023,influence wetting properties,6,cond-mat/0605727
+es,G0023,influence wetting properties,7,2002.02183
+es,G0023,influence wetting properties,8,2509.04418
+es,G0023,influence wetting properties,9,0904.2317
+es,G0023,influence wetting properties,10,1601.07032
+es,G0024,plasmas inert reactive atmospheres,1,1512.00332
+es,G0024,plasmas inert reactive atmospheres,2,1609.04936
+es,G0024,plasmas inert reactive atmospheres,3,1105.2207
+es,G0024,plasmas inert reactive atmospheres,4,chao-dyn/9712020
+es,G0024,plasmas inert reactive atmospheres,5,2103.05431
+es,G0024,plasmas inert reactive atmospheres,6,1109.1684
+es,G0024,plasmas inert reactive atmospheres,7,1610.00449
+es,G0024,plasmas inert reactive atmospheres,8,2502.19303
+es,G0024,plasmas inert reactive atmospheres,9,1912.03691
+es,G0024,plasmas inert reactive atmospheres,10,1601.04594
+es,G0025,infty categories,1,2403.06926
+es,G0025,infty categories,2,2608.29495
+es,G0025,infty categories,3,1211.4401
+es,G0025,infty categories,4,2402.01396
+es,G0025,infty categories,5,2602.02218
+es,G0025,infty categories,6,2209.09376
+es,G0025,infty categories,7,2403.14827
+es,G0025,infty categories,8,2603.11005
+es,G0025,infty categories,9,0802.2885
+es,G0025,infty categories,10,1702.02681
+es,G0026,knowledge graph paired dataset,1,2107.09556
+es,G0026,knowledge graph paired dataset,2,2309.11669
+es,G0026,knowledge graph paired dataset,3,2307.06698
+es,G0026,knowledge graph paired dataset,4,2406.13923
+es,G0026,knowledge graph paired dataset,5,2104.13576
+es,G0026,knowledge graph paired dataset,6,2307.11719
+es,G0026,knowledge graph paired dataset,7,2211.10624
+es,G0026,knowledge graph paired dataset,8,2506.21556
+es,G0026,knowledge graph paired dataset,9,2105.15033
+es,G0026,knowledge graph paired dataset,10,2309.13610
+pg_fts_and,Q01,graph neural network traffic prediction,1,1811.00740
+pg_fts_and,Q01,graph neural network traffic prediction,2,2307.00495
+pg_fts_and,Q01,graph neural network traffic prediction,3,2209.03858
+pg_fts_and,Q01,graph neural network traffic prediction,4,2412.03188
+pg_fts_and,Q01,graph neural network traffic prediction,5,2501.03635
+pg_fts_and,Q01,graph neural network traffic prediction,6,2111.00869
+pg_fts_and,Q01,graph neural network traffic prediction,7,2303.00498
+pg_fts_and,Q01,graph neural network traffic prediction,8,2608.14177
+pg_fts_and,Q01,graph neural network traffic prediction,9,2409.00622
+pg_fts_and,Q01,graph neural network traffic prediction,10,2510.15215
+pg_fts_and,Q02,transformer language model,1,2201.13348
+pg_fts_and,Q02,transformer language model,2,2407.17406
+pg_fts_and,Q02,transformer language model,3,2108.00104
+pg_fts_and,Q02,transformer language model,4,2606.25193
+pg_fts_and,Q02,transformer language model,5,2609.27233
+pg_fts_and,Q02,transformer language model,6,2110.02058
+pg_fts_and,Q02,transformer language model,7,2605.15562
+pg_fts_and,Q02,transformer language model,8,2209.06570
+pg_fts_and,Q02,transformer language model,9,2504.15471
+pg_fts_and,Q02,transformer language model,10,2106.08367
+pg_fts_and,Q03,image recognition convolutional,1,2102.01523
+pg_fts_and,Q03,image recognition convolutional,2,1709.02601
+pg_fts_and,Q03,image recognition convolutional,3,2208.01424
+pg_fts_and,Q03,image recognition convolutional,4,2211.06163
+pg_fts_and,Q03,image recognition convolutional,5,2109.12756
+pg_fts_and,Q03,image recognition convolutional,6,2203.00960
+pg_fts_and,Q03,image recognition convolutional,7,2201.00957
+pg_fts_and,Q03,image recognition convolutional,8,1612.00983
+pg_fts_and,Q03,image recognition convolutional,9,1807.11583
+pg_fts_and,Q03,image recognition convolutional,10,1904.03582
+pg_fts_and,Q04,dense retrieval question answering,1,2110.15439
+pg_fts_and,Q04,dense retrieval question answering,2,2208.03197
+pg_fts_and,Q04,dense retrieval question answering,3,2010.08191
+pg_fts_and,Q04,dense retrieval question answering,4,2210.05156
+pg_fts_and,Q04,dense retrieval question answering,5,2110.01599
+pg_fts_and,Q04,dense retrieval question answering,6,2106.08433
+pg_fts_and,Q04,dense retrieval question answering,7,2109.11085
+pg_fts_and,Q04,dense retrieval question answering,8,2403.14258
+pg_fts_and,Q04,dense retrieval question answering,9,2309.10506
+pg_fts_and,Q04,dense retrieval question answering,10,2104.05883
+pg_fts_and,Q05,stochastic optimization adaptive,1,2311.11532
+pg_fts_and,Q05,stochastic optimization adaptive,2,2311.17753
+pg_fts_and,Q05,stochastic optimization adaptive,3,2001.06699
+pg_fts_and,Q05,stochastic optimization adaptive,4,1611.06652
+pg_fts_and,Q05,stochastic optimization adaptive,5,2001.06130
+pg_fts_and,Q05,stochastic optimization adaptive,6,1902.04376
+pg_fts_and,Q05,stochastic optimization adaptive,7,2511.19411
+pg_fts_and,Q05,stochastic optimization adaptive,8,1802.05811
+pg_fts_and,Q05,stochastic optimization adaptive,9,1811.02525
+pg_fts_and,Q05,stochastic optimization adaptive,10,2509.19054
+pg_fts_and,Q06,reinforcement learning robotics,1,2503.15724
+pg_fts_and,Q06,reinforcement learning robotics,2,2503.01255
+pg_fts_and,Q06,reinforcement learning robotics,3,2609.14647
+pg_fts_and,Q06,reinforcement learning robotics,4,2511.08086
+pg_fts_and,Q06,reinforcement learning robotics,5,2604.13733
+pg_fts_and,Q06,reinforcement learning robotics,6,2503.08349
+pg_fts_and,Q06,reinforcement learning robotics,7,2401.16013
+pg_fts_and,Q06,reinforcement learning robotics,8,2009.09689
+pg_fts_and,Q06,reinforcement learning robotics,9,2507.04452
+pg_fts_and,Q06,reinforcement learning robotics,10,2207.04703
+pg_fts_and,Q07,federated learning privacy,1,2501.14453
+pg_fts_and,Q07,federated learning privacy,2,2511.02785
+pg_fts_and,Q07,federated learning privacy,3,1911.01812
+pg_fts_and,Q07,federated learning privacy,4,2411.03730
+pg_fts_and,Q07,federated learning privacy,5,2111.09248
+pg_fts_and,Q07,federated learning privacy,6,2110.01643
+pg_fts_and,Q07,federated learning privacy,7,2405.08299
+pg_fts_and,Q07,federated learning privacy,8,2206.05209
+pg_fts_and,Q07,federated learning privacy,9,2505.23849
+pg_fts_and,Q07,federated learning privacy,10,2306.17338
+pg_fts_and,Q08,protein structure prediction,1,2206.12240
+pg_fts_and,Q08,protein structure prediction,2,physics/9708012
+pg_fts_and,Q08,protein structure prediction,3,2509.18263
+pg_fts_and,Q08,protein structure prediction,4,2205.08451
+pg_fts_and,Q08,protein structure prediction,5,2207.13921
+pg_fts_and,Q08,protein structure prediction,6,1510.02775
+pg_fts_and,Q08,protein structure prediction,7,2211.03193
+pg_fts_and,Q08,protein structure prediction,8,1306.4420
+pg_fts_and,Q08,protein structure prediction,9,1607.06113
+pg_fts_and,Q08,protein structure prediction,10,1311.3840
+pg_fts_and,Q09,graph convolution spatial temporal,1,2011.14992
+pg_fts_and,Q09,graph convolution spatial temporal,2,2103.15449
+pg_fts_and,Q09,graph convolution spatial temporal,3,2211.06161
+pg_fts_and,Q09,graph convolution spatial temporal,4,2202.01727
+pg_fts_and,Q09,graph convolution spatial temporal,5,2206.13028
+pg_fts_and,Q09,graph convolution spatial temporal,6,2010.07474
+pg_fts_and,Q09,graph convolution spatial temporal,7,1912.09745
+pg_fts_and,Q09,graph convolution spatial temporal,8,2505.10679
+pg_fts_and,Q09,graph convolution spatial temporal,9,2405.01200
+pg_fts_and,Q09,graph convolution spatial temporal,10,2001.03728
+pg_fts_and,Q10,self supervised representation learning,1,2311.03629
+pg_fts_and,Q10,self supervised representation learning,2,2012.00868
+pg_fts_and,Q10,self supervised representation learning,3,2403.11504
+pg_fts_and,Q10,self supervised representation learning,4,2210.10742
+pg_fts_and,Q10,self supervised representation learning,5,2304.11718
+pg_fts_and,Q10,self supervised representation learning,6,2603.26799
+pg_fts_and,Q10,self supervised representation learning,7,2410.09156
+pg_fts_and,Q10,self supervised representation learning,8,2312.03350
+pg_fts_and,Q10,self supervised representation learning,9,2203.04298
+pg_fts_and,Q10,self supervised representation learning,10,2111.07954
+pg_fts_and,G0001,gluon contribution open heavy-meson,1,1511.04009
+pg_fts_and,G0004,neuron populations neuromorphic spike,1,2412.08816
+pg_fts_and,G0004,neuron populations neuromorphic spike,2,2201.07490
+pg_fts_and,G0004,neuron populations neuromorphic spike,3,2507.08320
+pg_fts_and,G0004,neuron populations neuromorphic spike,4,2507.03621
+pg_fts_and,G0004,neuron populations neuromorphic spike,5,2305.12293
+pg_fts_and,G0004,neuron populations neuromorphic spike,6,2101.09709
+pg_fts_and,G0004,neuron populations neuromorphic spike,7,2010.09635
+pg_fts_and,G0004,neuron populations neuromorphic spike,8,2402.11984
+pg_fts_and,G0004,neuron populations neuromorphic spike,9,2407.04076
+pg_fts_and,G0004,neuron populations neuromorphic spike,10,2104.13398
+pg_fts_and,G0005,phonemic graphemic,1,2506.04711
+pg_fts_and,G0005,phonemic graphemic,2,2307.04762
+pg_fts_and,G0005,phonemic graphemic,3,cmp-lg/9806008
+pg_fts_and,G0005,phonemic graphemic,4,2602.17157
+pg_fts_and,G0005,phonemic graphemic,5,2105.12708
+pg_fts_and,G0005,phonemic graphemic,6,2312.03312
+pg_fts_and,G0005,phonemic graphemic,7,2207.13703
+pg_fts_and,G0005,phonemic graphemic,8,2201.10716
+pg_fts_and,G0005,phonemic graphemic,9,1708.01464
+pg_fts_and,G0005,phonemic graphemic,10,1904.03446
+pg_fts_and,G0007,helmholtz resonators including thermoviscous,1,2001.09353
+pg_fts_and,G0007,helmholtz resonators including thermoviscous,2,2410.10531
+pg_fts_and,G0008,multi-model inference natural selection,1,1906.02389
+pg_fts_and,G0008,multi-model inference natural selection,2,2411.02471
+pg_fts_and,G0008,multi-model inference natural selection,3,2310.04808
+pg_fts_and,G0008,multi-model inference natural selection,4,2609.14874
+pg_fts_and,G0009,buried threat,1,1803.03729
+pg_fts_and,G0009,buried threat,2,1806.01349
+pg_fts_and,G0009,buried threat,3,1612.03477
+pg_fts_and,G0009,buried threat,4,2101.08620
+pg_fts_and,G0009,buried threat,5,2512.03632
+pg_fts_and,G0009,buried threat,6,1908.11207
+pg_fts_and,G0009,buried threat,7,1810.01316
+pg_fts_and,G0009,buried threat,8,2602.11019
+pg_fts_and,G0009,buried threat,9,2501.06623
+pg_fts_and,G0009,buried threat,10,2310.09831
+pg_fts_and,G0011,centrosymmetric matrices sinc collocation,1,1507.06709
+pg_fts_and,G0014,markov chains,1,0706.2585
+pg_fts_and,G0014,markov chains,2,0905.2259
+pg_fts_and,G0014,markov chains,3,1412.8762
+pg_fts_and,G0014,markov chains,4,2303.12624
+pg_fts_and,G0014,markov chains,5,1107.2446
+pg_fts_and,G0014,markov chains,6,2312.02031
+pg_fts_and,G0014,markov chains,7,2212.14005
+pg_fts_and,G0014,markov chains,8,2604.14347
+pg_fts_and,G0014,markov chains,9,2411.06857
+pg_fts_and,G0014,markov chains,10,2209.02240
+pg_fts_and,G0017,large group delay microwave,1,1010.2976
+pg_fts_and,G0017,large group delay microwave,2,2509.25102
+pg_fts_and,G0017,large group delay microwave,3,2504.02535
+pg_fts_and,G0017,large group delay microwave,4,1604.08117
+pg_fts_and,G0018,bi-grid allen cahn equation,1,1707.09859
+pg_fts_and,G0021,energetic particle transport,1,2608.11058
+pg_fts_and,G0021,energetic particle transport,2,1712.03729
+pg_fts_and,G0021,energetic particle transport,3,1703.06192
+pg_fts_and,G0021,energetic particle transport,4,2211.08836
+pg_fts_and,G0021,energetic particle transport,5,2606.13938
+pg_fts_and,G0021,energetic particle transport,6,2402.03797
+pg_fts_and,G0021,energetic particle transport,7,2405.10428
+pg_fts_and,G0021,energetic particle transport,8,2603.09839
+pg_fts_and,G0021,energetic particle transport,9,1701.04286
+pg_fts_and,G0021,energetic particle transport,10,1410.1225
+pg_fts_and,G0023,influence wetting properties,1,cond-mat/9912067
+pg_fts_and,G0023,influence wetting properties,2,cond-mat/9812218
+pg_fts_and,G0023,influence wetting properties,3,1907.07448
+pg_fts_and,G0023,influence wetting properties,4,1606.06870
+pg_fts_and,G0023,influence wetting properties,5,1103.6125
+pg_fts_and,G0023,influence wetting properties,6,1512.04110
+pg_fts_and,G0023,influence wetting properties,7,1711.06943
+pg_fts_and,G0023,influence wetting properties,8,2201.13131
+pg_fts_and,G0023,influence wetting properties,9,2004.04118
+pg_fts_and,G0023,influence wetting properties,10,0709.3966
+pg_fts_and,G0024,plasmas inert reactive atmospheres,1,1512.00332
+pg_fts_and,G0024,plasmas inert reactive atmospheres,2,2304.10380
+pg_fts_and,G0025,infty categories,1,2009.02428
+pg_fts_and,G0025,infty categories,2,2409.05568
+pg_fts_and,G0025,infty categories,3,1510.03961
+pg_fts_and,G0025,infty categories,4,1312.3178
+pg_fts_and,G0025,infty categories,5,2406.08925
+pg_fts_and,G0025,infty categories,6,2406.09832
+pg_fts_and,G0025,infty categories,7,2602.02218
+pg_fts_and,G0025,infty categories,8,2406.15884
+pg_fts_and,G0025,infty categories,9,2501.07697
+pg_fts_and,G0025,infty categories,10,1608.05314
+pg_fts_and,G0026,knowledge graph paired dataset,1,2107.09556
+pg_fts_and,G0026,knowledge graph paired dataset,2,2309.11669
+pg_fts_and,G0026,knowledge graph paired dataset,3,2107.12548
+pg_fts_and,G0026,knowledge graph paired dataset,4,2505.10798
+pg_fts_and,G0026,knowledge graph paired dataset,5,2302.06891
+pg_fts_and,G0026,knowledge graph paired dataset,6,2602.14594
+pg_fts_and,G0026,knowledge graph paired dataset,7,2410.11235
+pg_fts_and,G0026,knowledge graph paired dataset,8,2402.04627
+pg_fts_and,G0026,knowledge graph paired dataset,9,1901.01341
+pg_fts_and,G0026,knowledge graph paired dataset,10,2401.02713
+pg_fts_or,Q01,graph neural network traffic prediction,1,2510.17867
+pg_fts_or,Q01,graph neural network traffic prediction,2,1908.00187
+pg_fts_or,Q01,graph neural network traffic prediction,3,2011.01412
+pg_fts_or,Q01,graph neural network traffic prediction,4,2006.01301
+pg_fts_or,Q01,graph neural network traffic prediction,5,1802.07007
+pg_fts_or,Q01,graph neural network traffic prediction,6,2401.10155
+pg_fts_or,Q01,graph neural network traffic prediction,7,2408.13293
+pg_fts_or,Q01,graph neural network traffic prediction,8,2007.06559
+pg_fts_or,Q01,graph neural network traffic prediction,9,2005.08008
+pg_fts_or,Q01,graph neural network traffic prediction,10,2004.08038
+pg_fts_or,Q02,transformer language model,1,2610.12144
+pg_fts_or,Q02,transformer language model,2,2011.02323
+pg_fts_or,Q02,transformer language model,3,2405.05777
+pg_fts_or,Q02,transformer language model,4,1210.6111
+pg_fts_or,Q02,transformer language model,5,2606.19342
+pg_fts_or,Q02,transformer language model,6,2201.13348
+pg_fts_or,Q02,transformer language model,7,2604.05001
+pg_fts_or,Q02,transformer language model,8,2207.09643
+pg_fts_or,Q02,transformer language model,9,1909.08053
+pg_fts_or,Q02,transformer language model,10,2212.06094
+pg_fts_or,Q03,image recognition convolutional,1,1905.13456
+pg_fts_or,Q03,image recognition convolutional,2,2202.02018
+pg_fts_or,Q03,image recognition convolutional,3,2003.02909
+pg_fts_or,Q03,image recognition convolutional,4,2102.10370
+pg_fts_or,Q03,image recognition convolutional,5,2409.16612
+pg_fts_or,Q03,image recognition convolutional,6,2501.01464
+pg_fts_or,Q03,image recognition convolutional,7,2508.02004
+pg_fts_or,Q03,image recognition convolutional,8,2306.06217
+pg_fts_or,Q03,image recognition convolutional,9,2008.04991
+pg_fts_or,Q03,image recognition convolutional,10,2001.03856
+pg_fts_or,Q04,dense retrieval question answering,1,2201.02517
+pg_fts_or,Q04,dense retrieval question answering,2,2309.11392
+pg_fts_or,Q04,dense retrieval question answering,3,2109.11085
+pg_fts_or,Q04,dense retrieval question answering,4,1907.04149
+pg_fts_or,Q04,dense retrieval question answering,5,2202.04306
+pg_fts_or,Q04,dense retrieval question answering,6,2205.12665
+pg_fts_or,Q04,dense retrieval question answering,7,1911.04065
+pg_fts_or,Q04,dense retrieval question answering,8,2308.04028
+pg_fts_or,Q04,dense retrieval question answering,9,2007.04526
+pg_fts_or,Q04,dense retrieval question answering,10,2109.10739
+pg_fts_or,Q05,stochastic optimization adaptive,1,2602.24042
+pg_fts_or,Q05,stochastic optimization adaptive,2,2211.02658
+pg_fts_or,Q05,stochastic optimization adaptive,3,2103.03300
+pg_fts_or,Q05,stochastic optimization adaptive,4,1810.00553
+pg_fts_or,Q05,stochastic optimization adaptive,5,1507.02351
+pg_fts_or,Q05,stochastic optimization adaptive,6,2504.09375
+pg_fts_or,Q05,stochastic optimization adaptive,7,2008.10847
+pg_fts_or,Q05,stochastic optimization adaptive,8,2311.11532
+pg_fts_or,Q05,stochastic optimization adaptive,9,2407.21078
+pg_fts_or,Q05,stochastic optimization adaptive,10,2502.19526
+pg_fts_or,Q06,reinforcement learning robotics,1,2601.05152
+pg_fts_or,Q06,reinforcement learning robotics,2,2309.09167
+pg_fts_or,Q06,reinforcement learning robotics,3,2308.14652
+pg_fts_or,Q06,reinforcement learning robotics,4,2009.09689
+pg_fts_or,Q06,reinforcement learning robotics,5,2206.14176
+pg_fts_or,Q06,reinforcement learning robotics,6,2305.16332
+pg_fts_or,Q06,reinforcement learning robotics,7,1806.04640
+pg_fts_or,Q06,reinforcement learning robotics,8,2310.13458
+pg_fts_or,Q06,reinforcement learning robotics,9,2108.06266
+pg_fts_or,Q06,reinforcement learning robotics,10,1907.00182
+pg_fts_or,Q07,federated learning privacy,1,2007.00914
+pg_fts_or,Q07,federated learning privacy,2,2409.18907
+pg_fts_or,Q07,federated learning privacy,3,1907.09693
+pg_fts_or,Q07,federated learning privacy,4,2405.08299
+pg_fts_or,Q07,federated learning privacy,5,2102.12920
+pg_fts_or,Q07,federated learning privacy,6,2505.01788
+pg_fts_or,Q07,federated learning privacy,7,2311.10832
+pg_fts_or,Q07,federated learning privacy,8,2111.12146
+pg_fts_or,Q07,federated learning privacy,9,2211.06919
+pg_fts_or,Q07,federated learning privacy,10,2605.02372
+pg_fts_or,Q08,protein structure prediction,1,2310.11466
+pg_fts_or,Q08,protein structure prediction,2,1505.01143
+pg_fts_or,Q08,protein structure prediction,3,1806.06394
+pg_fts_or,Q08,protein structure prediction,4,cs/0511075
+pg_fts_or,Q08,protein structure prediction,5,2402.19095
+pg_fts_or,Q08,protein structure prediction,6,2410.15592
+pg_fts_or,Q08,protein structure prediction,7,2307.02172
+pg_fts_or,Q08,protein structure prediction,8,1110.5091
+pg_fts_or,Q08,protein structure prediction,9,1510.02775
+pg_fts_or,Q08,protein structure prediction,10,2408.12419
+pg_fts_or,Q09,graph convolution spatial temporal,1,2510.05569
+pg_fts_or,Q09,graph convolution spatial temporal,2,2206.13028
+pg_fts_or,Q09,graph convolution spatial temporal,3,1310.7898
+pg_fts_or,Q09,graph convolution spatial temporal,4,1504.07976
+pg_fts_or,Q09,graph convolution spatial temporal,5,2306.06930
+pg_fts_or,Q09,graph convolution spatial temporal,6,2001.03728
+pg_fts_or,Q09,graph convolution spatial temporal,7,2202.01727
+pg_fts_or,Q09,graph convolution spatial temporal,8,2205.08689
+pg_fts_or,Q09,graph convolution spatial temporal,9,2210.02737
+pg_fts_or,Q09,graph convolution spatial temporal,10,2207.05064
+pg_fts_or,Q10,self supervised representation learning,1,2308.00129
+pg_fts_or,Q10,self supervised representation learning,2,2308.02525
+pg_fts_or,Q10,self supervised representation learning,3,2005.01400
+pg_fts_or,Q10,self supervised representation learning,4,2012.12474
+pg_fts_or,Q10,self supervised representation learning,5,2107.12591
+pg_fts_or,Q10,self supervised representation learning,6,2412.00542
+pg_fts_or,Q10,self supervised representation learning,7,2505.05703
+pg_fts_or,Q10,self supervised representation learning,8,2103.00845
+pg_fts_or,Q10,self supervised representation learning,9,2208.06616
+pg_fts_or,Q10,self supervised representation learning,10,2509.03077
+pg_fts_or,G0001,gluon contribution open heavy-meson,1,1511.04009
+pg_fts_or,G0001,gluon contribution open heavy-meson,2,2310.03336
+pg_fts_or,G0001,gluon contribution open heavy-meson,3,2302.06794
+pg_fts_or,G0001,gluon contribution open heavy-meson,4,1308.0098
+pg_fts_or,G0001,gluon contribution open heavy-meson,5,2006.08650
+pg_fts_or,G0001,gluon contribution open heavy-meson,6,2302.05926
+pg_fts_or,G0001,gluon contribution open heavy-meson,7,2210.08609
+pg_fts_or,G0001,gluon contribution open heavy-meson,8,2607.00546
+pg_fts_or,G0001,gluon contribution open heavy-meson,9,1207.0994
+pg_fts_or,G0001,gluon contribution open heavy-meson,10,1911.06527
+pg_fts_or,G0004,neuron populations neuromorphic spike,1,2507.03621
+pg_fts_or,G0004,neuron populations neuromorphic spike,2,2609.22775
+pg_fts_or,G0004,neuron populations neuromorphic spike,3,2412.08816
+pg_fts_or,G0004,neuron populations neuromorphic spike,4,1403.4814
+pg_fts_or,G0004,neuron populations neuromorphic spike,5,1602.02009
+pg_fts_or,G0004,neuron populations neuromorphic spike,6,1905.01933
+pg_fts_or,G0004,neuron populations neuromorphic spike,7,1004.2787
+pg_fts_or,G0004,neuron populations neuromorphic spike,8,2606.03935
+pg_fts_or,G0004,neuron populations neuromorphic spike,9,1110.6927
+pg_fts_or,G0004,neuron populations neuromorphic spike,10,1412.4210
+pg_fts_or,G0005,phonemic graphemic,1,2203.17190
+pg_fts_or,G0005,phonemic graphemic,2,cmp-lg/9806008
+pg_fts_or,G0005,phonemic graphemic,3,2312.03312
+pg_fts_or,G0005,phonemic graphemic,4,2506.04711
+pg_fts_or,G0005,phonemic graphemic,5,2506.04527
+pg_fts_or,G0005,phonemic graphemic,6,2005.09336
+pg_fts_or,G0005,phonemic graphemic,7,2609.20839
+pg_fts_or,G0005,phonemic graphemic,8,2201.10716
+pg_fts_or,G0005,phonemic graphemic,9,2305.08354
+pg_fts_or,G0005,phonemic graphemic,10,2604.09332
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,1,2506.02253
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,2,2504.08196
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,3,1206.1451
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,4,1504.08041
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,5,astro-ph/0703544
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,6,2001.09353
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,7,2004.00457
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,8,2307.06171
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,9,astro-ph/9812116
+pg_fts_or,G0007,helmholtz resonators including thermoviscous,10,2204.02840
+pg_fts_or,G0008,multi-model inference natural selection,1,2406.07536
+pg_fts_or,G0008,multi-model inference natural selection,2,2208.00106
+pg_fts_or,G0008,multi-model inference natural selection,3,2402.06228
+pg_fts_or,G0008,multi-model inference natural selection,4,2512.23340
+pg_fts_or,G0008,multi-model inference natural selection,5,2303.17984
+pg_fts_or,G0008,multi-model inference natural selection,6,1810.02397
+pg_fts_or,G0008,multi-model inference natural selection,7,2404.00069
+pg_fts_or,G0008,multi-model inference natural selection,8,2501.00532
+pg_fts_or,G0008,multi-model inference natural selection,9,2512.16243
+pg_fts_or,G0008,multi-model inference natural selection,10,1409.7715
+pg_fts_or,G0009,buried threat,1,2510.21601
+pg_fts_or,G0009,buried threat,2,2404.16632
+pg_fts_or,G0009,buried threat,3,2509.11615
+pg_fts_or,G0009,buried threat,4,2401.00286
+pg_fts_or,G0009,buried threat,5,2403.03267
+pg_fts_or,G0009,buried threat,6,1910.03422
+pg_fts_or,G0009,buried threat,7,2503.09586
+pg_fts_or,G0009,buried threat,8,2501.18098
+pg_fts_or,G0009,buried threat,9,1907.01755
+pg_fts_or,G0009,buried threat,10,2103.15194
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,1,1909.01587
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,2,2607.27221
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,3,1406.7409
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,4,2306.12791
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,5,1507.06709
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,6,math/0609104
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,7,2009.04405
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,8,2406.15872
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,9,2409.03298
+pg_fts_or,G0011,centrosymmetric matrices sinc collocation,10,2510.05766
+pg_fts_or,G0014,markov chains,1,1107.2446
+pg_fts_or,G0014,markov chains,2,0706.2585
+pg_fts_or,G0014,markov chains,3,1412.8762
+pg_fts_or,G0014,markov chains,4,2411.00422
+pg_fts_or,G0014,markov chains,5,0905.2259
+pg_fts_or,G0014,markov chains,6,1808.05010
+pg_fts_or,G0014,markov chains,7,2212.14005
+pg_fts_or,G0014,markov chains,8,0705.4605
+pg_fts_or,G0014,markov chains,9,1802.08330
+pg_fts_or,G0014,markov chains,10,2111.08455
+pg_fts_or,G0017,large group delay microwave,1,1709.08265
+pg_fts_or,G0017,large group delay microwave,2,2110.11050
+pg_fts_or,G0017,large group delay microwave,3,1710.05401
+pg_fts_or,G0017,large group delay microwave,4,2112.08188
+pg_fts_or,G0017,large group delay microwave,5,1711.10659
+pg_fts_or,G0017,large group delay microwave,6,math/0507612
+pg_fts_or,G0017,large group delay microwave,7,2511.22446
+pg_fts_or,G0017,large group delay microwave,8,0911.3682
+pg_fts_or,G0017,large group delay microwave,9,2608.27386
+pg_fts_or,G0017,large group delay microwave,10,0912.2946
+pg_fts_or,G0018,bi-grid allen cahn equation,1,2307.10497
+pg_fts_or,G0018,bi-grid allen cahn equation,2,2105.11003
+pg_fts_or,G0018,bi-grid allen cahn equation,3,2309.04261
+pg_fts_or,G0018,bi-grid allen cahn equation,4,2508.02021
+pg_fts_or,G0018,bi-grid allen cahn equation,5,2203.17143
+pg_fts_or,G0018,bi-grid allen cahn equation,6,2507.18731
+pg_fts_or,G0018,bi-grid allen cahn equation,7,1205.6535
+pg_fts_or,G0018,bi-grid allen cahn equation,8,2402.02712
+pg_fts_or,G0018,bi-grid allen cahn equation,9,2007.04542
+pg_fts_or,G0018,bi-grid allen cahn equation,10,2511.01204
+pg_fts_or,G0021,energetic particle transport,1,2107.05075
+pg_fts_or,G0021,energetic particle transport,2,2112.01829
+pg_fts_or,G0021,energetic particle transport,3,1706.06580
+pg_fts_or,G0021,energetic particle transport,4,2404.12276
+pg_fts_or,G0021,energetic particle transport,5,1707.00861
+pg_fts_or,G0021,energetic particle transport,6,2010.14188
+pg_fts_or,G0021,energetic particle transport,7,2503.15357
+pg_fts_or,G0021,energetic particle transport,8,2409.04564
+pg_fts_or,G0021,energetic particle transport,9,1908.02869
+pg_fts_or,G0021,energetic particle transport,10,2608.11058
+pg_fts_or,G0023,influence wetting properties,1,2402.16531
+pg_fts_or,G0023,influence wetting properties,2,2108.09175
+pg_fts_or,G0023,influence wetting properties,3,1008.4401
+pg_fts_or,G0023,influence wetting properties,4,2609.39340
+pg_fts_or,G0023,influence wetting properties,5,1601.06504
+pg_fts_or,G0023,influence wetting properties,6,1212.5030
+pg_fts_or,G0023,influence wetting properties,7,2606.11132
+pg_fts_or,G0023,influence wetting properties,8,1601.00039
+pg_fts_or,G0023,influence wetting properties,9,2204.05094
+pg_fts_or,G0023,influence wetting properties,10,2401.03790
+pg_fts_or,G0024,plasmas inert reactive atmospheres,1,1712.07866
+pg_fts_or,G0024,plasmas inert reactive atmospheres,2,1902.00524
+pg_fts_or,G0024,plasmas inert reactive atmospheres,3,2403.02296
+pg_fts_or,G0024,plasmas inert reactive atmospheres,4,2103.05431
+pg_fts_or,G0024,plasmas inert reactive atmospheres,5,2106.08662
+pg_fts_or,G0024,plasmas inert reactive atmospheres,6,2610.06077
+pg_fts_or,G0024,plasmas inert reactive atmospheres,7,2606.02083
+pg_fts_or,G0024,plasmas inert reactive atmospheres,8,0905.3276
+pg_fts_or,G0024,plasmas inert reactive atmospheres,9,1401.0948
+pg_fts_or,G0024,plasmas inert reactive atmospheres,10,1805.06123
+pg_fts_or,G0025,infty categories,1,2009.02428
+pg_fts_or,G0025,infty categories,2,1312.3178
+pg_fts_or,G0025,infty categories,3,2409.05568
+pg_fts_or,G0025,infty categories,4,2311.12746
+pg_fts_or,G0025,infty categories,5,1510.03961
+pg_fts_or,G0025,infty categories,6,2406.15884
+pg_fts_or,G0025,infty categories,7,1506.05500
+pg_fts_or,G0025,infty categories,8,1608.05314
+pg_fts_or,G0025,infty categories,9,2402.01396
+pg_fts_or,G0025,infty categories,10,2004.12937
+pg_fts_or,G0026,knowledge graph paired dataset,1,1905.11691
+pg_fts_or,G0026,knowledge graph paired dataset,2,2107.09556
+pg_fts_or,G0026,knowledge graph paired dataset,3,2212.05433
+pg_fts_or,G0026,knowledge graph paired dataset,4,2007.04395
+pg_fts_or,G0026,knowledge graph paired dataset,5,2606.29180
+pg_fts_or,G0026,knowledge graph paired dataset,6,2412.04948
+pg_fts_or,G0026,knowledge graph paired dataset,7,2502.02379
+pg_fts_or,G0026,knowledge graph paired dataset,8,2607.09666
+pg_fts_or,G0026,knowledge graph paired dataset,9,2302.05019
+pg_fts_or,G0026,knowledge graph paired dataset,10,2303.13948
+pg_bm25,Q01,graph neural network traffic prediction,1,2301.12605
+pg_bm25,Q01,graph neural network traffic prediction,2,2501.03635
+pg_bm25,Q01,graph neural network traffic prediction,3,1811.00740
+pg_bm25,Q01,graph neural network traffic prediction,4,2104.13096
+pg_bm25,Q01,graph neural network traffic prediction,5,2003.02807
+pg_bm25,Q01,graph neural network traffic prediction,6,2111.00869
+pg_bm25,Q01,graph neural network traffic prediction,7,2401.02723
+pg_bm25,Q01,graph neural network traffic prediction,8,2510.15215
+pg_bm25,Q01,graph neural network traffic prediction,9,2608.14177
+pg_bm25,Q01,graph neural network traffic prediction,10,2303.00498
+pg_bm25,Q02,transformer language model,1,1904.09408
+pg_bm25,Q02,transformer language model,2,2011.02323
+pg_bm25,Q02,transformer language model,3,1906.09777
+pg_bm25,Q02,transformer language model,4,1905.04226
+pg_bm25,Q02,transformer language model,5,2003.11562
+pg_bm25,Q02,transformer language model,6,1903.06965
+pg_bm25,Q02,transformer language model,7,2108.00104
+pg_bm25,Q02,transformer language model,8,2601.14522
+pg_bm25,Q02,transformer language model,9,2203.06211
+pg_bm25,Q02,transformer language model,10,2209.11902
+pg_bm25,Q03,image recognition convolutional,1,2511.18699
+pg_bm25,Q03,image recognition convolutional,2,2102.01523
+pg_bm25,Q03,image recognition convolutional,3,1510.00921
+pg_bm25,Q03,image recognition convolutional,4,2211.06163
+pg_bm25,Q03,image recognition convolutional,5,1512.07502
+pg_bm25,Q03,image recognition convolutional,6,1904.03582
+pg_bm25,Q03,image recognition convolutional,7,1807.02265
+pg_bm25,Q03,image recognition convolutional,8,1505.00296
+pg_bm25,Q03,image recognition convolutional,9,1612.00983
+pg_bm25,Q03,image recognition convolutional,10,1409.1556
+pg_bm25,Q04,dense retrieval question answering,1,2004.04906
+pg_bm25,Q04,dense retrieval question answering,2,2110.15439
+pg_bm25,Q04,dense retrieval question answering,3,2109.11085
+pg_bm25,Q04,dense retrieval question answering,4,2009.12756
+pg_bm25,Q04,dense retrieval question answering,5,2103.12011
+pg_bm25,Q04,dense retrieval question answering,6,2110.01599
+pg_bm25,Q04,dense retrieval question answering,7,2401.04852
+pg_bm25,Q04,dense retrieval question answering,8,2208.03197
+pg_bm25,Q04,dense retrieval question answering,9,2210.10176
+pg_bm25,Q04,dense retrieval question answering,10,2409.13483
+pg_bm25,Q05,stochastic optimization adaptive,1,2001.06699
+pg_bm25,Q05,stochastic optimization adaptive,2,1610.01970
+pg_bm25,Q05,stochastic optimization adaptive,3,1811.02525
+pg_bm25,Q05,stochastic optimization adaptive,4,1904.04480
+pg_bm25,Q05,stochastic optimization adaptive,5,2401.07170
+pg_bm25,Q05,stochastic optimization adaptive,6,2402.10898
+pg_bm25,Q05,stochastic optimization adaptive,7,1710.11258
+pg_bm25,Q05,stochastic optimization adaptive,8,2212.00856
+pg_bm25,Q05,stochastic optimization adaptive,9,2610.14297
+pg_bm25,Q05,stochastic optimization adaptive,10,1705.02031
+pg_bm25,Q06,reinforcement learning robotics,1,2405.03113
+pg_bm25,Q06,reinforcement learning robotics,2,2210.07397
+pg_bm25,Q06,reinforcement learning robotics,3,2210.08126
+pg_bm25,Q06,reinforcement learning robotics,4,2303.14693
+pg_bm25,Q06,reinforcement learning robotics,5,2301.07137
+pg_bm25,Q06,reinforcement learning robotics,6,2307.11954
+pg_bm25,Q06,reinforcement learning robotics,7,2310.05670
+pg_bm25,Q06,reinforcement learning robotics,8,1812.03201
+pg_bm25,Q06,reinforcement learning robotics,9,2002.11952
+pg_bm25,Q06,reinforcement learning robotics,10,2005.05719
+pg_bm25,Q07,federated learning privacy,1,2408.08904
+pg_bm25,Q07,federated learning privacy,2,2206.05209
+pg_bm25,Q07,federated learning privacy,3,2402.02230
+pg_bm25,Q07,federated learning privacy,4,2112.05423
+pg_bm25,Q07,federated learning privacy,5,1911.01812
+pg_bm25,Q07,federated learning privacy,6,2109.13012
+pg_bm25,Q07,federated learning privacy,7,2110.15252
+pg_bm25,Q07,federated learning privacy,8,2202.03402
+pg_bm25,Q07,federated learning privacy,9,1911.10071
+pg_bm25,Q07,federated learning privacy,10,2202.06053
+pg_bm25,Q08,protein structure prediction,1,1510.05682
+pg_bm25,Q08,protein structure prediction,2,1712.00407
+pg_bm25,Q08,protein structure prediction,3,q-bio/0606012
+pg_bm25,Q08,protein structure prediction,4,2212.07702
+pg_bm25,Q08,protein structure prediction,5,2606.08647
+pg_bm25,Q08,protein structure prediction,6,1006.2813
+pg_bm25,Q08,protein structure prediction,7,1206.3509
+pg_bm25,Q08,protein structure prediction,8,2310.11466
+pg_bm25,Q08,protein structure prediction,9,2605.22133
+pg_bm25,Q08,protein structure prediction,10,2606.01781
+pg_bm25,Q09,graph convolution spatial temporal,1,2206.10720
+pg_bm25,Q09,graph convolution spatial temporal,2,2108.01309
+pg_bm25,Q09,graph convolution spatial temporal,3,1901.11164
+pg_bm25,Q09,graph convolution spatial temporal,4,2103.06126
+pg_bm25,Q09,graph convolution spatial temporal,5,1801.07455
+pg_bm25,Q09,graph convolution spatial temporal,6,2202.08982
+pg_bm25,Q09,graph convolution spatial temporal,7,2205.08689
+pg_bm25,Q09,graph convolution spatial temporal,8,2210.02737
+pg_bm25,Q09,graph convolution spatial temporal,9,2206.03128
+pg_bm25,Q09,graph convolution spatial temporal,10,2401.11798
+pg_bm25,Q10,self supervised representation learning,1,2111.12958
+pg_bm25,Q10,self supervised representation learning,2,2210.10807
+pg_bm25,Q10,self supervised representation learning,3,2308.11455
+pg_bm25,Q10,self supervised representation learning,4,2407.13541
+pg_bm25,Q10,self supervised representation learning,5,2609.29350
+pg_bm25,Q10,self supervised representation learning,6,2007.06346
+pg_bm25,Q10,self supervised representation learning,7,2010.07258
+pg_bm25,Q10,self supervised representation learning,8,2112.05677
+pg_bm25,Q10,self supervised representation learning,9,2003.00105
+pg_bm25,Q10,self supervised representation learning,10,2004.10605
+pg_bm25,G0001,gluon contribution open heavy-meson,1,1511.04009
+pg_bm25,G0001,gluon contribution open heavy-meson,2,hep-ph/9411422
+pg_bm25,G0001,gluon contribution open heavy-meson,3,hep-ph/9711276
+pg_bm25,G0001,gluon contribution open heavy-meson,4,2603.08114
+pg_bm25,G0001,gluon contribution open heavy-meson,5,hep-ph/9706441
+pg_bm25,G0001,gluon contribution open heavy-meson,6,0811.1058
+pg_bm25,G0001,gluon contribution open heavy-meson,7,1205.2002
+pg_bm25,G0001,gluon contribution open heavy-meson,8,2106.04190
+pg_bm25,G0001,gluon contribution open heavy-meson,9,nucl-th/9509044
+pg_bm25,G0001,gluon contribution open heavy-meson,10,hep-ph/9406262
+pg_bm25,G0004,neuron populations neuromorphic spike,1,2412.08816
+pg_bm25,G0004,neuron populations neuromorphic spike,2,2201.07490
+pg_bm25,G0004,neuron populations neuromorphic spike,3,2407.13534
+pg_bm25,G0004,neuron populations neuromorphic spike,4,2109.01279
+pg_bm25,G0004,neuron populations neuromorphic spike,5,2511.02868
+pg_bm25,G0004,neuron populations neuromorphic spike,6,2111.03621
+pg_bm25,G0004,neuron populations neuromorphic spike,7,1103.0668
+pg_bm25,G0004,neuron populations neuromorphic spike,8,1302.6952
+pg_bm25,G0004,neuron populations neuromorphic spike,9,1911.09309
+pg_bm25,G0004,neuron populations neuromorphic spike,10,1909.10007
+pg_bm25,G0005,phonemic graphemic,1,2201.10716
+pg_bm25,G0005,phonemic graphemic,2,2004.06338
+pg_bm25,G0005,phonemic graphemic,3,2506.04711
+pg_bm25,G0005,phonemic graphemic,4,1708.01464
+pg_bm25,G0005,phonemic graphemic,5,2207.13703
+pg_bm25,G0005,phonemic graphemic,6,2412.09102
+pg_bm25,G0005,phonemic graphemic,7,2506.04527
+pg_bm25,G0005,phonemic graphemic,8,cmp-lg/9806008
+pg_bm25,G0005,phonemic graphemic,9,2104.04091
+pg_bm25,G0005,phonemic graphemic,10,1711.04564
+pg_bm25,G0007,helmholtz resonators including thermoviscous,1,2001.09353
+pg_bm25,G0007,helmholtz resonators including thermoviscous,2,2212.09116
+pg_bm25,G0007,helmholtz resonators including thermoviscous,3,0806.0105
+pg_bm25,G0007,helmholtz resonators including thermoviscous,4,1402.6493
+pg_bm25,G0007,helmholtz resonators including thermoviscous,5,1504.05425
+pg_bm25,G0007,helmholtz resonators including thermoviscous,6,1709.00894
+pg_bm25,G0007,helmholtz resonators including thermoviscous,7,2212.08858
+pg_bm25,G0007,helmholtz resonators including thermoviscous,8,1805.04014
+pg_bm25,G0007,helmholtz resonators including thermoviscous,9,2302.13981
+pg_bm25,G0007,helmholtz resonators including thermoviscous,10,2611.15208
+pg_bm25,G0008,multi-model inference natural selection,1,1906.02389
+pg_bm25,G0008,multi-model inference natural selection,2,2511.17641
+pg_bm25,G0008,multi-model inference natural selection,3,1901.02222
+pg_bm25,G0008,multi-model inference natural selection,4,2307.06495
+pg_bm25,G0008,multi-model inference natural selection,5,2606.05181
+pg_bm25,G0008,multi-model inference natural selection,6,2502.02213
+pg_bm25,G0008,multi-model inference natural selection,7,2506.02814
+pg_bm25,G0008,multi-model inference natural selection,8,2602.22090
+pg_bm25,G0008,multi-model inference natural selection,9,2011.06945
+pg_bm25,G0008,multi-model inference natural selection,10,2305.12382
+pg_bm25,G0009,buried threat,1,1806.01349
+pg_bm25,G0009,buried threat,2,1612.03477
+pg_bm25,G0009,buried threat,3,0906.3026
+pg_bm25,G0009,buried threat,4,1803.03729
+pg_bm25,G0009,buried threat,5,astro-ph/0201278
+pg_bm25,G0009,buried threat,6,gr-qc/0412137
+pg_bm25,G0009,buried threat,7,1301.1528
+pg_bm25,G0009,buried threat,8,0804.0938
+pg_bm25,G0009,buried threat,9,0810.4205
+pg_bm25,G0009,buried threat,10,2401.10206
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,1,1507.06709
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,2,2210.04594
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,3,1910.13490
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,4,2301.12692
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,5,cond-mat/0601713
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,6,1304.6508
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,7,2503.20141
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,8,2109.01563
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,9,1409.7471
+pg_bm25,G0011,centrosymmetric matrices sinc collocation,10,2310.08239
+pg_bm25,G0014,markov chains,1,2305.19473
+pg_bm25,G0014,markov chains,2,2211.01496
+pg_bm25,G0014,markov chains,3,2301.08206
+pg_bm25,G0014,markov chains,4,2404.10251
+pg_bm25,G0014,markov chains,5,2510.13572
+pg_bm25,G0014,markov chains,6,0706.2585
+pg_bm25,G0014,markov chains,7,1304.7637
+pg_bm25,G0014,markov chains,8,1401.3022
+pg_bm25,G0014,markov chains,9,1510.03661
+pg_bm25,G0014,markov chains,10,1801.07722
+pg_bm25,G0017,large group delay microwave,1,1010.2976
+pg_bm25,G0017,large group delay microwave,2,1811.12055
+pg_bm25,G0017,large group delay microwave,3,2401.04724
+pg_bm25,G0017,large group delay microwave,4,1101.1197
+pg_bm25,G0017,large group delay microwave,5,2110.13678
+pg_bm25,G0017,large group delay microwave,6,0904.4201
+pg_bm25,G0017,large group delay microwave,7,2502.08245
+pg_bm25,G0017,large group delay microwave,8,2311.09414
+pg_bm25,G0017,large group delay microwave,9,1606.06571
+pg_bm25,G0017,large group delay microwave,10,1606.07791
+pg_bm25,G0018,bi-grid allen cahn equation,1,1707.09859
+pg_bm25,G0018,bi-grid allen cahn equation,2,2610.28080
+pg_bm25,G0018,bi-grid allen cahn equation,3,2501.15812
+pg_bm25,G0018,bi-grid allen cahn equation,4,0911.5706
+pg_bm25,G0018,bi-grid allen cahn equation,5,1512.08736
+pg_bm25,G0018,bi-grid allen cahn equation,6,1608.06575
+pg_bm25,G0018,bi-grid allen cahn equation,7,1801.09450
+pg_bm25,G0018,bi-grid allen cahn equation,8,1812.08894
+pg_bm25,G0018,bi-grid allen cahn equation,9,1311.2307
+pg_bm25,G0018,bi-grid allen cahn equation,10,1203.3111
+pg_bm25,G0021,energetic particle transport,1,2106.00716
+pg_bm25,G0021,energetic particle transport,2,astro-ph/9806097
+pg_bm25,G0021,energetic particle transport,3,2409.12644
+pg_bm25,G0021,energetic particle transport,4,1307.1585
+pg_bm25,G0021,energetic particle transport,5,1701.04286
+pg_bm25,G0021,energetic particle transport,6,2006.11338
+pg_bm25,G0021,energetic particle transport,7,2404.12164
+pg_bm25,G0021,energetic particle transport,8,astro-ph/9812064
+pg_bm25,G0021,energetic particle transport,9,1506.00825
+pg_bm25,G0021,energetic particle transport,10,1509.04010
+pg_bm25,G0023,influence wetting properties,1,cond-mat/9912067
+pg_bm25,G0023,influence wetting properties,2,1103.6125
+pg_bm25,G0023,influence wetting properties,3,1606.06870
+pg_bm25,G0023,influence wetting properties,4,cond-mat/9812218
+pg_bm25,G0023,influence wetting properties,5,2309.02927
+pg_bm25,G0023,influence wetting properties,6,cond-mat/0605727
+pg_bm25,G0023,influence wetting properties,7,2002.02183
+pg_bm25,G0023,influence wetting properties,8,2509.04418
+pg_bm25,G0023,influence wetting properties,9,0904.2317
+pg_bm25,G0023,influence wetting properties,10,1601.07032
+pg_bm25,G0024,plasmas inert reactive atmospheres,1,1512.00332
+pg_bm25,G0024,plasmas inert reactive atmospheres,2,1609.04936
+pg_bm25,G0024,plasmas inert reactive atmospheres,3,1105.2207
+pg_bm25,G0024,plasmas inert reactive atmospheres,4,chao-dyn/9712020
+pg_bm25,G0024,plasmas inert reactive atmospheres,5,2103.05431
+pg_bm25,G0024,plasmas inert reactive atmospheres,6,2502.19303
+pg_bm25,G0024,plasmas inert reactive atmospheres,7,1109.1684
+pg_bm25,G0024,plasmas inert reactive atmospheres,8,1610.00449
+pg_bm25,G0024,plasmas inert reactive atmospheres,9,1912.03691
+pg_bm25,G0024,plasmas inert reactive atmospheres,10,1601.04594
+pg_bm25,G0025,infty categories,1,2403.06926
+pg_bm25,G0025,infty categories,2,2608.29495
+pg_bm25,G0025,infty categories,3,1211.4401
+pg_bm25,G0025,infty categories,4,2402.01396
+pg_bm25,G0025,infty categories,5,2602.02218
+pg_bm25,G0025,infty categories,6,2209.09376
+pg_bm25,G0025,infty categories,7,2403.14827
+pg_bm25,G0025,infty categories,8,2603.11005
+pg_bm25,G0025,infty categories,9,1702.02681
+pg_bm25,G0025,infty categories,10,0802.2885
+pg_bm25,G0026,knowledge graph paired dataset,1,2107.09556
+pg_bm25,G0026,knowledge graph paired dataset,2,2309.11669
+pg_bm25,G0026,knowledge graph paired dataset,3,2307.06698
+pg_bm25,G0026,knowledge graph paired dataset,4,2406.13923
+pg_bm25,G0026,knowledge graph paired dataset,5,2307.11719
+pg_bm25,G0026,knowledge graph paired dataset,6,2104.13576
+pg_bm25,G0026,knowledge graph paired dataset,7,2211.10624
+pg_bm25,G0026,knowledge graph paired dataset,8,2506.21556
+pg_bm25,G0026,knowledge graph paired dataset,9,2309.13610
+pg_bm25,G0026,knowledge graph paired dataset,10,2406.11898

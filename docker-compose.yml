@@ -2,6 +2,9 @@
 #   docker compose up -d                            -> chỉ Elasticsearch
 #   docker compose --profile baseline up -d         -> thêm PostgreSQL
 #   docker compose --profile tools up -d            -> thêm Kibana
+#
+# Benchmark: ES và PostgreSQL cùng giới hạn 4 CPU / 6 GB RAM để so sánh công bằng.
+# Cổng chỉ mở trên 127.0.0.1 (ES tắt xác thực, không để lộ ra mạng LAN).
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
@@ -10,8 +13,10 @@ services:
       - discovery.type=single-node
       - xpack.security.enabled=false # chỉ dùng cho học tập/demo cục bộ
       - ES_JAVA_OPTS=-Xms2g -Xmx2g # giảm xuống 1g nếu máy ít RAM
+    cpus: 4
+    mem_limit: 6g # heap 2g, phần còn lại cho page cache của Lucene
     ports:
-      - '9200:9200'
+      - '127.0.0.1:9200:9200'
     volumes:
       - esdata:/usr/share/elasticsearch/data
     ulimits:
@@ -27,15 +32,35 @@ services:
       retries: 20
 
   postgres:
-    image: postgres:16
+    # PostgreSQL 16 + extension pg_search (BM25) của ParadeDB, cùng major version với postgres:16 cũ.
+    # Ghim digest để mọi máy chạy đúng một bản.
+    image: paradedb/paradedb:0.26.7-pg16@sha256:a7059aadb740cf9e929d777afa99a5740d879a478677306847244ff685f9baef
     container_name: arxiv-pg
     profiles: ['baseline']
     environment:
       POSTGRES_USER: arxiv
       POSTGRES_PASSWORD: arxiv
       POSTGRES_DB: arxiv
+      PDB_TUNE: 'false' # tắt auto-tune của image, cấu hình đặt tường minh ở dưới
+    cpus: 4
+    mem_limit: 6g
+    shm_size: 1g # bộ nhớ chia sẻ cho parallel query (mặc định của Docker chỉ 64 MB)
+    command:
+      - postgres
+      - -c
+      - shared_buffers=1536MB # 25% RAM của container
+      - -c
+      - effective_cache_size=4GB
+      - -c
+      - work_mem=32MB
+      - -c
+      - maintenance_work_mem=1GB
+      - -c
+      - max_parallel_workers_per_gather=2
+      - -c
+      - max_parallel_maintenance_workers=2
     ports:
-      - '5432:5432'
+      - '127.0.0.1:5432:5432'
     volumes:
       - pgdata:/var/lib/postgresql/data
 
@@ -46,7 +71,7 @@ services:
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     ports:
-      - '5601:5601'
+      - '127.0.0.1:5601:5601'
     depends_on:
       elasticsearch:
         condition: service_healthy

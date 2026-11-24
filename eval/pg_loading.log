@@ -1,0 +1,43 @@
+﻿== 2026-11-23T22:34:39 load papers_10k from data/arxiv_10000.jsonl
+Đọc id trong D:\Works\sdh\Elasticsearch\data\arxiv_10000.jsonl ...
+  0 id trùng (0 dòng thừa), giữ bản cuối như ES
+Nạp 9,945 dòng (COPY, gồm cả tính tsvector): 1.88s (5,290 dòng/s)
+Chỉ mục GIN (PG-FTS): 0.46s
+Chỉ mục ParadeDB BM25 (PG-BM25): 0.95s
+VACUUM ANALYZE: 0.28s
+Số dòng: 9,945 | heap 14.3 MB | GIN 5.8 MB | BM25 6.9 MB | tổng 36.6 MB
+Đã ghi results/pg_loading.csv
+== 2026-11-23T22:34:43 load papers_100k from data/arxiv_100000.jsonl
+Đọc id trong D:\Works\sdh\Elasticsearch\data\arxiv_100000.jsonl ...
+  0 id trùng (0 dòng thừa), giữ bản cuối như ES
+Nạp 99,961 dòng (COPY, gồm cả tính tsvector): 17.11s (5,842 dòng/s)
+Chỉ mục GIN (PG-FTS): 5.85s
+Chỉ mục ParadeDB BM25 (PG-BM25): 4.16s
+VACUUM ANALYZE: 0.56s
+Số dòng: 99,961 | heap 143.4 MB | GIN 42.8 MB | BM25 50.5 MB | tổng 331.8 MB
+Đã ghi results/pg_loading.csv
+== 2026-11-23T22:35:11 load papers_500k from data/arxiv_500000.jsonl
+Đọc id trong D:\Works\sdh\Elasticsearch\data\arxiv_500000.jsonl ...
+  6 id trùng (6 dòng thừa), giữ bản cuối như ES
+  500,000 dòng...
+Nạp 500,031 dòng (COPY, gồm cả tính tsvector): 81.16s (6,161 dòng/s)
+Chỉ mục GIN (PG-FTS): 24.3s
+Chỉ mục ParadeDB BM25 (PG-BM25): 20.76s
+VACUUM ANALYZE: 1.08s
+Số dòng: 500,031 | heap 715.0 MB | GIN 164.9 MB | BM25 269.7 MB | tổng 1,624.3 MB
+Đã ghi results/pg_loading.csv
+== 2026-11-23T22:37:19 load papers_full from data/arxiv_3252452.jsonl
+Đọc id trong D:\Works\sdh\Elasticsearch\data\arxiv_3252452.jsonl ...
+  81 id trùng (93 dòng thừa), giữ bản cuối như ES
+  500,000 dòng...
+  1,000,000 dòng...
+  1,500,000 dòng...
+  2,000,000 dòng...
+  2,500,000 dòng...
+  3,000,000 dòng...
+Nạp 3,252,359 dòng (COPY, gồm cả tính tsvector): 523.34s (6,215 dòng/s)
+Chỉ mục GIN (PG-FTS): 178.51s
+Chỉ mục ParadeDB BM25 (PG-BM25): 156.32s
+VACUUM ANALYZE: 12.85s
+Số dòng: 3,252,359 | heap 4,649.8 MB | GIN 777.9 MB | BM25 1,744.3 MB | tổng 10,256.2 MB
+Đã ghi results/pg_loading.csv

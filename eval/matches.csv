@@ -1,0 +1,3201 @@
+system,dataset,query_id,query,matches,count_ms,status
+pg_bm25,10k,G0001,gluon contribution open heavy-meson,1366,91.6,ok
+pg_bm25,10k,G0002,single layer,1246,2.7,ok
+pg_bm25,10k,G0003,prediction gamma gamma gamma,1341,2.8,ok
+pg_bm25,10k,G0004,neuron populations neuromorphic spike,341,2.9,ok
+pg_bm25,10k,G0005,phonemic graphemic,6,1.6,ok
+pg_bm25,10k,G0006,example basic linear algebra,1913,3.2,ok
+pg_bm25,10k,G0007,helmholtz resonators including thermoviscous,1567,2.4,ok
+pg_bm25,10k,G0008,multi-model inference natural selection,4904,2.6,ok
+pg_bm25,10k,G0009,buried threat,54,1.8,ok
+pg_bm25,10k,G0010,experiments astrophysical observations neutron,2892,2.3,ok
+pg_bm25,10k,G0011,centrosymmetric matrices sinc collocation,496,2.1,ok
+pg_bm25,10k,G0012,gate passed checks,369,1.8,ok
+pg_bm25,10k,G0013,droplet emergence regular,472,2.4,ok
+pg_bm25,10k,G0014,markov chains,320,1.4,ok
+pg_bm25,10k,G0015,quantum computing classical stochastic,2826,2.4,ok
+pg_bm25,10k,G0016,impulse controls changing,1278,1.9,ok
+pg_bm25,10k,G0017,large group delay microwave,2556,2.1,ok
+pg_bm25,10k,G0018,bi-grid allen cahn equation,1053,2.1,ok
+pg_bm25,10k,G0019,cycles k-orbits,1075,1.8,ok
+pg_bm25,10k,G0020,weak magnetic field,2237,2.1,ok
+pg_bm25,10k,G0021,energetic particle transport,900,1.7,ok
+pg_bm25,10k,G0022,dark areas molecular,771,1.8,ok
+pg_bm25,10k,G0023,influence wetting properties,1462,1.5,ok
+pg_bm25,10k,G0024,plasmas inert reactive atmospheres,263,1.7,ok
+pg_bm25,10k,G0025,infty categories,311,1.7,ok
+pg_bm25,10k,G0026,knowledge graph paired dataset,1880,1.8,ok
+pg_bm25,10k,G0027,branes spontaneous,147,1.7,ok
+pg_bm25,10k,G0028,parameterized algorithms,1071,1.5,ok
+pg_bm25,10k,G0029,correlations grover search,1026,1.8,ok
+pg_bm25,10k,G0030,then forget,29,1.2,ok
+pg_bm25,10k,G0031,variation equilibrium,635,1.5,ok
+pg_bm25,10k,G0032,cosmic rates black,1211,1.7,ok
+pg_bm25,10k,G0033,quantum mechanics mathematical equations,2564,1.6,ok
+pg_bm25,10k,G0034,potential large language,2859,1.6,ok
+pg_bm25,10k,G0035,potts models,3826,1.4,ok
+pg_bm25,10k,G0036,real-time fisher,2856,1.7,ok
+pg_bm25,10k,G0037,navier-stokes equations,937,1.7,ok
+pg_bm25,10k,G0038,near-ultraviolet continuum modeling april,4286,2.2,ok
+pg_bm25,10k,G0039,security controls,868,1.3,ok
+pg_bm25,10k,G0040,coherent scattering,582,1.7,ok
+pg_bm25,10k,G0041,making affine correspondences work,2926,1.9,ok
+pg_bm25,10k,G0042,boosting byzantine,105,1.5,ok
+pg_bm25,10k,G0043,suitable journal,270,1.6,ok
+pg_bm25,10k,G0044,group theory raman,1921,1.7,ok
+pg_bm25,10k,G0045,stochastic processes,1510,1.4,ok
+pg_bm25,10k,G0046,earth orbit satellites,438,1.7,ok
+pg_bm25,10k,G0047,improve metaphor processing,2340,1.7,ok
+pg_bm25,10k,G0048,higher-weight limiting modular symbols,2386,2.1,ok
+pg_bm25,10k,G0049,discrete breathers,313,1.6,ok
+pg_bm25,10k,G0050,building coverage estimation low-resolution,2554,2.1,ok
+pg_bm25,10k,G0051,geometry spaces harmonic maps,2217,2.2,ok
+pg_bm25,10k,G0052,cognitive radio systems,2483,1.8,ok
+pg_bm25,10k,G0053,intention-expression aligning multi-dimensional,2181,2.1,ok
+pg_bm25,10k,G0054,space model prediction experimental,5457,1.8,ok
+pg_bm25,10k,G0055,geometrical bounds,1093,1.4,ok
+pg_bm25,10k,G0056,foveal avascular zone,88,1.7,ok
+pg_bm25,10k,G0057,preimage feed-forward neural,714,1.6,ok
+pg_bm25,10k,G0058,role galaxy mass morphology,1440,1.7,ok
+pg_bm25,10k,G0059,corotation region,686,1.4,ok
+pg_bm25,10k,G0060,vector vorticity advanced sensing,1019,1.7,ok
+pg_bm25,10k,G0061,tasks edge,1144,1.6,ok
+pg_bm25,10k,G0062,thermal versus vacuum magnetization,1008,1.7,ok
+pg_bm25,10k,G0063,class mathcal origin spindle,1460,2.0,ok
+pg_bm25,10k,G0064,residually finite,908,1.4,ok
+pg_bm25,10k,G0065,hyperconnected parcel,2,1.7,ok
+pg_bm25,10k,G0066,optimal deception attack networked,1939,1.8,ok
+pg_bm25,10k,G0067,trials delayed treatment initiation,810,1.9,ok
+pg_bm25,10k,G0068,electron impact,922,1.4,ok
+pg_bm25,10k,G0069,prices case fukushima nuclear,1600,2.1,ok
+pg_bm25,10k,G0070,methylation dynamics approaches,2841,2.0,ok
+pg_bm25,10k,G0071,model extensive degeneracy,4204,1.6,ok
+pg_bm25,10k,G0072,created invariant line constraint,1624,1.7,ok
+pg_bm25,10k,G0073,estimation moments heavy-ion,1484,1.8,ok
+pg_bm25,10k,G0074,measurement orthopositronium,1481,1.6,ok
+pg_bm25,10k,G0075,signature refreshed,190,1.5,ok
+pg_bm25,10k,G0076,cqis massive,260,1.4,ok
+pg_bm25,10k,G0077,comparison quantum computing architectures,2817,2.0,ok
+pg_bm25,10k,G0078,theory first-principles methodology applications,3933,2.1,ok
+pg_bm25,10k,G0079,failure time models,5201,1.8,ok
+pg_bm25,10k,G0080,cake evaluating self-supervised generalization,2953,1.7,ok
+pg_bm25,10k,G0081,equations state,2736,1.7,ok
+pg_bm25,10k,G0082,challenge likelihood ratio,1444,1.5,ok
+pg_bm25,10k,G0083,diarization system voxceleb,2325,1.5,ok
+pg_bm25,10k,G0084,quaternion hilbert,109,1.4,ok
+pg_bm25,10k,G0085,storage apps forensic taxonomy,136,1.8,ok
+pg_bm25,10k,G0086,lightweight bioacoustic denoising audio,184,1.9,ok
+pg_bm25,10k,G0087,landau gauge,299,1.4,ok
+pg_bm25,10k,G0088,rafts self-assembled colloidal membranes,623,1.8,ok
+pg_bm25,10k,G0089,dynamics trade,1352,1.5,ok
+pg_bm25,10k,G0090,one-pion production neutrino-nucleus,2589,1.8,ok
+pg_bm25,10k,G0091,excluded minors,125,1.4,ok
+pg_bm25,10k,G0092,distribution structure,2653,1.4,ok
+pg_bm25,10k,G0093,fibonacci numbers automorphisms,1264,1.7,ok
+pg_bm25,10k,G0094,entanglement super-qubit quantum states,2686,1.8,ok
+pg_bm25,10k,G0095,processes multi-level non-parametric admixture,3732,2.1,ok
+pg_bm25,10k,G0096,theorem gibbsian invariant measures,2138,1.7,ok
+pg_bm25,10k,G0097,framework real-time agent discovery,3836,1.8,ok
+pg_bm25,10k,G0098,temperature disordered insulators,806,1.6,ok
+pg_bm25,10k,G0099,quasilinear parabolic problem,1583,1.4,ok
+pg_bm25,10k,G0100,kondo effect novel,2742,1.7,ok
+pg_bm25,10k,G0101,shape selection,899,1.3,ok
+pg_bm25,10k,G0102,universal model,3977,1.4,ok
+pg_bm25,10k,G0103,quantitative interpretation,679,1.5,ok
+pg_bm25,10k,G0104,causal discovery spatio-temporal graphs,930,1.7,ok
+pg_bm25,10k,G0105,optimization second-harmonic generation touching,2793,1.8,ok
+pg_bm25,10k,G0106,filtervit dropoutvit,1,1.4,ok
+pg_bm25,10k,G0107,dicke states,2034,1.4,ok
+pg_bm25,10k,G0108,order local frustration itinerant,2337,1.9,ok
+pg_bm25,10k,G0109,approximation wigner--fokker--planck equation applications,2807,1.8,ok
+pg_bm25,10k,G0110,control against,1032,1.4,ok
+pg_bm25,10k,G0111,artificial brain,201,1.4,ok
+pg_bm25,10k,G0112,proton-proton interactions,1184,1.4,ok
+pg_bm25,10k,G0113,spectral type,1302,1.4,ok
+pg_bm25,10k,G0114,permutation automorphism groups,748,1.5,ok
+pg_bm25,10k,G0115,scalable risk stochastic systems,2760,1.6,ok
+pg_bm25,10k,G0116,autoencoders transfer,369,1.5,ok
+pg_bm25,10k,G0117,rotating black holes,630,1.8,ok
+pg_bm25,10k,G0118,medicine through low-resolution inputs,2771,2.0,ok
+pg_bm25,10k,G0119,universal spinning black,1018,1.5,ok
+pg_bm25,10k,G0120,period wolf-rayet,395,1.5,ok
+pg_bm25,10k,G0121,finite temperature,1352,1.5,ok
+pg_bm25,10k,G0122,solutions cubic-quintic,1092,1.5,ok
+pg_bm25,10k,G0123,shape perception emerges,752,1.6,ok
+pg_bm25,10k,G0124,stars gaia data,2418,1.6,ok
+pg_bm25,10k,G0125,logic programming,359,1.4,ok
+pg_bm25,10k,G0126,breakdown fluctuational,268,1.3,ok
+pg_bm25,10k,G0127,incomplete classical,662,1.4,ok
+pg_bm25,10k,G0128,affine invariant,529,1.3,ok
+pg_bm25,10k,G0129,algebras associated hilbert quad,1143,1.7,ok
+pg_bm25,10k,G0130,tenerife impact photometric,425,1.5,ok
+pg_bm25,10k,G0131,multi-modal llms,921,1.5,ok
+pg_bm25,10k,G0132,kicked harper,13,1.4,ok
+pg_bm25,10k,G0133,gradient-play dynamics distributed,2735,1.6,ok
+pg_bm25,10k,G0134,contact binary stars,772,1.6,ok
+pg_bm25,10k,G0135,image representation learning deep,2240,1.6,ok
+pg_bm25,10k,G0136,approximate near neighbor search,1771,1.7,ok
+pg_bm25,10k,G0137,opportunities challenges solid-state quantum,3314,2.0,ok
+pg_bm25,10k,G0138,descent theorem,417,1.5,ok
+pg_bm25,10k,G0139,dimensional branes,1006,1.7,ok
+pg_bm25,10k,G0140,function spaces,2836,1.5,ok
+pg_bm25,10k,G0141,optical lattice investigated pump-probe,2196,1.6,ok
+pg_bm25,10k,G0142,colourful holographic superconductors,179,1.7,ok
+pg_bm25,10k,G0143,mond seven,69,1.6,ok
+pg_bm25,10k,G0144,roots trigonometric polynomials s-tur,1036,2.0,ok
+pg_bm25,10k,G0145,motion resonance exploring disc,1299,1.9,ok
+pg_bm25,10k,G0146,first-passage times,3364,1.7,ok
+pg_bm25,10k,G0147,decays factorization,902,1.5,ok
+pg_bm25,10k,G0148,collaborator selection decision-making enhance,2070,2.0,ok
+pg_bm25,10k,G0149,light-cone rules,762,1.6,ok
+pg_bm25,10k,G0150,limit particle system degenerate,3813,1.7,ok
+pg_bm25,10k,G0151,transitions tmttf,687,1.6,ok
+pg_bm25,10k,G0152,back metric,527,1.4,ok
+pg_bm25,10k,G0153,accretion structures during flares,2162,3.0,ok
+pg_bm25,10k,G0154,observation rightarrow,1858,1.6,ok
+pg_bm25,10k,G0155,flow nonlocal quantitative alexandrov,685,1.7,ok
+pg_bm25,10k,G0156,radiative corrections polarized process,2236,1.7,ok
+pg_bm25,10k,G0157,there many worlds,1224,1.4,ok
+pg_bm25,10k,G0158,number limit fractional euler-alignment,2999,1.8,ok
+pg_bm25,10k,G0159,correlations interacting,1667,1.6,ok
+pg_bm25,10k,G0160,random walks monotonically changing,1227,1.8,ok
+pg_bm25,10k,G0161,quantile networks generative modeling,4912,1.8,ok
+pg_bm25,10k,G0162,ground state fractal crystals,2346,1.7,ok
+pg_bm25,10k,G0163,identification rare events,542,1.6,ok
+pg_bm25,10k,G0164,surfaces mirror symmetry counterexample,1091,1.7,ok
+pg_bm25,10k,G0165,hyperbolic structures cusped manifolds,1919,1.8,ok
+pg_bm25,10k,G0166,search dark photon electro-produced,1317,2.0,ok
+pg_bm25,10k,G0167,graph convolutional,616,1.4,ok
+pg_bm25,10k,G0168,very strong,1443,1.3,ok
+pg_bm25,10k,G0169,technical debt,135,1.3,ok
+pg_bm25,10k,G0170,spin-crossover transition,1151,1.5,ok
+pg_bm25,10k,G0171,linear hyperbolic systems,3045,1.4,ok
+pg_bm25,10k,G0172,chiral anomaly longitudinal magnetoconductance,296,1.8,ok
+pg_bm25,10k,G0173,efficient reasoning distillation,1394,1.6,ok
+pg_bm25,10k,G0174,multi-label learning structured decomposition,3222,2.2,ok
+pg_bm25,10k,G0175,enhanced image,1373,1.4,ok
+pg_bm25,10k,G0176,encoder graph neural,1165,1.5,ok
+pg_bm25,10k,G0177,renormalizable gauge invariant non-local,2777,1.9,ok
+pg_bm25,10k,G0178,signal inference,917,1.6,ok
+pg_bm25,10k,G0179,inverse problems,1716,1.5,ok
+pg_bm25,10k,G0180,synthesis input limits hybrid,2078,1.6,ok
+pg_bm25,10k,G0181,contributions asymmetry decay,973,1.5,ok
+pg_bm25,10k,G0182,strongly coupled charged,1819,1.6,ok
+pg_bm25,10k,G0183,system generated cuntz,3347,1.5,ok
+pg_bm25,10k,G0184,masses mixings renormalizable,1091,1.8,ok
+pg_bm25,10k,G0185,perturbed stark operators,1284,1.5,ok
+pg_bm25,10k,G0186,fixed point free,1892,1.5,ok
+pg_bm25,10k,G0187,green griffiths,89,1.5,ok
+pg_bm25,10k,G0188,fluctuations during,722,1.6,ok
+pg_bm25,10k,G0189,does sharpness-aware minimization minimize,1215,1.9,ok
+pg_bm25,10k,G0190,strong fractional choice,1427,1.8,ok
+pg_bm25,10k,G0191,prototype charge injection,584,1.6,ok
+pg_bm25,10k,G0192,discrimination nuclear recoils alpha,506,2.0,ok
+pg_bm25,10k,G0193,well-posedness semilinear heat,1585,1.6,ok
+pg_bm25,10k,G0194,nakanishi integral,945,1.4,ok
+pg_bm25,10k,G0195,decaying dark,579,1.4,ok
+pg_bm25,10k,G0196,binary measurements,1699,1.3,ok
+pg_bm25,10k,G0197,tkip michael,2,1.4,ok
+pg_bm25,10k,G0198,wick rotated,296,1.4,ok
+pg_bm25,10k,G0199,downlink asymmetric interference,210,2.1,ok
+pg_bm25,10k,G0200,baryon density effective relativistic,2894,1.8,ok
+pg_fts_and,10k,G0001,gluon contribution open heavy-meson,1,26.2,ok
+pg_fts_and,10k,G0002,single layer,65,13.2,ok
+pg_fts_and,10k,G0003,prediction gamma gamma gamma,39,8.7,ok
+pg_fts_and,10k,G0004,neuron populations neuromorphic spike,1,2.7,ok
+pg_fts_and,10k,G0005,phonemic graphemic,3,2.3,ok
+pg_fts_and,10k,G0006,example basic linear algebra,1,2.0,ok
+pg_fts_and,10k,G0007,helmholtz resonators including thermoviscous,1,2.0,ok
+pg_fts_and,10k,G0008,multi-model inference natural selection,1,2.4,ok
+pg_fts_and,10k,G0009,buried threat,1,1.6,ok
+pg_fts_and,10k,G0010,experiments astrophysical observations neutron,1,2.6,ok
+pg_fts_and,10k,G0011,centrosymmetric matrices sinc collocation,1,2.2,ok
+pg_fts_and,10k,G0012,gate passed checks,2,1.7,ok
+pg_fts_and,10k,G0013,droplet emergence regular,1,1.5,ok
+pg_fts_and,10k,G0014,markov chains,51,9.1,ok
+pg_fts_and,10k,G0015,quantum computing classical stochastic,2,3.0,ok
+pg_fts_and,10k,G0016,impulse controls changing,2,1.9,ok
+pg_fts_and,10k,G0017,large group delay microwave,1,2.3,ok
+pg_fts_and,10k,G0018,bi-grid allen cahn equation,1,1.9,ok
+pg_fts_and,10k,G0019,cycles k-orbits,1,1.7,ok
+pg_fts_and,10k,G0020,weak magnetic field,27,4.3,ok
+pg_fts_and,10k,G0021,energetic particle transport,2,1.7,ok
+pg_fts_and,10k,G0022,dark areas molecular,1,1.6,ok
+pg_fts_and,10k,G0023,influence wetting properties,1,1.5,ok
+pg_fts_and,10k,G0024,plasmas inert reactive atmospheres,1,1.3,ok
+pg_fts_and,10k,G0025,infty categories,6,2.0,ok
+pg_fts_and,10k,G0026,knowledge graph paired dataset,2,1.5,ok
+pg_fts_and,10k,G0027,branes spontaneous,1,1.5,ok
+pg_fts_and,10k,G0028,parameterized algorithms,26,4.2,ok
+pg_fts_and,10k,G0029,correlations grover search,1,1.7,ok
+pg_fts_and,10k,G0030,then forget,29,4.4,ok
+pg_fts_and,10k,G0031,variation equilibrium,12,3.2,ok
+pg_fts_and,10k,G0032,cosmic rates black,4,2.2,ok
+pg_fts_and,10k,G0033,quantum mechanics mathematical equations,3,1.5,ok
+pg_fts_and,10k,G0034,potential large language,45,7.1,ok
+pg_fts_and,10k,G0035,potts models,10,2.6,ok
+pg_fts_and,10k,G0036,real-time fisher,1,1.5,ok
+pg_fts_and,10k,G0037,navier-stokes equations,18,3.3,ok
+pg_fts_and,10k,G0038,near-ultraviolet continuum modeling april,1,1.8,ok
+pg_fts_and,10k,G0039,security controls,20,3.4,ok
+pg_fts_and,10k,G0040,coherent scattering,29,4.6,ok
+pg_fts_and,10k,G0041,making affine correspondences work,1,1.5,ok
+pg_fts_and,10k,G0042,boosting byzantine,1,1.6,ok
+pg_fts_and,10k,G0043,suitable journal,2,1.3,ok
+pg_fts_and,10k,G0044,group theory raman,1,1.0,ok
+pg_fts_and,10k,G0045,stochastic processes,102,11.9,ok
+pg_fts_and,10k,G0046,earth orbit satellites,4,1.8,ok
+pg_fts_and,10k,G0047,improve metaphor processing,1,1.2,ok
+pg_fts_and,10k,G0048,higher-weight limiting modular symbols,1,1.4,ok
+pg_fts_and,10k,G0049,discrete breathers,3,1.5,ok
+pg_fts_and,10k,G0050,building coverage estimation low-resolution,1,1.9,ok
+pg_fts_and,10k,G0051,geometry spaces harmonic maps,1,1.4,ok
+pg_fts_and,10k,G0052,cognitive radio systems,3,1.5,ok
+pg_fts_and,10k,G0053,intention-expression aligning multi-dimensional,1,1.6,ok
+pg_fts_and,10k,G0054,space model prediction experimental,13,2.5,ok
+pg_fts_and,10k,G0055,geometrical bounds,46,5.7,ok
+pg_fts_and,10k,G0056,foveal avascular zone,1,1.7,ok
+pg_fts_and,10k,G0057,preimage feed-forward neural,1,1.7,ok
+pg_fts_and,10k,G0058,role galaxy mass morphology,2,1.7,ok
+pg_fts_and,10k,G0059,corotation region,2,0.9,ok
+pg_fts_and,10k,G0060,vector vorticity advanced sensing,1,1.6,ok
+pg_fts_and,10k,G0061,tasks edge,33,4.3,ok
+pg_fts_and,10k,G0062,thermal versus vacuum magnetization,1,1.1,ok
+pg_fts_and,10k,G0063,class mathcal origin spindle,1,1.3,ok
+pg_fts_and,10k,G0064,residually finite,16,2.4,ok
+pg_fts_and,10k,G0065,hyperconnected parcel,1,0.9,ok
+pg_fts_and,10k,G0066,optimal deception attack networked,1,1.1,ok
+pg_fts_and,10k,G0067,trials delayed treatment initiation,1,1.0,ok
+pg_fts_and,10k,G0068,electron impact,28,3.9,ok
+pg_fts_and,10k,G0069,prices case fukushima nuclear,1,1.3,ok
+pg_fts_and,10k,G0070,methylation dynamics approaches,2,1.1,ok
+pg_fts_and,10k,G0071,model extensive degeneracy,1,1.0,ok
+pg_fts_and,10k,G0072,created invariant line constraint,1,1.2,ok
+pg_fts_and,10k,G0073,estimation moments heavy-ion,1,1.1,ok
+pg_fts_and,10k,G0074,measurement orthopositronium,1,1.2,ok
+pg_fts_and,10k,G0075,signature refreshed,1,1.1,ok
+pg_fts_and,10k,G0076,cqis massive,1,0.8,ok
+pg_fts_and,10k,G0077,comparison quantum computing architectures,2,1.4,ok
+pg_fts_and,10k,G0078,theory first-principles methodology applications,1,0.9,ok
+pg_fts_and,10k,G0079,failure time models,18,2.1,ok
+pg_fts_and,10k,G0080,cake evaluating self-supervised generalization,1,1.6,ok
+pg_fts_and,10k,G0081,equations state,207,18.9,ok
+pg_fts_and,10k,G0082,challenge likelihood ratio,3,1.4,ok
+pg_fts_and,10k,G0083,diarization system voxceleb,1,1.2,ok
+pg_fts_and,10k,G0084,quaternion hilbert,2,1.3,ok
+pg_fts_and,10k,G0085,storage apps forensic taxonomy,1,1.4,ok
+pg_fts_and,10k,G0086,lightweight bioacoustic denoising audio,1,1.5,ok
+pg_fts_and,10k,G0087,landau gauge,7,1.8,ok
+pg_fts_and,10k,G0088,rafts self-assembled colloidal membranes,1,1.2,ok
+pg_fts_and,10k,G0089,dynamics trade,23,2.1,ok
+pg_fts_and,10k,G0090,one-pion production neutrino-nucleus,1,1.7,ok
+pg_fts_and,10k,G0091,excluded minors,2,1.2,ok
+pg_fts_and,10k,G0092,distribution structure,233,19.3,ok
+pg_fts_and,10k,G0093,fibonacci numbers automorphisms,1,1.2,ok
+pg_fts_and,10k,G0094,entanglement super-qubit quantum states,1,1.6,ok
+pg_fts_and,10k,G0095,processes multi-level non-parametric admixture,1,1.4,ok
+pg_fts_and,10k,G0096,theorem gibbsian invariant measures,1,1.4,ok
+pg_fts_and,10k,G0097,framework real-time agent discovery,1,1.5,ok
+pg_fts_and,10k,G0098,temperature disordered insulators,5,1.9,ok
+pg_fts_and,10k,G0099,quasilinear parabolic problem,1,1.1,ok
+pg_fts_and,10k,G0100,kondo effect novel,1,1.6,ok
+pg_fts_and,10k,G0101,shape selection,26,2.2,ok
+pg_fts_and,10k,G0102,universal model,239,16.5,ok
+pg_fts_and,10k,G0103,quantitative interpretation,16,2.1,ok
+pg_fts_and,10k,G0104,causal discovery spatio-temporal graphs,1,1.6,ok
+pg_fts_and,10k,G0105,optimization second-harmonic generation touching,1,1.2,ok
+pg_fts_and,10k,G0106,filtervit dropoutvit,1,0.9,ok
+pg_fts_and,10k,G0107,dicke states,2,1.1,ok
+pg_fts_and,10k,G0108,order local frustration itinerant,1,1.2,ok
+pg_fts_and,10k,G0109,approximation wigner--fokker--planck equation applications,1,1.2,ok
+pg_fts_and,10k,G0110,control against,756,35.4,ok
+pg_fts_and,10k,G0111,artificial brain,4,1.3,ok
+pg_fts_and,10k,G0112,proton-proton interactions,3,1.1,ok
+pg_fts_and,10k,G0113,spectral type,53,3.8,ok
+pg_fts_and,10k,G0114,permutation automorphism groups,1,0.9,ok
+pg_fts_and,10k,G0115,scalable risk stochastic systems,1,1.2,ok
+pg_fts_and,10k,G0116,autoencoders transfer,2,1.1,ok
+pg_fts_and,10k,G0117,rotating black holes,24,2.0,ok
+pg_fts_and,10k,G0118,medicine through low-resolution inputs,1,0.7,ok
+pg_fts_and,10k,G0119,universal spinning black,2,0.8,ok
+pg_fts_and,10k,G0120,period wolf-rayet,4,1.4,ok
+pg_fts_and,10k,G0121,finite temperature,77,4.2,ok
+pg_fts_and,10k,G0122,solutions cubic-quintic,1,1.1,ok
+pg_fts_and,10k,G0123,shape perception emerges,1,0.9,ok
+pg_fts_and,10k,G0124,stars gaia data,16,1.4,ok
+pg_fts_and,10k,G0125,logic programming,24,1.6,ok
+pg_fts_and,10k,G0126,breakdown fluctuational,1,0.9,ok
+pg_fts_and,10k,G0127,incomplete classical,7,1.0,ok
+pg_fts_and,10k,G0128,affine invariant,7,1.2,ok
+pg_fts_and,10k,G0129,algebras associated hilbert quad,2,1.0,ok
+pg_fts_and,10k,G0130,tenerife impact photometric,1,0.8,ok
+pg_fts_and,10k,G0131,multi-modal llms,4,0.7,ok
+pg_fts_and,10k,G0132,kicked harper,1,1.1,ok
+pg_fts_and,10k,G0133,gradient-play dynamics distributed,1,0.7,ok
+pg_fts_and,10k,G0134,contact binary stars,6,1.3,ok
+pg_fts_and,10k,G0135,image representation learning deep,17,2.2,ok
+pg_fts_and,10k,G0136,approximate near neighbor search,2,1.2,ok
+pg_fts_and,10k,G0137,opportunities challenges solid-state quantum,1,0.9,ok
+pg_fts_and,10k,G0138,descent theorem,2,1.0,ok
+pg_fts_and,10k,G0139,dimensional branes,21,1.6,ok
+pg_fts_and,10k,G0140,function spaces,314,8.9,ok
+pg_fts_and,10k,G0141,optical lattice investigated pump-probe,1,1.1,ok
+pg_fts_and,10k,G0142,colourful holographic superconductors,1,0.9,ok
+pg_fts_and,10k,G0143,mond seven,1,1.1,ok
+pg_fts_and,10k,G0144,roots trigonometric polynomials s-tur,1,0.9,ok
+pg_fts_and,10k,G0145,motion resonance exploring disc,1,1.0,ok
+pg_fts_and,10k,G0146,first-passage times,1,0.8,ok
+pg_fts_and,10k,G0147,decays factorization,35,1.9,ok
+pg_fts_and,10k,G0148,collaborator selection decision-making enhance,1,1.3,ok
+pg_fts_and,10k,G0149,light-cone rules,4,1.3,ok
+pg_fts_and,10k,G0150,limit particle system degenerate,1,0.7,ok
+pg_fts_and,10k,G0151,transitions tmttf,1,0.8,ok
+pg_fts_and,10k,G0152,back metric,4,0.7,ok
+pg_fts_and,10k,G0153,accretion structures during flares,1,1.1,ok
+pg_fts_and,10k,G0154,observation rightarrow,14,1.1,ok
+pg_fts_and,10k,G0155,flow nonlocal quantitative alexandrov,1,0.7,ok
+pg_fts_and,10k,G0156,radiative corrections polarized process,1,0.8,ok
+pg_fts_and,10k,G0157,there many worlds,60,1.8,ok
+pg_fts_and,10k,G0158,number limit fractional euler-alignment,1,0.8,ok
+pg_fts_and,10k,G0159,correlations interacting,122,2.4,ok
+pg_fts_and,10k,G0160,random walks monotonically changing,1,1.1,ok
+pg_fts_and,10k,G0161,quantile networks generative modeling,2,0.7,ok
+pg_fts_and,10k,G0162,ground state fractal crystals,1,0.9,ok
+pg_fts_and,10k,G0163,identification rare events,2,0.9,ok
+pg_fts_and,10k,G0164,surfaces mirror symmetry counterexample,1,1.1,ok
+pg_fts_and,10k,G0165,hyperbolic structures cusped manifolds,2,1.0,ok
+pg_fts_and,10k,G0166,search dark photon electro-produced,1,0.7,ok
+pg_fts_and,10k,G0167,graph convolutional,20,1.1,ok
+pg_fts_and,10k,G0168,very strong,941,3.2,ok
+pg_fts_and,10k,G0169,technical debt,1,1.0,ok
+pg_fts_and,10k,G0170,spin-crossover transition,1,1.2,ok
+pg_fts_and,10k,G0171,linear hyperbolic systems,1,0.8,ok
+pg_fts_and,10k,G0172,chiral anomaly longitudinal magnetoconductance,1,1.6,ok
+pg_fts_and,10k,G0173,efficient reasoning distillation,3,1.1,ok
+pg_fts_and,10k,G0174,multi-label learning structured decomposition,1,0.8,ok
+pg_fts_and,10k,G0175,enhanced image,99,0.9,ok
+pg_fts_and,10k,G0176,encoder graph neural,5,0.9,ok
+pg_fts_and,10k,G0177,renormalizable gauge invariant non-local,1,0.9,ok
+pg_fts_and,10k,G0178,signal inference,41,0.8,ok
+pg_fts_and,10k,G0179,inverse problems,66,0.9,ok
+pg_fts_and,10k,G0180,synthesis input limits hybrid,1,0.7,ok
+pg_fts_and,10k,G0181,contributions asymmetry decay,3,0.7,ok
+pg_fts_and,10k,G0182,strongly coupled charged,25,0.7,ok
+pg_fts_and,10k,G0183,system generated cuntz,1,1.0,ok
+pg_fts_and,10k,G0184,masses mixings renormalizable,2,0.9,ok
+pg_fts_and,10k,G0185,perturbed stark operators,1,0.7,ok
+pg_fts_and,10k,G0186,fixed point free,7,1.0,ok
+pg_fts_and,10k,G0187,green griffiths,2,0.8,ok
+pg_fts_and,10k,G0188,fluctuations during,246,1.2,ok
+pg_fts_and,10k,G0189,does sharpness-aware minimization minimize,1,1.1,ok
+pg_fts_and,10k,G0190,strong fractional choice,1,0.7,ok
+pg_fts_and,10k,G0191,prototype charge injection,2,0.7,ok
+pg_fts_and,10k,G0192,discrimination nuclear recoils alpha,1,1.0,ok
+pg_fts_and,10k,G0193,well-posedness semilinear heat,1,1.0,ok
+pg_fts_and,10k,G0194,nakanishi integral,1,0.7,ok
+pg_fts_and,10k,G0195,decaying dark,31,0.8,ok
+pg_fts_and,10k,G0196,binary measurements,50,0.9,ok
+pg_fts_and,10k,G0197,tkip michael,1,0.9,ok
+pg_fts_and,10k,G0198,wick rotated,3,0.8,ok
+pg_fts_and,10k,G0199,downlink asymmetric interference,1,0.9,ok
+pg_fts_and,10k,G0200,baryon density effective relativistic,1,0.9,ok
+pg_fts_or,10k,G0001,gluon contribution open heavy-meson,1363,32.0,ok
+pg_fts_or,10k,G0002,single layer,1246,2.8,ok
+pg_fts_or,10k,G0003,prediction gamma gamma gamma,1354,29.9,ok
+pg_fts_or,10k,G0004,neuron populations neuromorphic spike,341,1.5,ok
+pg_fts_or,10k,G0005,phonemic graphemic,6,0.8,ok
+pg_fts_or,10k,G0006,example basic linear algebra,1909,16.5,ok
+pg_fts_or,10k,G0007,helmholtz resonators including thermoviscous,1567,15.1,ok
+pg_fts_or,10k,G0008,multi-model inference natural selection,4905,15.4,ok
+pg_fts_or,10k,G0009,buried threat,54,1.1,ok
+pg_fts_or,10k,G0010,experiments astrophysical observations neutron,2892,15.2,ok
+pg_fts_or,10k,G0011,centrosymmetric matrices sinc collocation,496,1.5,ok
+pg_fts_or,10k,G0012,gate passed checks,368,1.2,ok
+pg_fts_or,10k,G0013,droplet emergence regular,818,1.4,ok
+pg_fts_or,10k,G0014,markov chains,320,1.1,ok
+pg_fts_or,10k,G0015,quantum computing classical stochastic,2825,16.8,ok
+pg_fts_or,10k,G0016,impulse controls changing,1277,2.3,ok
+pg_fts_or,10k,G0017,large group delay microwave,2555,15.8,ok
+pg_fts_or,10k,G0018,bi-grid allen cahn equation,1053,2.1,ok
+pg_fts_or,10k,G0019,cycles k-orbits,1125,2.0,ok
+pg_fts_or,10k,G0020,weak magnetic field,2234,15.4,ok
+pg_fts_or,10k,G0021,energetic particle transport,900,1.6,ok
+pg_fts_or,10k,G0022,dark areas molecular,771,1.4,ok
+pg_fts_or,10k,G0023,influence wetting properties,1462,1.6,ok
+pg_fts_or,10k,G0024,plasmas inert reactive atmospheres,263,0.9,ok
+pg_fts_or,10k,G0025,infty categories,311,0.9,ok
+pg_fts_or,10k,G0026,knowledge graph paired dataset,1879,14.6,ok
+pg_fts_or,10k,G0027,branes spontaneous,147,1.1,ok
+pg_fts_or,10k,G0028,parameterized algorithms,1071,1.4,ok
+pg_fts_or,10k,G0029,correlations grover search,1026,1.3,ok
+pg_fts_or,10k,G0030,then forget,29,0.8,ok
+pg_fts_or,10k,G0031,variation equilibrium,634,1.2,ok
+pg_fts_or,10k,G0032,cosmic rates black,1211,1.5,ok
+pg_fts_or,10k,G0033,quantum mechanics mathematical equations,2564,14.5,ok
+pg_fts_or,10k,G0034,potential large language,2858,14.6,ok
+pg_fts_or,10k,G0035,potts models,3827,2.4,ok
+pg_fts_or,10k,G0036,real-time fisher,2855,13.2,ok
+pg_fts_or,10k,G0037,navier-stokes equations,936,1.5,ok
+pg_fts_or,10k,G0038,near-ultraviolet continuum modeling april,4284,15.1,ok
+pg_fts_or,10k,G0039,security controls,867,1.5,ok
+pg_fts_or,10k,G0040,coherent scattering,582,1.1,ok
+pg_fts_or,10k,G0041,making affine correspondences work,2926,14.4,ok
+pg_fts_or,10k,G0042,boosting byzantine,105,1.0,ok
+pg_fts_or,10k,G0043,suitable journal,270,1.1,ok
+pg_fts_or,10k,G0044,group theory raman,1917,14.3,ok
+pg_fts_or,10k,G0045,stochastic processes,1510,1.9,ok
+pg_fts_or,10k,G0046,earth orbit satellites,438,1.2,ok
+pg_fts_or,10k,G0047,improve metaphor processing,2340,13.4,ok
+pg_fts_or,10k,G0048,higher-weight limiting modular symbols,2390,14.5,ok
+pg_fts_or,10k,G0049,discrete breathers,313,1.2,ok
+pg_fts_or,10k,G0050,building coverage estimation low-resolution,2553,15.1,ok
+pg_fts_or,10k,G0051,geometry spaces harmonic maps,2216,14.2,ok
+pg_fts_or,10k,G0052,cognitive radio systems,2482,13.9,ok
+pg_fts_or,10k,G0053,intention-expression aligning multi-dimensional,2179,15.4,ok
+pg_fts_or,10k,G0054,space model prediction experimental,5458,14.2,ok
+pg_fts_or,10k,G0055,geometrical bounds,1092,1.7,ok
+pg_fts_or,10k,G0056,foveal avascular zone,88,1.0,ok
+pg_fts_or,10k,G0057,preimage feed-forward neural,713,1.3,ok
+pg_fts_or,10k,G0058,role galaxy mass morphology,1439,1.6,ok
+pg_fts_or,10k,G0059,corotation region,687,1.2,ok
+pg_fts_or,10k,G0060,vector vorticity advanced sensing,1017,1.3,ok
+pg_fts_or,10k,G0061,tasks edge,1144,1.3,ok
+pg_fts_or,10k,G0062,thermal versus vacuum magnetization,1006,1.2,ok
+pg_fts_or,10k,G0063,class mathcal origin spindle,1460,1.6,ok
+pg_fts_or,10k,G0064,residually finite,907,1.1,ok
+pg_fts_or,10k,G0065,hyperconnected parcel,2,0.7,ok
+pg_fts_or,10k,G0066,optimal deception attack networked,1939,15.2,ok
+pg_fts_or,10k,G0067,trials delayed treatment initiation,810,1.6,ok
+pg_fts_or,10k,G0068,electron impact,922,1.4,ok
+pg_fts_or,10k,G0069,prices case fukushima nuclear,1600,14.7,ok
+pg_fts_or,10k,G0070,methylation dynamics approaches,2840,14.8,ok
+pg_fts_or,10k,G0071,model extensive degeneracy,4204,14.7,ok
+pg_fts_or,10k,G0072,created invariant line constraint,1624,16.0,ok
+pg_fts_or,10k,G0073,estimation moments heavy-ion,1482,2.6,ok
+pg_fts_or,10k,G0074,measurement orthopositronium,1481,2.1,ok
+pg_fts_or,10k,G0075,signature refreshed,190,1.1,ok
+pg_fts_or,10k,G0076,cqis massive,260,1.1,ok
+pg_fts_or,10k,G0077,comparison quantum computing architectures,2815,15.1,ok
+pg_fts_or,10k,G0078,theory first-principles methodology applications,3929,15.3,ok
+pg_fts_or,10k,G0079,failure time models,5200,14.3,ok
+pg_fts_or,10k,G0080,cake evaluating self-supervised generalization,2953,14.9,ok
+pg_fts_or,10k,G0081,equations state,2734,13.8,ok
+pg_fts_or,10k,G0082,challenge likelihood ratio,1442,2.0,ok
+pg_fts_or,10k,G0083,diarization system voxceleb,2324,14.4,ok
+pg_fts_or,10k,G0084,quaternion hilbert,109,1.1,ok
+pg_fts_or,10k,G0085,storage apps forensic taxonomy,135,0.9,ok
+pg_fts_or,10k,G0086,lightweight bioacoustic denoising audio,184,0.9,ok
+pg_fts_or,10k,G0087,landau gauge,298,0.9,ok
+pg_fts_or,10k,G0088,rafts self-assembled colloidal membranes,623,1.2,ok
+pg_fts_or,10k,G0089,dynamics trade,1351,1.5,ok
+pg_fts_or,10k,G0090,one-pion production neutrino-nucleus,2586,14.5,ok
+pg_fts_or,10k,G0091,excluded minors,125,1.0,ok
+pg_fts_or,10k,G0092,distribution structure,2653,15.3,ok
+pg_fts_or,10k,G0093,fibonacci numbers automorphisms,1264,2.4,ok
+pg_fts_or,10k,G0094,entanglement super-qubit quantum states,2684,17.3,ok
+pg_fts_or,10k,G0095,processes multi-level non-parametric admixture,3729,17.5,ok
+pg_fts_or,10k,G0096,theorem gibbsian invariant measures,2138,16.6,ok
+pg_fts_or,10k,G0097,framework real-time agent discovery,3835,16.9,ok
+pg_fts_or,10k,G0098,temperature disordered insulators,804,1.8,ok
+pg_fts_or,10k,G0099,quasilinear parabolic problem,1583,2.0,ok
+pg_fts_or,10k,G0100,kondo effect novel,2741,15.1,ok
+pg_fts_or,10k,G0101,shape selection,899,1.7,ok
+pg_fts_or,10k,G0102,universal model,4088,13.9,ok
+pg_fts_or,10k,G0103,quantitative interpretation,679,1.3,ok
+pg_fts_or,10k,G0104,causal discovery spatio-temporal graphs,929,1.5,ok
+pg_fts_or,10k,G0105,optimization second-harmonic generation touching,2792,14.5,ok
+pg_fts_or,10k,G0106,filtervit dropoutvit,1,0.9,ok
+pg_fts_or,10k,G0107,dicke states,2032,14.2,ok
+pg_fts_or,10k,G0108,order local frustration itinerant,2337,13.9,ok
+pg_fts_or,10k,G0109,approximation wigner--fokker--planck equation applications,2806,15.8,ok
+pg_fts_or,10k,G0110,control against,756,1.7,ok
+pg_fts_or,10k,G0111,artificial brain,201,1.1,ok
+pg_fts_or,10k,G0112,proton-proton interactions,1184,1.7,ok
+pg_fts_or,10k,G0113,spectral type,1302,1.7,ok
+pg_fts_or,10k,G0114,permutation automorphism groups,746,1.3,ok
+pg_fts_or,10k,G0115,scalable risk stochastic systems,2759,14.7,ok
+pg_fts_or,10k,G0116,autoencoders transfer,368,1.1,ok
+pg_fts_or,10k,G0117,rotating black holes,628,1.3,ok
+pg_fts_or,10k,G0118,medicine through low-resolution inputs,1746,16.1,ok
+pg_fts_or,10k,G0119,universal spinning black,1226,2.0,ok
+pg_fts_or,10k,G0120,period wolf-rayet,395,1.1,ok
+pg_fts_or,10k,G0121,finite temperature,1352,1.6,ok
+pg_fts_or,10k,G0122,solutions cubic-quintic,1092,1.5,ok
+pg_fts_or,10k,G0123,shape perception emerges,864,1.2,ok
+pg_fts_or,10k,G0124,stars gaia data,2416,14.6,ok
+pg_fts_or,10k,G0125,logic programming,358,1.1,ok
+pg_fts_or,10k,G0126,breakdown fluctuational,268,1.0,ok
+pg_fts_or,10k,G0127,incomplete classical,659,1.1,ok
+pg_fts_or,10k,G0128,affine invariant,529,1.0,ok
+pg_fts_or,10k,G0129,algebras associated hilbert quad,1142,1.4,ok
+pg_fts_or,10k,G0130,tenerife impact photometric,424,1.0,ok
+pg_fts_or,10k,G0131,multi-modal llms,920,1.1,ok
+pg_fts_or,10k,G0132,kicked harper,13,0.8,ok
+pg_fts_or,10k,G0133,gradient-play dynamics distributed,2734,14.6,ok
+pg_fts_or,10k,G0134,contact binary stars,770,1.3,ok
+pg_fts_or,10k,G0135,image representation learning deep,2240,14.2,ok
+pg_fts_or,10k,G0136,approximate near neighbor search,1768,13.6,ok
+pg_fts_or,10k,G0137,opportunities challenges solid-state quantum,3311,14.5,ok
+pg_fts_or,10k,G0138,descent theorem,417,1.2,ok
+pg_fts_or,10k,G0139,dimensional branes,1006,1.4,ok
+pg_fts_or,10k,G0140,function spaces,2833,13.4,ok
+pg_fts_or,10k,G0141,optical lattice investigated pump-probe,2189,14.8,ok
+pg_fts_or,10k,G0142,colourful holographic superconductors,178,1.1,ok
+pg_fts_or,10k,G0143,mond seven,69,0.8,ok
+pg_fts_or,10k,G0144,roots trigonometric polynomials s-tur,383,1.2,ok
+pg_fts_or,10k,G0145,motion resonance exploring disc,1299,1.7,ok
+pg_fts_or,10k,G0146,first-passage times,3361,14.1,ok
+pg_fts_or,10k,G0147,decays factorization,900,1.6,ok
+pg_fts_or,10k,G0148,collaborator selection decision-making enhance,2070,14.3,ok
+pg_fts_or,10k,G0149,light-cone rules,762,1.3,ok
+pg_fts_or,10k,G0150,limit particle system degenerate,3816,14.5,ok
+pg_fts_or,10k,G0151,transitions tmttf,687,1.5,ok
+pg_fts_or,10k,G0152,back metric,527,1.3,ok
+pg_fts_or,10k,G0153,accretion structures during flares,1774,13.8,ok
+pg_fts_or,10k,G0154,observation rightarrow,1858,12.9,ok
+pg_fts_or,10k,G0155,flow nonlocal quantitative alexandrov,684,1.3,ok
+pg_fts_or,10k,G0156,radiative corrections polarized process,2236,15.3,ok
+pg_fts_or,10k,G0157,there many worlds,1223,2.0,ok
+pg_fts_or,10k,G0158,number limit fractional euler-alignment,3000,15.0,ok
+pg_fts_or,10k,G0159,correlations interacting,1667,2.0,ok
+pg_fts_or,10k,G0160,random walks monotonically changing,1227,1.4,ok
+pg_fts_or,10k,G0161,quantile networks generative modeling,4913,14.2,ok
+pg_fts_or,10k,G0162,ground state fractal crystals,2344,14.5,ok
+pg_fts_or,10k,G0163,identification rare events,539,1.5,ok
+pg_fts_or,10k,G0164,surfaces mirror symmetry counterexample,1089,1.6,ok
+pg_fts_or,10k,G0165,hyperbolic structures cusped manifolds,1919,16.1,ok
+pg_fts_or,10k,G0166,search dark photon electro-produced,1316,2.0,ok
+pg_fts_or,10k,G0167,graph convolutional,616,1.3,ok
+pg_fts_or,10k,G0168,very strong,941,1.4,ok
+pg_fts_or,10k,G0169,technical debt,135,0.9,ok
+pg_fts_or,10k,G0170,spin-crossover transition,1150,1.5,ok
+pg_fts_or,10k,G0171,linear hyperbolic systems,3042,15.3,ok
+pg_fts_or,10k,G0172,chiral anomaly longitudinal magnetoconductance,296,1.2,ok
+pg_fts_or,10k,G0173,efficient reasoning distillation,1392,1.5,ok
+pg_fts_or,10k,G0174,multi-label learning structured decomposition,3222,15.4,ok
+pg_fts_or,10k,G0175,enhanced image,1372,2.0,ok
+pg_fts_or,10k,G0176,encoder graph neural,1162,1.3,ok
+pg_fts_or,10k,G0177,renormalizable gauge invariant non-local,2776,15.5,ok
+pg_fts_or,10k,G0178,signal inference,916,1.3,ok
+pg_fts_or,10k,G0179,inverse problems,1716,13.6,ok
+pg_fts_or,10k,G0180,synthesis input limits hybrid,2079,14.5,ok
+pg_fts_or,10k,G0181,contributions asymmetry decay,972,1.7,ok
+pg_fts_or,10k,G0182,strongly coupled charged,1817,15.6,ok
+pg_fts_or,10k,G0183,system generated cuntz,3346,13.7,ok
+pg_fts_or,10k,G0184,masses mixings renormalizable,1090,1.6,ok
+pg_fts_or,10k,G0185,perturbed stark operators,1284,1.7,ok
+pg_fts_or,10k,G0186,fixed point free,1888,14.6,ok
+pg_fts_or,10k,G0187,green griffiths,88,1.1,ok
+pg_fts_or,10k,G0188,fluctuations during,246,0.9,ok
+pg_fts_or,10k,G0189,does sharpness-aware minimization minimize,855,1.2,ok
+pg_fts_or,10k,G0190,strong fractional choice,1426,1.7,ok
+pg_fts_or,10k,G0191,prototype charge injection,583,1.1,ok
+pg_fts_or,10k,G0192,discrimination nuclear recoils alpha,530,1.0,ok
+pg_fts_or,10k,G0193,well-posedness semilinear heat,1584,14.7,ok
+pg_fts_or,10k,G0194,nakanishi integral,942,1.4,ok
+pg_fts_or,10k,G0195,decaying dark,579,1.2,ok
+pg_fts_or,10k,G0196,binary measurements,1698,1.5,ok
+pg_fts_or,10k,G0197,tkip michael,2,0.9,ok
+pg_fts_or,10k,G0198,wick rotated,294,1.0,ok
+pg_fts_or,10k,G0199,downlink asymmetric interference,203,0.9,ok
+pg_fts_or,10k,G0200,baryon density effective relativistic,2891,14.4,ok
+pg_bm25,100k,G0001,gluon contribution open heavy-meson,13820,46.5,ok
+pg_bm25,100k,G0002,single layer,12662,7.4,ok
+pg_bm25,100k,G0003,prediction gamma gamma gamma,13525,7.0,ok
+pg_bm25,100k,G0004,neuron populations neuromorphic spike,3446,6.5,ok
+pg_bm25,100k,G0005,phonemic graphemic,45,4.0,ok
+pg_bm25,100k,G0006,example basic linear algebra,19721,10.3,ok
+pg_bm25,100k,G0007,helmholtz resonators including thermoviscous,15227,8.3,ok
+pg_bm25,100k,G0008,multi-model inference natural selection,49651,7.6,ok
+pg_bm25,100k,G0009,buried threat,543,7.4,ok
+pg_bm25,100k,G0010,experiments astrophysical observations neutron,29059,3.8,ok
+pg_bm25,100k,G0011,centrosymmetric matrices sinc collocation,5010,4.2,ok
+pg_bm25,100k,G0012,gate passed checks,3508,3.4,ok
+pg_bm25,100k,G0013,droplet emergence regular,4911,4.3,ok
+pg_bm25,100k,G0014,markov chains,2956,2.9,ok
+pg_bm25,100k,G0015,quantum computing classical stochastic,28401,4.8,ok
+pg_bm25,100k,G0016,impulse controls changing,13073,3.7,ok
+pg_bm25,100k,G0017,large group delay microwave,25074,4.4,ok
+pg_bm25,100k,G0018,bi-grid allen cahn equation,11289,4.4,ok
+pg_bm25,100k,G0019,cycles k-orbits,10556,4.9,ok
+pg_bm25,100k,G0020,weak magnetic field,22415,4.1,ok
+pg_bm25,100k,G0021,energetic particle transport,8867,3.6,ok
+pg_bm25,100k,G0022,dark areas molecular,7497,3.5,ok
+pg_bm25,100k,G0023,influence wetting properties,15175,3.2,ok
+pg_bm25,100k,G0024,plasmas inert reactive atmospheres,2721,3.8,ok
+pg_bm25,100k,G0025,infty categories,3090,2.3,ok
+pg_bm25,100k,G0026,knowledge graph paired dataset,19011,4.5,ok
+pg_bm25,100k,G0027,branes spontaneous,1489,2.3,ok
+pg_bm25,100k,G0028,parameterized algorithms,10736,2.6,ok
+pg_bm25,100k,G0029,correlations grover search,10303,3.5,ok
+pg_bm25,100k,G0030,then forget,263,2.1,ok
+pg_bm25,100k,G0031,variation equilibrium,6513,3.1,ok
+pg_bm25,100k,G0032,cosmic rates black,11938,3.3,ok
+pg_bm25,100k,G0033,quantum mechanics mathematical equations,26302,3.5,ok
+pg_bm25,100k,G0034,potential large language,27992,2.9,ok
+pg_bm25,100k,G0035,potts models,39018,2.3,ok
+pg_bm25,100k,G0036,real-time fisher,28455,3.1,ok
+pg_bm25,100k,G0037,navier-stokes equations,9919,2.2,ok
+pg_bm25,100k,G0038,near-ultraviolet continuum modeling april,43532,3.9,ok
+pg_bm25,100k,G0039,security controls,9197,2.1,ok
+pg_bm25,100k,G0040,coherent scattering,6134,3.1,ok
+pg_bm25,100k,G0041,making affine correspondences work,28977,3.2,ok
+pg_bm25,100k,G0042,boosting byzantine,921,2.3,ok
+pg_bm25,100k,G0043,suitable journal,2708,2.7,ok
+pg_bm25,100k,G0044,group theory raman,19053,2.6,ok
+pg_bm25,100k,G0045,stochastic processes,15340,2.0,ok
+pg_bm25,100k,G0046,earth orbit satellites,4497,3.2,ok
+pg_bm25,100k,G0047,improve metaphor processing,23607,2.1,ok
+pg_bm25,100k,G0048,higher-weight limiting modular symbols,23947,5.0,ok
+pg_bm25,100k,G0049,discrete breathers,3398,2.9,ok
+pg_bm25,100k,G0050,building coverage estimation low-resolution,25224,3.7,ok
+pg_bm25,100k,G0051,geometry spaces harmonic maps,22341,4.5,ok
+pg_bm25,100k,G0052,cognitive radio systems,24726,2.8,ok
+pg_bm25,100k,G0053,intention-expression aligning multi-dimensional,22553,4.6,ok
+pg_bm25,100k,G0054,space model prediction experimental,55104,3.1,ok
+pg_bm25,100k,G0055,geometrical bounds,11199,1.8,ok
+pg_bm25,100k,G0056,foveal avascular zone,757,3.0,ok
+pg_bm25,100k,G0057,preimage feed-forward neural,6602,3.7,ok
+pg_bm25,100k,G0058,role galaxy mass morphology,14792,4.4,ok
+pg_bm25,100k,G0059,corotation region,6722,2.0,ok
+pg_bm25,100k,G0060,vector vorticity advanced sensing,10584,4.2,ok
+pg_bm25,100k,G0061,tasks edge,11604,2.8,ok
+pg_bm25,100k,G0062,thermal versus vacuum magnetization,10173,3.8,ok
+pg_bm25,100k,G0063,class mathcal origin spindle,14438,3.2,ok
+pg_bm25,100k,G0064,residually finite,9205,2.2,ok
+pg_bm25,100k,G0065,hyperconnected parcel,18,2.0,ok
+pg_bm25,100k,G0066,optimal deception attack networked,19448,2.6,ok
+pg_bm25,100k,G0067,trials delayed treatment initiation,8293,3.6,ok
+pg_bm25,100k,G0068,electron impact,9369,2.7,ok
+pg_bm25,100k,G0069,prices case fukushima nuclear,16197,5.1,ok
+pg_bm25,100k,G0070,methylation dynamics approaches,29076,2.6,ok
+pg_bm25,100k,G0071,model extensive degeneracy,42829,2.4,ok
+pg_bm25,100k,G0072,created invariant line constraint,16318,3.8,ok
+pg_bm25,100k,G0073,estimation moments heavy-ion,14515,3.5,ok
+pg_bm25,100k,G0074,measurement orthopositronium,14363,2.4,ok
+pg_bm25,100k,G0075,signature refreshed,1647,3.1,ok
+pg_bm25,100k,G0076,cqis massive,2509,1.7,ok
+pg_bm25,100k,G0077,comparison quantum computing architectures,28353,3.2,ok
+pg_bm25,100k,G0078,theory first-principles methodology applications,39502,3.0,ok
+pg_bm25,100k,G0079,failure time models,52157,2.6,ok
+pg_bm25,100k,G0080,cake evaluating self-supervised generalization,30205,4.9,ok
+pg_bm25,100k,G0081,equations state,28011,2.0,ok
+pg_bm25,100k,G0082,challenge likelihood ratio,14419,2.5,ok
+pg_bm25,100k,G0083,diarization system voxceleb,23075,2.6,ok
+pg_bm25,100k,G0084,quaternion hilbert,1159,1.7,ok
+pg_bm25,100k,G0085,storage apps forensic taxonomy,1359,3.1,ok
+pg_bm25,100k,G0086,lightweight bioacoustic denoising audio,1780,3.1,ok
+pg_bm25,100k,G0087,landau gauge,3029,1.7,ok
+pg_bm25,100k,G0088,rafts self-assembled colloidal membranes,5927,3.2,ok
+pg_bm25,100k,G0089,dynamics trade,14376,2.5,ok
+pg_bm25,100k,G0090,one-pion production neutrino-nucleus,25862,3.9,ok
+pg_bm25,100k,G0091,excluded minors,1159,2.6,ok
+pg_bm25,100k,G0092,distribution structure,26104,1.9,ok
+pg_bm25,100k,G0093,fibonacci numbers automorphisms,13107,2.6,ok
+pg_bm25,100k,G0094,entanglement super-qubit quantum states,27394,2.8,ok
+pg_bm25,100k,G0095,processes multi-level non-parametric admixture,38674,3.6,ok
+pg_bm25,100k,G0096,theorem gibbsian invariant measures,21001,2.8,ok
+pg_bm25,100k,G0097,framework real-time agent discovery,38220,3.0,ok
+pg_bm25,100k,G0098,temperature disordered insulators,7909,2.4,ok
+pg_bm25,100k,G0099,quasilinear parabolic problem,15990,2.6,ok
+pg_bm25,100k,G0100,kondo effect novel,28102,2.1,ok
+pg_bm25,100k,G0101,shape selection,8755,2.4,ok
+pg_bm25,100k,G0102,universal model,40486,2.0,ok
+pg_bm25,100k,G0103,quantitative interpretation,6745,2.9,ok
+pg_bm25,100k,G0104,causal discovery spatio-temporal graphs,9490,3.0,ok
+pg_bm25,100k,G0105,optimization second-harmonic generation touching,28626,3.2,ok
+pg_bm25,100k,G0106,filtervit dropoutvit,1,1.9,ok
+pg_bm25,100k,G0107,dicke states,20620,1.7,ok
+pg_bm25,100k,G0108,order local frustration itinerant,23162,3.0,ok
+pg_bm25,100k,G0109,approximation wigner--fokker--planck equation applications,28145,3.5,ok
+pg_bm25,100k,G0110,control against,10599,1.7,ok
+pg_bm25,100k,G0111,artificial brain,2101,1.7,ok
+pg_bm25,100k,G0112,proton-proton interactions,11867,2.2,ok
+pg_bm25,100k,G0113,spectral type,13782,2.2,ok
+pg_bm25,100k,G0114,permutation automorphism groups,7517,2.7,ok
+pg_bm25,100k,G0115,scalable risk stochastic systems,27313,2.5,ok
+pg_bm25,100k,G0116,autoencoders transfer,3878,1.7,ok
+pg_bm25,100k,G0117,rotating black holes,6479,2.9,ok
+pg_bm25,100k,G0118,medicine through low-resolution inputs,27346,2.7,ok
+pg_bm25,100k,G0119,universal spinning black,10062,2.1,ok
+pg_bm25,100k,G0120,period wolf-rayet,3948,2.3,ok
+pg_bm25,100k,G0121,finite temperature,13421,2.0,ok
+pg_bm25,100k,G0122,solutions cubic-quintic,11195,2.4,ok
+pg_bm25,100k,G0123,shape perception emerges,7094,2.8,ok
+pg_bm25,100k,G0124,stars gaia data,24672,2.8,ok
+pg_bm25,100k,G0125,logic programming,3561,1.8,ok
+pg_bm25,100k,G0126,breakdown fluctuational,2858,2.1,ok
+pg_bm25,100k,G0127,incomplete classical,6628,2.1,ok
+pg_bm25,100k,G0128,affine invariant,5028,1.8,ok
+pg_bm25,100k,G0129,algebras associated hilbert quad,11419,2.8,ok
+pg_bm25,100k,G0130,tenerife impact photometric,4471,2.2,ok
+pg_bm25,100k,G0131,multi-modal llms,9876,2.1,ok
+pg_bm25,100k,G0132,kicked harper,117,2.5,ok
+pg_bm25,100k,G0133,gradient-play dynamics distributed,27510,2.6,ok
+pg_bm25,100k,G0134,contact binary stars,7887,2.0,ok
+pg_bm25,100k,G0135,image representation learning deep,23069,2.9,ok
+pg_bm25,100k,G0136,approximate near neighbor search,17147,2.4,ok
+pg_bm25,100k,G0137,opportunities challenges solid-state quantum,33983,3.5,ok
+pg_bm25,100k,G0138,descent theorem,4289,2.0,ok
+pg_bm25,100k,G0139,dimensional branes,10325,2.0,ok
+pg_bm25,100k,G0140,function spaces,28677,2.0,ok
+pg_bm25,100k,G0141,optical lattice investigated pump-probe,21247,3.3,ok
+pg_bm25,100k,G0142,colourful holographic superconductors,1825,2.2,ok
+pg_bm25,100k,G0143,mond seven,652,1.7,ok
+pg_bm25,100k,G0144,roots trigonometric polynomials s-tur,10043,3.3,ok
+pg_bm25,100k,G0145,motion resonance exploring disc,12952,2.7,ok
+pg_bm25,100k,G0146,first-passage times,33998,2.3,ok
+pg_bm25,100k,G0147,decays factorization,9183,1.7,ok
+pg_bm25,100k,G0148,collaborator selection decision-making enhance,20478,2.6,ok
+pg_bm25,100k,G0149,light-cone rules,7907,2.5,ok
+pg_bm25,100k,G0150,limit particle system degenerate,37578,2.6,ok
+pg_bm25,100k,G0151,transitions tmttf,6613,1.8,ok
+pg_bm25,100k,G0152,back metric,5050,1.9,ok
+pg_bm25,100k,G0153,accretion structures during flares,21785,2.6,ok
+pg_bm25,100k,G0154,observation rightarrow,18056,2.0,ok
+pg_bm25,100k,G0155,flow nonlocal quantitative alexandrov,6858,3.1,ok
+pg_bm25,100k,G0156,radiative corrections polarized process,22112,2.7,ok
+pg_bm25,100k,G0157,there many worlds,12106,1.9,ok
+pg_bm25,100k,G0158,number limit fractional euler-alignment,29753,2.6,ok
+pg_bm25,100k,G0159,correlations interacting,16529,1.7,ok
+pg_bm25,100k,G0160,random walks monotonically changing,12043,3.7,ok
+pg_bm25,100k,G0161,quantile networks generative modeling,49475,2.4,ok
+pg_bm25,100k,G0162,ground state fractal crystals,23748,2.2,ok
+pg_bm25,100k,G0163,identification rare events,5496,2.6,ok
+pg_bm25,100k,G0164,surfaces mirror symmetry counterexample,10429,2.9,ok
+pg_bm25,100k,G0165,hyperbolic structures cusped manifolds,18770,2.2,ok
+pg_bm25,100k,G0166,search dark photon electro-produced,13571,3.0,ok
+pg_bm25,100k,G0167,graph convolutional,6256,2.3,ok
+pg_bm25,100k,G0168,very strong,14476,2.1,ok
+pg_bm25,100k,G0169,technical debt,1101,2.0,ok
+pg_bm25,100k,G0170,spin-crossover transition,11090,2.4,ok
+pg_bm25,100k,G0171,linear hyperbolic systems,30219,2.0,ok
+pg_bm25,100k,G0172,chiral anomaly longitudinal magnetoconductance,3033,2.8,ok
+pg_bm25,100k,G0173,efficient reasoning distillation,14141,2.4,ok
+pg_bm25,100k,G0174,multi-label learning structured decomposition,32773,2.8,ok
+pg_bm25,100k,G0175,enhanced image,13775,2.1,ok
+pg_bm25,100k,G0176,encoder graph neural,11375,2.4,ok
+pg_bm25,100k,G0177,renormalizable gauge invariant non-local,27711,2.5,ok
+pg_bm25,100k,G0178,signal inference,9144,2.1,ok
+pg_bm25,100k,G0179,inverse problems,17406,1.7,ok
+pg_bm25,100k,G0180,synthesis input limits hybrid,20350,2.7,ok
+pg_bm25,100k,G0181,contributions asymmetry decay,9632,2.1,ok
+pg_bm25,100k,G0182,strongly coupled charged,18550,2.1,ok
+pg_bm25,100k,G0183,system generated cuntz,33835,2.2,ok
+pg_bm25,100k,G0184,masses mixings renormalizable,11116,2.2,ok
+pg_bm25,100k,G0185,perturbed stark operators,13256,2.1,ok
+pg_bm25,100k,G0186,fixed point free,18691,2.0,ok
+pg_bm25,100k,G0187,green griffiths,827,1.7,ok
+pg_bm25,100k,G0188,fluctuations during,7722,2.0,ok
+pg_bm25,100k,G0189,does sharpness-aware minimization minimize,12397,2.7,ok
+pg_bm25,100k,G0190,strong fractional choice,14147,2.6,ok
+pg_bm25,100k,G0191,prototype charge injection,5748,2.1,ok
+pg_bm25,100k,G0192,discrimination nuclear recoils alpha,5159,3.9,ok
+pg_bm25,100k,G0193,well-posedness semilinear heat,15808,2.4,ok
+pg_bm25,100k,G0194,nakanishi integral,9177,1.8,ok
+pg_bm25,100k,G0195,decaying dark,5620,1.7,ok
+pg_bm25,100k,G0196,binary measurements,16593,1.8,ok
+pg_bm25,100k,G0197,tkip michael,24,1.9,ok
+pg_bm25,100k,G0198,wick rotated,3063,1.9,ok
+pg_bm25,100k,G0199,downlink asymmetric interference,2293,2.1,ok
+pg_bm25,100k,G0200,baryon density effective relativistic,29465,2.7,ok
+pg_fts_and,100k,G0001,gluon contribution open heavy-meson,1,36.3,ok
+pg_fts_and,100k,G0002,single layer,646,109.2,ok
+pg_fts_and,100k,G0003,prediction gamma gamma gamma,374,60.3,ok
+pg_fts_and,100k,G0004,neuron populations neuromorphic spike,2,2.6,ok
+pg_fts_and,100k,G0005,phonemic graphemic,8,2.3,ok
+pg_fts_and,100k,G0006,example basic linear algebra,10,4.8,ok
+pg_fts_and,100k,G0007,helmholtz resonators including thermoviscous,1,2.8,ok
+pg_fts_and,100k,G0008,multi-model inference natural selection,1,4.9,ok
+pg_fts_and,100k,G0009,buried threat,2,1.6,ok
+pg_fts_and,100k,G0010,experiments astrophysical observations neutron,9,4.4,ok
+pg_fts_and,100k,G0011,centrosymmetric matrices sinc collocation,1,1.9,ok
+pg_fts_and,100k,G0012,gate passed checks,6,2.3,ok
+pg_fts_and,100k,G0013,droplet emergence regular,1,2.2,ok
+pg_fts_and,100k,G0014,markov chains,465,60.9,ok
+pg_fts_and,100k,G0015,quantum computing classical stochastic,18,6.8,ok
+pg_fts_and,100k,G0016,impulse controls changing,3,2.9,ok
+pg_fts_and,100k,G0017,large group delay microwave,1,3.0,ok
+pg_fts_and,100k,G0018,bi-grid allen cahn equation,1,3.0,ok
+pg_fts_and,100k,G0019,cycles k-orbits,1,2.4,ok
+pg_fts_and,100k,G0020,weak magnetic field,375,50.4,ok
+pg_fts_and,100k,G0021,energetic particle transport,24,5.7,ok
+pg_fts_and,100k,G0022,dark areas molecular,6,2.4,ok
+pg_fts_and,100k,G0023,influence wetting properties,7,2.8,ok
+pg_fts_and,100k,G0024,plasmas inert reactive atmospheres,2,1.7,ok
+pg_fts_and,100k,G0025,infty categories,58,8.9,ok
+pg_fts_and,100k,G0026,knowledge graph paired dataset,11,4.9,ok
+pg_fts_and,100k,G0027,branes spontaneous,8,2.5,ok
+pg_fts_and,100k,G0028,parameterized algorithms,171,27.5,ok
+pg_fts_and,100k,G0029,correlations grover search,2,2.8,ok
+pg_fts_and,100k,G0030,then forget,263,42.2,ok
+pg_fts_and,100k,G0031,variation equilibrium,120,20.0,ok
+pg_fts_and,100k,G0032,cosmic rates black,34,8.2,ok
+pg_fts_and,100k,G0033,quantum mechanics mathematical equations,16,4.7,ok
+pg_fts_and,100k,G0034,potential large language,533,76.6,ok
+pg_fts_and,100k,G0035,potts models,86,14.0,ok
+pg_fts_and,100k,G0036,real-time fisher,4,4.2,ok
+pg_fts_and,100k,G0037,navier-stokes equations,260,37.3,ok
+pg_fts_and,100k,G0038,near-ultraviolet continuum modeling april,1,2.6,ok
+pg_fts_and,100k,G0039,security controls,216,26.2,ok
+pg_fts_and,100k,G0040,coherent scattering,229,26.0,ok
+pg_fts_and,100k,G0041,making affine correspondences work,2,3.0,ok
+pg_fts_and,100k,G0042,boosting byzantine,1,1.4,ok
+pg_fts_and,100k,G0043,suitable journal,5,2.0,ok
+pg_fts_and,100k,G0044,group theory raman,2,2.0,ok
+pg_fts_and,100k,G0045,stochastic processes,845,86.3,ok
+pg_fts_and,100k,G0046,earth orbit satellites,61,8.0,ok
+pg_fts_and,100k,G0047,improve metaphor processing,1,1.8,ok
+pg_fts_and,100k,G0048,higher-weight limiting modular symbols,1,2.6,ok
+pg_fts_and,100k,G0049,discrete breathers,15,3.0,ok
+pg_fts_and,100k,G0050,building coverage estimation low-resolution,1,3.5,ok
+pg_fts_and,100k,G0051,geometry spaces harmonic maps,3,3.3,ok
+pg_fts_and,100k,G0052,cognitive radio systems,17,3.6,ok
+pg_fts_and,100k,G0053,intention-expression aligning multi-dimensional,1,2.5,ok
+pg_fts_and,100k,G0054,space model prediction experimental,125,14.9,ok
+pg_fts_and,100k,G0055,geometrical bounds,348,39.6,ok
+pg_fts_and,100k,G0056,foveal avascular zone,1,1.7,ok
+pg_fts_and,100k,G0057,preimage feed-forward neural,1,1.7,ok
+pg_fts_and,100k,G0058,role galaxy mass morphology,22,4.2,ok
+pg_fts_and,100k,G0059,corotation region,21,3.4,ok
+pg_fts_and,100k,G0060,vector vorticity advanced sensing,1,2.1,ok
+pg_fts_and,100k,G0061,tasks edge,322,30.0,ok
+pg_fts_and,100k,G0062,thermal versus vacuum magnetization,1,1.8,ok
+pg_fts_and,100k,G0063,class mathcal origin spindle,1,2.2,ok
+pg_fts_and,100k,G0064,residually finite,183,19.7,ok
+pg_fts_and,100k,G0065,hyperconnected parcel,1,1.2,ok
+pg_fts_and,100k,G0066,optimal deception attack networked,2,2.1,ok
+pg_fts_and,100k,G0067,trials delayed treatment initiation,1,2.0,ok
+pg_fts_and,100k,G0068,electron impact,243,28.9,ok
+pg_fts_and,100k,G0069,prices case fukushima nuclear,1,2.3,ok
+pg_fts_and,100k,G0070,methylation dynamics approaches,3,3.0,ok
+pg_fts_and,100k,G0071,model extensive degeneracy,20,3.5,ok
+pg_fts_and,100k,G0072,created invariant line constraint,1,3.0,ok
+pg_fts_and,100k,G0073,estimation moments heavy-ion,2,1.7,ok
+pg_fts_and,100k,G0074,measurement orthopositronium,1,1.9,ok
+pg_fts_and,100k,G0075,signature refreshed,1,1.4,ok
+pg_fts_and,100k,G0076,cqis massive,1,1.3,ok
+pg_fts_and,100k,G0077,comparison quantum computing architectures,7,3.3,ok
+pg_fts_and,100k,G0078,theory first-principles methodology applications,1,3.5,ok
+pg_fts_and,100k,G0079,failure time models,199,19.9,ok
+pg_fts_and,100k,G0080,cake evaluating self-supervised generalization,1,4.0,ok
+pg_fts_and,100k,G0081,equations state,2239,215.3,ok
+pg_fts_and,100k,G0082,challenge likelihood ratio,16,4.3,ok
+pg_fts_and,100k,G0083,diarization system voxceleb,1,1.3,ok
+pg_fts_and,100k,G0084,quaternion hilbert,9,1.9,ok
+pg_fts_and,100k,G0085,storage apps forensic taxonomy,1,1.0,ok
+pg_fts_and,100k,G0086,lightweight bioacoustic denoising audio,1,1.2,ok
+pg_fts_and,100k,G0087,landau gauge,70,7.2,ok
+pg_fts_and,100k,G0088,rafts self-assembled colloidal membranes,1,1.3,ok
+pg_fts_and,100k,G0089,dynamics trade,216,18.3,ok
+pg_fts_and,100k,G0090,one-pion production neutrino-nucleus,2,1.9,ok
+pg_fts_and,100k,G0091,excluded minors,11,2.1,ok
+pg_fts_and,100k,G0092,distribution structure,2062,166.7,ok
+pg_fts_and,100k,G0093,fibonacci numbers automorphisms,2,1.8,ok
+pg_fts_and,100k,G0094,entanglement super-qubit quantum states,1,2.2,ok
+pg_fts_and,100k,G0095,processes multi-level non-parametric admixture,1,6.1,ok
+pg_fts_and,100k,G0096,theorem gibbsian invariant measures,1,1.7,ok
+pg_fts_and,100k,G0097,framework real-time agent discovery,1,2.6,ok
+pg_fts_and,100k,G0098,temperature disordered insulators,40,4.6,ok
+pg_fts_and,100k,G0099,quasilinear parabolic problem,8,2.1,ok
+pg_fts_and,100k,G0100,kondo effect novel,5,2.4,ok
+pg_fts_and,100k,G0101,shape selection,227,15.9,ok
+pg_fts_and,100k,G0102,universal model,2061,135.3,ok
+pg_fts_and,100k,G0103,quantitative interpretation,143,11.1,ok
+pg_fts_and,100k,G0104,causal discovery spatio-temporal graphs,1,1.1,ok
+pg_fts_and,100k,G0105,optimization second-harmonic generation touching,1,1.9,ok
+pg_fts_and,100k,G0106,filtervit dropoutvit,1,1.1,ok
+pg_fts_and,100k,G0107,dicke states,48,4.0,ok
+pg_fts_and,100k,G0108,order local frustration itinerant,1,1.9,ok
+pg_fts_and,100k,G0109,approximation wigner--fokker--planck equation applications,1,2.0,ok
+pg_fts_and,100k,G0110,control against,7862,385.5,ok
+pg_fts_and,100k,G0111,artificial brain,46,3.2,ok
+pg_fts_and,100k,G0112,proton-proton interactions,44,4.7,ok
+pg_fts_and,100k,G0113,spectral type,668,32.7,ok
+pg_fts_and,100k,G0114,permutation automorphism groups,11,1.5,ok
+pg_fts_and,100k,G0115,scalable risk stochastic systems,2,1.9,ok
+pg_fts_and,100k,G0116,autoencoders transfer,36,3.3,ok
+pg_fts_and,100k,G0117,rotating black holes,287,14.8,ok
+pg_fts_and,100k,G0118,medicine through low-resolution inputs,1,1.5,ok
+pg_fts_and,100k,G0119,universal spinning black,20,1.5,ok
+pg_fts_and,100k,G0120,period wolf-rayet,12,1.8,ok
+pg_fts_and,100k,G0121,finite temperature,838,35.2,ok
+pg_fts_and,100k,G0122,solutions cubic-quintic,4,2.4,ok
+pg_fts_and,100k,G0123,shape perception emerges,6,1.5,ok
+pg_fts_and,100k,G0124,stars gaia data,89,5.1,ok
+pg_fts_and,100k,G0125,logic programming,177,9.1,ok
+pg_fts_and,100k,G0126,breakdown fluctuational,17,3.3,ok
+pg_fts_and,100k,G0127,incomplete classical,39,3.2,ok
+pg_fts_and,100k,G0128,affine invariant,105,5.8,ok
+pg_fts_and,100k,G0129,algebras associated hilbert quad,3,2.3,ok
+pg_fts_and,100k,G0130,tenerife impact photometric,1,1.1,ok
+pg_fts_and,100k,G0131,multi-modal llms,27,2.0,ok
+pg_fts_and,100k,G0132,kicked harper,2,1.2,ok
+pg_fts_and,100k,G0133,gradient-play dynamics distributed,1,1.3,ok
+pg_fts_and,100k,G0134,contact binary stars,14,2.3,ok
+pg_fts_and,100k,G0135,image representation learning deep,179,11.2,ok
+pg_fts_and,100k,G0136,approximate near neighbor search,4,1.0,ok
+pg_fts_and,100k,G0137,opportunities challenges solid-state quantum,2,1.3,ok
+pg_fts_and,100k,G0138,descent theorem,19,1.8,ok
+pg_fts_and,100k,G0139,dimensional branes,196,10.0,ok
+pg_fts_and,100k,G0140,function spaces,3190,114.1,ok
+pg_fts_and,100k,G0141,optical lattice investigated pump-probe,2,2.4,ok
+pg_fts_and,100k,G0142,colourful holographic superconductors,1,1.5,ok
+pg_fts_and,100k,G0143,mond seven,1,1.0,ok
+pg_fts_and,100k,G0144,roots trigonometric polynomials s-tur,1,1.3,ok
+pg_fts_and,100k,G0145,motion resonance exploring disc,3,1.0,ok
+pg_fts_and,100k,G0146,first-passage times,27,1.5,ok
+pg_fts_and,100k,G0147,decays factorization,321,10.9,ok
+pg_fts_and,100k,G0148,collaborator selection decision-making enhance,2,1.9,ok
+pg_fts_and,100k,G0149,light-cone rules,24,2.7,ok
+pg_fts_and,100k,G0150,limit particle system degenerate,5,1.2,ok
+pg_fts_and,100k,G0151,transitions tmttf,1,0.8,ok
+pg_fts_and,100k,G0152,back metric,39,2.9,ok
+pg_fts_and,100k,G0153,accretion structures during flares,8,1.5,ok
+pg_fts_and,100k,G0154,observation rightarrow,106,4.2,ok
+pg_fts_and,100k,G0155,flow nonlocal quantitative alexandrov,1,1.3,ok
+pg_fts_and,100k,G0156,radiative corrections polarized process,5,2.2,ok
+pg_fts_and,100k,G0157,there many worlds,634,20.3,ok
+pg_fts_and,100k,G0158,number limit fractional euler-alignment,1,1.4,ok
+pg_fts_and,100k,G0159,correlations interacting,1155,32.1,ok
+pg_fts_and,100k,G0160,random walks monotonically changing,1,1.9,ok
+pg_fts_and,100k,G0161,quantile networks generative modeling,6,1.7,ok
+pg_fts_and,100k,G0162,ground state fractal crystals,1,2.2,ok
+pg_fts_and,100k,G0163,identification rare events,6,1.8,ok
+pg_fts_and,100k,G0164,surfaces mirror symmetry counterexample,1,1.9,ok
+pg_fts_and,100k,G0165,hyperbolic structures cusped manifolds,2,1.5,ok
+pg_fts_and,100k,G0166,search dark photon electro-produced,1,1.3,ok
+pg_fts_and,100k,G0167,graph convolutional,188,5.8,ok
+pg_fts_and,100k,G0168,very strong,9644,195.9,ok
+pg_fts_and,100k,G0169,technical debt,11,1.2,ok
+pg_fts_and,100k,G0170,spin-crossover transition,5,1.2,ok
+pg_fts_and,100k,G0171,linear hyperbolic systems,39,1.8,ok
+pg_fts_and,100k,G0172,chiral anomaly longitudinal magnetoconductance,2,1.3,ok
+pg_fts_and,100k,G0173,efficient reasoning distillation,21,1.9,ok
+pg_fts_and,100k,G0174,multi-label learning structured decomposition,2,1.4,ok
+pg_fts_and,100k,G0175,enhanced image,1077,16.8,ok
+pg_fts_and,100k,G0176,encoder graph neural,81,2.4,ok
+pg_fts_and,100k,G0177,renormalizable gauge invariant non-local,2,1.2,ok
+pg_fts_and,100k,G0178,signal inference,382,6.1,ok
+pg_fts_and,100k,G0179,inverse problems,734,12.2,ok
+pg_fts_and,100k,G0180,synthesis input limits hybrid,2,1.3,ok
+pg_fts_and,100k,G0181,contributions asymmetry decay,29,1.4,ok
+pg_fts_and,100k,G0182,strongly coupled charged,224,2.2,ok
+pg_fts_and,100k,G0183,system generated cuntz,2,1.2,ok
+pg_fts_and,100k,G0184,masses mixings renormalizable,12,1.3,ok
+pg_fts_and,100k,G0185,perturbed stark operators,2,0.9,ok
+pg_fts_and,100k,G0186,fixed point free,110,3.8,ok
+pg_fts_and,100k,G0187,green griffiths,6,1.6,ok
+pg_fts_and,100k,G0188,fluctuations during,2599,31.6,ok
+pg_fts_and,100k,G0189,does sharpness-aware minimization minimize,13,2.5,ok
+pg_fts_and,100k,G0190,strong fractional choice,12,1.0,ok
+pg_fts_and,100k,G0191,prototype charge injection,6,1.3,ok
+pg_fts_and,100k,G0192,discrimination nuclear recoils alpha,2,1.5,ok
+pg_fts_and,100k,G0193,well-posedness semilinear heat,2,1.1,ok
+pg_fts_and,100k,G0194,nakanishi integral,3,1.6,ok
+pg_fts_and,100k,G0195,decaying dark,267,4.4,ok
+pg_fts_and,100k,G0196,binary measurements,449,6.0,ok
+pg_fts_and,100k,G0197,tkip michael,1,1.1,ok
+pg_fts_and,100k,G0198,wick rotated,18,1.1,ok
+pg_fts_and,100k,G0199,downlink asymmetric interference,1,1.2,ok
+pg_fts_and,100k,G0200,baryon density effective relativistic,8,1.9,ok
+pg_fts_or,100k,G0001,gluon contribution open heavy-meson,13811,176.9,ok
+pg_fts_or,100k,G0002,single layer,12655,79.8,ok
+pg_fts_or,100k,G0003,prediction gamma gamma gamma,13694,47.7,ok
+pg_fts_or,100k,G0004,neuron populations neuromorphic spike,3443,10.4,ok
+pg_fts_or,100k,G0005,phonemic graphemic,45,0.9,ok
+pg_fts_or,100k,G0006,example basic linear algebra,19713,266.3,ok
+pg_fts_or,100k,G0007,helmholtz resonators including thermoviscous,15224,14.4,ok
+pg_fts_or,100k,G0008,multi-model inference natural selection,49645,153.8,ok
+pg_fts_or,100k,G0009,buried threat,543,1.8,ok
+pg_fts_or,100k,G0010,experiments astrophysical observations neutron,29052,157.7,ok
+pg_fts_or,100k,G0011,centrosymmetric matrices sinc collocation,5009,7.3,ok
+pg_fts_or,100k,G0012,gate passed checks,3501,5.0,ok
+pg_fts_or,100k,G0013,droplet emergence regular,8019,8.8,ok
+pg_fts_or,100k,G0014,markov chains,2955,4.4,ok
+pg_fts_or,100k,G0015,quantum computing classical stochastic,28393,156.1,ok
+pg_fts_or,100k,G0016,impulse controls changing,13072,12.1,ok
+pg_fts_or,100k,G0017,large group delay microwave,25048,148.4,ok
+pg_fts_or,100k,G0018,bi-grid allen cahn equation,11301,12.9,ok
+pg_fts_or,100k,G0019,cycles k-orbits,11071,11.3,ok
+pg_fts_or,100k,G0020,weak magnetic field,22402,146.5,ok
+pg_fts_or,100k,G0021,energetic particle transport,8858,10.2,ok
+pg_fts_or,100k,G0022,dark areas molecular,7492,7.6,ok
+pg_fts_or,100k,G0023,influence wetting properties,15175,11.6,ok
+pg_fts_or,100k,G0024,plasmas inert reactive atmospheres,2716,2.8,ok
+pg_fts_or,100k,G0025,infty categories,3104,3.0,ok
+pg_fts_or,100k,G0026,knowledge graph paired dataset,19008,152.1,ok
+pg_fts_or,100k,G0027,branes spontaneous,1487,2.7,ok
+pg_fts_or,100k,G0028,parameterized algorithms,10735,9.9,ok
+pg_fts_or,100k,G0029,correlations grover search,10300,8.8,ok
+pg_fts_or,100k,G0030,then forget,263,1.1,ok
+pg_fts_or,100k,G0031,variation equilibrium,6511,6.6,ok
+pg_fts_or,100k,G0032,cosmic rates black,11934,9.2,ok
+pg_fts_or,100k,G0033,quantum mechanics mathematical equations,26295,151.3,ok
+pg_fts_or,100k,G0034,potential large language,27979,145.1,ok
+pg_fts_or,100k,G0035,potts models,39015,23.1,ok
+pg_fts_or,100k,G0036,real-time fisher,28441,147.2,ok
+pg_fts_or,100k,G0037,navier-stokes equations,9918,10.4,ok
+pg_fts_or,100k,G0038,near-ultraviolet continuum modeling april,43513,23.5,ok
+pg_fts_or,100k,G0039,security controls,9189,8.9,ok
+pg_fts_or,100k,G0040,coherent scattering,6131,5.8,ok
+pg_fts_or,100k,G0041,making affine correspondences work,28976,153.1,ok
+pg_fts_or,100k,G0042,boosting byzantine,921,2.3,ok
+pg_fts_or,100k,G0043,suitable journal,2707,3.4,ok
+pg_fts_or,100k,G0044,group theory raman,19027,144.7,ok
+pg_fts_or,100k,G0045,stochastic processes,15336,13.0,ok
+pg_fts_or,100k,G0046,earth orbit satellites,4493,4.8,ok
+pg_fts_or,100k,G0047,improve metaphor processing,23602,143.9,ok
+pg_fts_or,100k,G0048,higher-weight limiting modular symbols,23968,156.2,ok
+pg_fts_or,100k,G0049,discrete breathers,3397,4.7,ok
+pg_fts_or,100k,G0050,building coverage estimation low-resolution,25211,157.6,ok
+pg_fts_or,100k,G0051,geometry spaces harmonic maps,22326,155.3,ok
+pg_fts_or,100k,G0052,cognitive radio systems,24723,148.9,ok
+pg_fts_or,100k,G0053,intention-expression aligning multi-dimensional,22545,158.6,ok
+pg_fts_or,100k,G0054,space model prediction experimental,55099,148.6,ok
+pg_fts_or,100k,G0055,geometrical bounds,11191,10.7,ok
+pg_fts_or,100k,G0056,foveal avascular zone,757,1.9,ok
+pg_fts_or,100k,G0057,preimage feed-forward neural,6597,6.4,ok
+pg_fts_or,100k,G0058,role galaxy mass morphology,14788,11.3,ok
+pg_fts_or,100k,G0059,corotation region,6723,6.4,ok
+pg_fts_or,100k,G0060,vector vorticity advanced sensing,10573,8.5,ok
+pg_fts_or,100k,G0061,tasks edge,11597,8.4,ok
+pg_fts_or,100k,G0062,thermal versus vacuum magnetization,10163,8.8,ok
+pg_fts_or,100k,G0063,class mathcal origin spindle,14431,11.2,ok
+pg_fts_or,100k,G0064,residually finite,9204,7.8,ok
+pg_fts_or,100k,G0065,hyperconnected parcel,18,0.8,ok
+pg_fts_or,100k,G0066,optimal deception attack networked,19442,153.2,ok
+pg_fts_or,100k,G0067,trials delayed treatment initiation,8289,9.0,ok
+pg_fts_or,100k,G0068,electron impact,9353,7.8,ok
+pg_fts_or,100k,G0069,prices case fukushima nuclear,16192,13.4,ok
+pg_fts_or,100k,G0070,methylation dynamics approaches,29074,149.7,ok
+pg_fts_or,100k,G0071,model extensive degeneracy,42825,24.1,ok
+pg_fts_or,100k,G0072,created invariant line constraint,16315,13.4,ok
+pg_fts_or,100k,G0073,estimation moments heavy-ion,14506,11.8,ok
+pg_fts_or,100k,G0074,measurement orthopositronium,14359,10.8,ok
+pg_fts_or,100k,G0075,signature refreshed,1645,1.9,ok
+pg_fts_or,100k,G0076,cqis massive,2506,2.8,ok
+pg_fts_or,100k,G0077,comparison quantum computing architectures,28340,151.4,ok
+pg_fts_or,100k,G0078,theory first-principles methodology applications,39490,25.7,ok
+pg_fts_or,100k,G0079,failure time models,52147,147.9,ok
+pg_fts_or,100k,G0080,cake evaluating self-supervised generalization,30195,160.5,ok
+pg_fts_or,100k,G0081,equations state,28001,141.4,ok
+pg_fts_or,100k,G0082,challenge likelihood ratio,14415,13.6,ok
+pg_fts_or,100k,G0083,diarization system voxceleb,23072,149.5,ok
+pg_fts_or,100k,G0084,quaternion hilbert,1157,2.7,ok
+pg_fts_or,100k,G0085,storage apps forensic taxonomy,1352,2.5,ok
+pg_fts_or,100k,G0086,lightweight bioacoustic denoising audio,1775,2.8,ok
+pg_fts_or,100k,G0087,landau gauge,3016,3.8,ok
+pg_fts_or,100k,G0088,rafts self-assembled colloidal membranes,5922,6.5,ok
+pg_fts_or,100k,G0089,dynamics trade,14372,12.0,ok
+pg_fts_or,100k,G0090,one-pion production neutrino-nucleus,25852,151.4,ok
+pg_fts_or,100k,G0091,excluded minors,1156,2.8,ok
+pg_fts_or,100k,G0092,distribution structure,26096,143.9,ok
+pg_fts_or,100k,G0093,fibonacci numbers automorphisms,13106,13.6,ok
+pg_fts_or,100k,G0094,entanglement super-qubit quantum states,27382,170.6,ok
+pg_fts_or,100k,G0095,processes multi-level non-parametric admixture,38654,26.8,ok
+pg_fts_or,100k,G0096,theorem gibbsian invariant measures,20995,152.4,ok
+pg_fts_or,100k,G0097,framework real-time agent discovery,38212,24.3,ok
+pg_fts_or,100k,G0098,temperature disordered insulators,7899,8.0,ok
+pg_fts_or,100k,G0099,quasilinear parabolic problem,15987,13.0,ok
+pg_fts_or,100k,G0100,kondo effect novel,28100,145.5,ok
+pg_fts_or,100k,G0101,shape selection,8747,9.5,ok
+pg_fts_or,100k,G0102,universal model,41548,23.2,ok
+pg_fts_or,100k,G0103,quantitative interpretation,6742,6.8,ok
+pg_fts_or,100k,G0104,causal discovery spatio-temporal graphs,9480,9.0,ok
+pg_fts_or,100k,G0105,optimization second-harmonic generation touching,28615,154.5,ok
+pg_fts_or,100k,G0106,filtervit dropoutvit,1,1.2,ok
+pg_fts_or,100k,G0107,dicke states,20610,141.8,ok
+pg_fts_or,100k,G0108,order local frustration itinerant,23157,152.7,ok
+pg_fts_or,100k,G0109,approximation wigner--fokker--planck equation applications,28133,162.9,ok
+pg_fts_or,100k,G0110,control against,7862,8.2,ok
+pg_fts_or,100k,G0111,artificial brain,2101,3.0,ok
+pg_fts_or,100k,G0112,proton-proton interactions,11859,10.9,ok
+pg_fts_or,100k,G0113,spectral type,13770,10.0,ok
+pg_fts_or,100k,G0114,permutation automorphism groups,7494,6.3,ok
+pg_fts_or,100k,G0115,scalable risk stochastic systems,27306,149.6,ok
+pg_fts_or,100k,G0116,autoencoders transfer,3875,5.0,ok
+pg_fts_or,100k,G0117,rotating black holes,6465,6.1,ok
+pg_fts_or,100k,G0118,medicine through low-resolution inputs,17464,11.5,ok
+pg_fts_or,100k,G0119,universal spinning black,11931,8.0,ok
+pg_fts_or,100k,G0120,period wolf-rayet,3947,4.1,ok
+pg_fts_or,100k,G0121,finite temperature,13418,10.0,ok
+pg_fts_or,100k,G0122,solutions cubic-quintic,11193,7.7,ok
+pg_fts_or,100k,G0123,shape perception emerges,8183,5.8,ok
+pg_fts_or,100k,G0124,stars gaia data,24657,146.4,ok
+pg_fts_or,100k,G0125,logic programming,3558,4.8,ok
+pg_fts_or,100k,G0126,breakdown fluctuational,2858,3.4,ok
+pg_fts_or,100k,G0127,incomplete classical,6622,5.7,ok
+pg_fts_or,100k,G0128,affine invariant,5025,4.3,ok
+pg_fts_or,100k,G0129,algebras associated hilbert quad,11418,8.5,ok
+pg_fts_or,100k,G0130,tenerife impact photometric,4467,4.2,ok
+pg_fts_or,100k,G0131,multi-modal llms,9867,7.6,ok
+pg_fts_or,100k,G0132,kicked harper,117,1.0,ok
+pg_fts_or,100k,G0133,gradient-play dynamics distributed,27505,149.4,ok
+pg_fts_or,100k,G0134,contact binary stars,7879,8.1,ok
+pg_fts_or,100k,G0135,image representation learning deep,23056,149.7,ok
+pg_fts_or,100k,G0136,approximate near neighbor search,17122,14.8,ok
+pg_fts_or,100k,G0137,opportunities challenges solid-state quantum,33965,21.1,ok
+pg_fts_or,100k,G0138,descent theorem,4289,4.4,ok
+pg_fts_or,100k,G0139,dimensional branes,10324,8.1,ok
+pg_fts_or,100k,G0140,function spaces,28666,139.2,ok
+pg_fts_or,100k,G0141,optical lattice investigated pump-probe,21198,154.4,ok
+pg_fts_or,100k,G0142,colourful holographic superconductors,1805,3.1,ok
+pg_fts_or,100k,G0143,mond seven,652,1.6,ok
+pg_fts_or,100k,G0144,roots trigonometric polynomials s-tur,3916,4.5,ok
+pg_fts_or,100k,G0145,motion resonance exploring disc,12935,11.0,ok
+pg_fts_or,100k,G0146,first-passage times,33988,19.8,ok
+pg_fts_or,100k,G0147,decays factorization,9175,7.9,ok
+pg_fts_or,100k,G0148,collaborator selection decision-making enhance,20470,157.3,ok
+pg_fts_or,100k,G0149,light-cone rules,7904,8.8,ok
+pg_fts_or,100k,G0150,limit particle system degenerate,37592,21.8,ok
+pg_fts_or,100k,G0151,transitions tmttf,6610,6.3,ok
+pg_fts_or,100k,G0152,back metric,5049,4.5,ok
+pg_fts_or,100k,G0153,accretion structures during flares,17596,11.8,ok
+pg_fts_or,100k,G0154,observation rightarrow,18051,11.8,ok
+pg_fts_or,100k,G0155,flow nonlocal quantitative alexandrov,6855,5.9,ok
+pg_fts_or,100k,G0156,radiative corrections polarized process,22102,152.0,ok
+pg_fts_or,100k,G0157,there many worlds,12103,11.8,ok
+pg_fts_or,100k,G0158,number limit fractional euler-alignment,29771,155.0,ok
+pg_fts_or,100k,G0159,correlations interacting,16523,13.8,ok
+pg_fts_or,100k,G0160,random walks monotonically changing,12042,9.8,ok
+pg_fts_or,100k,G0161,quantile networks generative modeling,49470,150.9,ok
+pg_fts_or,100k,G0162,ground state fractal crystals,23735,150.2,ok
+pg_fts_or,100k,G0163,identification rare events,5487,6.7,ok
+pg_fts_or,100k,G0164,surfaces mirror symmetry counterexample,10427,9.9,ok
+pg_fts_or,100k,G0165,hyperbolic structures cusped manifolds,18765,150.8,ok
+pg_fts_or,100k,G0166,search dark photon electro-produced,13567,12.8,ok
+pg_fts_or,100k,G0167,graph convolutional,6253,6.6,ok
+pg_fts_or,100k,G0168,very strong,9644,8.6,ok
+pg_fts_or,100k,G0169,technical debt,1101,1.9,ok
+pg_fts_or,100k,G0170,spin-crossover transition,11083,8.9,ok
+pg_fts_or,100k,G0171,linear hyperbolic systems,30213,147.7,ok
+pg_fts_or,100k,G0172,chiral anomaly longitudinal magnetoconductance,3031,4.3,ok
+pg_fts_or,100k,G0173,efficient reasoning distillation,14135,11.9,ok
+pg_fts_or,100k,G0174,multi-label learning structured decomposition,32761,20.8,ok
+pg_fts_or,100k,G0175,enhanced image,13766,11.2,ok
+pg_fts_or,100k,G0176,encoder graph neural,11366,8.4,ok
+pg_fts_or,100k,G0177,renormalizable gauge invariant non-local,27693,156.6,ok
+pg_fts_or,100k,G0178,signal inference,9133,9.1,ok
+pg_fts_or,100k,G0179,inverse problems,17403,12.1,ok
+pg_fts_or,100k,G0180,synthesis input limits hybrid,20361,149.6,ok
+pg_fts_or,100k,G0181,contributions asymmetry decay,9627,9.8,ok
+pg_fts_or,100k,G0182,strongly coupled charged,18536,146.3,ok
+pg_fts_or,100k,G0183,system generated cuntz,33832,21.0,ok
+pg_fts_or,100k,G0184,masses mixings renormalizable,11107,10.3,ok
+pg_fts_or,100k,G0185,perturbed stark operators,13252,11.3,ok
+pg_fts_or,100k,G0186,fixed point free,18683,145.5,ok
+pg_fts_or,100k,G0187,green griffiths,825,2.2,ok
+pg_fts_or,100k,G0188,fluctuations during,2599,3.3,ok
+pg_fts_or,100k,G0189,does sharpness-aware minimization minimize,8532,8.7,ok
+pg_fts_or,100k,G0190,strong fractional choice,14142,13.4,ok
+pg_fts_or,100k,G0191,prototype charge injection,5738,7.3,ok
+pg_fts_or,100k,G0192,discrimination nuclear recoils alpha,5427,6.5,ok
+pg_fts_or,100k,G0193,well-posedness semilinear heat,15803,12.8,ok
+pg_fts_or,100k,G0194,nakanishi integral,9162,8.8,ok
+pg_fts_or,100k,G0195,decaying dark,5615,5.4,ok
+pg_fts_or,100k,G0196,binary measurements,16587,12.0,ok
+pg_fts_or,100k,G0197,tkip michael,24,0.9,ok
+pg_fts_or,100k,G0198,wick rotated,3053,3.0,ok
+pg_fts_or,100k,G0199,downlink asymmetric interference,2245,2.4,ok
+pg_fts_or,100k,G0200,baryon density effective relativistic,29455,149.6,ok
+pg_bm25,500k,G0001,gluon contribution open heavy-meson,69014,49.7,ok
+pg_bm25,500k,G0002,single layer,62753,10.9,ok
+pg_bm25,500k,G0003,prediction gamma gamma gamma,67080,10.6,ok
+pg_bm25,500k,G0004,neuron populations neuromorphic spike,17505,9.0,ok
+pg_bm25,500k,G0005,phonemic graphemic,239,5.0,ok
+pg_bm25,500k,G0006,example basic linear algebra,98100,22.1,ok
+pg_bm25,500k,G0007,helmholtz resonators including thermoviscous,76160,20.9,ok
+pg_bm25,500k,G0008,multi-model inference natural selection,248896,28.6,ok
+pg_bm25,500k,G0009,buried threat,2610,5.1,ok
+pg_bm25,500k,G0010,experiments astrophysical observations neutron,144867,16.1,ok
+pg_bm25,500k,G0011,centrosymmetric matrices sinc collocation,25141,6.6,ok
+pg_bm25,500k,G0012,gate passed checks,17707,8.4,ok
+pg_bm25,500k,G0013,droplet emergence regular,24632,5.6,ok
+pg_bm25,500k,G0014,markov chains,14816,4.6,ok
+pg_bm25,500k,G0015,quantum computing classical stochastic,142103,14.2,ok
+pg_bm25,500k,G0016,impulse controls changing,65851,6.3,ok
+pg_bm25,500k,G0017,large group delay microwave,125327,7.9,ok
+pg_bm25,500k,G0018,bi-grid allen cahn equation,55672,7.5,ok
+pg_bm25,500k,G0019,cycles k-orbits,53119,7.3,ok
+pg_bm25,500k,G0020,weak magnetic field,112214,5.5,ok
+pg_bm25,500k,G0021,energetic particle transport,43937,5.2,ok
+pg_bm25,500k,G0022,dark areas molecular,37388,5.8,ok
+pg_bm25,500k,G0023,influence wetting properties,76502,4.0,ok
+pg_bm25,500k,G0024,plasmas inert reactive atmospheres,13252,5.1,ok
+pg_bm25,500k,G0025,infty categories,15502,4.3,ok
+pg_bm25,500k,G0026,knowledge graph paired dataset,95426,7.2,ok
+pg_bm25,500k,G0027,branes spontaneous,7316,3.0,ok
+pg_bm25,500k,G0028,parameterized algorithms,54118,4.5,ok
+pg_bm25,500k,G0029,correlations grover search,51511,5.4,ok
+pg_bm25,500k,G0030,then forget,1284,2.5,ok
+pg_bm25,500k,G0031,variation equilibrium,32427,3.1,ok
+pg_bm25,500k,G0032,cosmic rates black,60238,5.0,ok
+pg_bm25,500k,G0033,quantum mechanics mathematical equations,130607,5.7,ok
+pg_bm25,500k,G0034,potential large language,139373,4.9,ok
+pg_bm25,500k,G0035,potts models,195289,10.0,ok
+pg_bm25,500k,G0036,real-time fisher,142721,5.2,ok
+pg_bm25,500k,G0037,navier-stokes equations,49037,3.1,ok
+pg_bm25,500k,G0038,near-ultraviolet continuum modeling april,217803,11.5,ok
+pg_bm25,500k,G0039,security controls,45642,3.4,ok
+pg_bm25,500k,G0040,coherent scattering,30002,3.6,ok
+pg_bm25,500k,G0041,making affine correspondences work,143959,5.3,ok
+pg_bm25,500k,G0042,boosting byzantine,4859,3.3,ok
+pg_bm25,500k,G0043,suitable journal,13756,3.2,ok
+pg_bm25,500k,G0044,group theory raman,95004,3.1,ok
+pg_bm25,500k,G0045,stochastic processes,76987,2.6,ok
+pg_bm25,500k,G0046,earth orbit satellites,23056,3.4,ok
+pg_bm25,500k,G0047,improve metaphor processing,118575,3.9,ok
+pg_bm25,500k,G0048,higher-weight limiting modular symbols,119357,6.2,ok
+pg_bm25,500k,G0049,discrete breathers,17101,4.3,ok
+pg_bm25,500k,G0050,building coverage estimation low-resolution,125595,7.5,ok
+pg_bm25,500k,G0051,geometry spaces harmonic maps,111494,6.2,ok
+pg_bm25,500k,G0052,cognitive radio systems,123157,7.1,ok
+pg_bm25,500k,G0053,intention-expression aligning multi-dimensional,113341,7.2,ok
+pg_bm25,500k,G0054,space model prediction experimental,275402,12.4,ok
+pg_bm25,500k,G0055,geometrical bounds,56017,4.9,ok
+pg_bm25,500k,G0056,foveal avascular zone,3543,3.1,ok
+pg_bm25,500k,G0057,preimage feed-forward neural,33589,5.7,ok
+pg_bm25,500k,G0058,role galaxy mass morphology,74356,6.5,ok
+pg_bm25,500k,G0059,corotation region,33304,3.9,ok
+pg_bm25,500k,G0060,vector vorticity advanced sensing,53324,4.4,ok
+pg_bm25,500k,G0061,tasks edge,57688,3.6,ok
+pg_bm25,500k,G0062,thermal versus vacuum magnetization,50853,3.5,ok
+pg_bm25,500k,G0063,class mathcal origin spindle,72802,5.2,ok
+pg_bm25,500k,G0064,residually finite,45650,5.0,ok
+pg_bm25,500k,G0065,hyperconnected parcel,122,2.5,ok
+pg_bm25,500k,G0066,optimal deception attack networked,98429,5.7,ok
+pg_bm25,500k,G0067,trials delayed treatment initiation,40907,4.5,ok
+pg_bm25,500k,G0068,electron impact,46533,5.0,ok
+pg_bm25,500k,G0069,prices case fukushima nuclear,79621,6.7,ok
+pg_bm25,500k,G0070,methylation dynamics approaches,145741,6.2,ok
+pg_bm25,500k,G0071,model extensive degeneracy,213940,11.2,ok
+pg_bm25,500k,G0072,created invariant line constraint,81719,6.7,ok
+pg_bm25,500k,G0073,estimation moments heavy-ion,72203,3.9,ok
+pg_bm25,500k,G0074,measurement orthopositronium,71802,2.5,ok
+pg_bm25,500k,G0075,signature refreshed,8211,3.2,ok
+pg_bm25,500k,G0076,cqis massive,12536,1.9,ok
+pg_bm25,500k,G0077,comparison quantum computing architectures,141766,4.7,ok
+pg_bm25,500k,G0078,theory first-principles methodology applications,197210,13.3,ok
+pg_bm25,500k,G0079,failure time models,260866,10.0,ok
+pg_bm25,500k,G0080,cake evaluating self-supervised generalization,150903,5.5,ok
+pg_bm25,500k,G0081,equations state,139210,2.2,ok
+pg_bm25,500k,G0082,challenge likelihood ratio,70834,4.5,ok
+pg_bm25,500k,G0083,diarization system voxceleb,115112,3.3,ok
+pg_bm25,500k,G0084,quaternion hilbert,5890,2.4,ok
+pg_bm25,500k,G0085,storage apps forensic taxonomy,6619,3.4,ok
+pg_bm25,500k,G0086,lightweight bioacoustic denoising audio,8991,5.1,ok
+pg_bm25,500k,G0087,landau gauge,15456,2.7,ok
+pg_bm25,500k,G0088,rafts self-assembled colloidal membranes,29186,4.4,ok
+pg_bm25,500k,G0089,dynamics trade,71868,2.7,ok
+pg_bm25,500k,G0090,one-pion production neutrino-nucleus,129570,6.1,ok
+pg_bm25,500k,G0091,excluded minors,5902,4.0,ok
+pg_bm25,500k,G0092,distribution structure,131075,4.8,ok
+pg_bm25,500k,G0093,fibonacci numbers automorphisms,65212,3.4,ok
+pg_bm25,500k,G0094,entanglement super-qubit quantum states,136208,11.5,ok
+pg_bm25,500k,G0095,processes multi-level non-parametric admixture,193407,11.8,ok
+pg_bm25,500k,G0096,theorem gibbsian invariant measures,104802,3.4,ok
+pg_bm25,500k,G0097,framework real-time agent discovery,191802,11.3,ok
+pg_bm25,500k,G0098,temperature disordered insulators,39919,4.0,ok
+pg_bm25,500k,G0099,quasilinear parabolic problem,80207,4.1,ok
+pg_bm25,500k,G0100,kondo effect novel,139216,4.0,ok
+pg_bm25,500k,G0101,shape selection,43649,3.0,ok
+pg_bm25,500k,G0102,universal model,202592,9.4,ok
+pg_bm25,500k,G0103,quantitative interpretation,33462,4.8,ok
+pg_bm25,500k,G0104,causal discovery spatio-temporal graphs,47479,3.9,ok
+pg_bm25,500k,G0105,optimization second-harmonic generation touching,142779,3.6,ok
+pg_bm25,500k,G0106,filtervit dropoutvit,1,1.8,ok
+pg_bm25,500k,G0107,dicke states,102395,2.1,ok
+pg_bm25,500k,G0108,order local frustration itinerant,116837,5.7,ok
+pg_bm25,500k,G0109,approximation wigner--fokker--planck equation applications,140033,5.2,ok
+pg_bm25,500k,G0110,control against,52569,3.3,ok
+pg_bm25,500k,G0111,artificial brain,10504,3.0,ok
+pg_bm25,500k,G0112,proton-proton interactions,58724,3.2,ok
+pg_bm25,500k,G0113,spectral type,68855,3.0,ok
+pg_bm25,500k,G0114,permutation automorphism groups,37595,3.4,ok
+pg_bm25,500k,G0115,scalable risk stochastic systems,136608,3.4,ok
+pg_bm25,500k,G0116,autoencoders transfer,19470,2.5,ok
+pg_bm25,500k,G0117,rotating black holes,32312,3.0,ok
+pg_bm25,500k,G0118,medicine through low-resolution inputs,136403,4.3,ok
+pg_bm25,500k,G0119,universal spinning black,50186,2.8,ok
+pg_bm25,500k,G0120,period wolf-rayet,20126,4.5,ok
+pg_bm25,500k,G0121,finite temperature,67145,2.2,ok
+pg_bm25,500k,G0122,solutions cubic-quintic,56070,3.7,ok
+pg_bm25,500k,G0123,shape perception emerges,35354,3.6,ok
+pg_bm25,500k,G0124,stars gaia data,122803,4.2,ok
+pg_bm25,500k,G0125,logic programming,18314,3.0,ok
+pg_bm25,500k,G0126,breakdown fluctuational,13801,2.6,ok
+pg_bm25,500k,G0127,incomplete classical,32864,2.8,ok
+pg_bm25,500k,G0128,affine invariant,24766,2.1,ok
+pg_bm25,500k,G0129,algebras associated hilbert quad,57053,4.2,ok
+pg_bm25,500k,G0130,tenerife impact photometric,22501,2.7,ok
+pg_bm25,500k,G0131,multi-modal llms,49754,4.2,ok
+pg_bm25,500k,G0132,kicked harper,642,2.6,ok
+pg_bm25,500k,G0133,gradient-play dynamics distributed,137601,4.1,ok
+pg_bm25,500k,G0134,contact binary stars,39452,3.3,ok
+pg_bm25,500k,G0135,image representation learning deep,115040,7.4,ok
+pg_bm25,500k,G0136,approximate near neighbor search,86365,4.0,ok
+pg_bm25,500k,G0137,opportunities challenges solid-state quantum,168299,11.3,ok
+pg_bm25,500k,G0138,descent theorem,21323,3.1,ok
+pg_bm25,500k,G0139,dimensional branes,51533,2.1,ok
+pg_bm25,500k,G0140,function spaces,144221,2.3,ok
+pg_bm25,500k,G0141,optical lattice investigated pump-probe,105295,8.0,ok
+pg_bm25,500k,G0142,colourful holographic superconductors,8919,4.3,ok
+pg_bm25,500k,G0143,mond seven,3427,3.7,ok
+pg_bm25,500k,G0144,roots trigonometric polynomials s-tur,50154,3.9,ok
+pg_bm25,500k,G0145,motion resonance exploring disc,64731,6.4,ok
+pg_bm25,500k,G0146,first-passage times,170634,10.5,ok
+pg_bm25,500k,G0147,decays factorization,45315,3.6,ok
+pg_bm25,500k,G0148,collaborator selection decision-making enhance,102391,6.6,ok
+pg_bm25,500k,G0149,light-cone rules,39578,4.1,ok
+pg_bm25,500k,G0150,limit particle system degenerate,187688,10.2,ok
+pg_bm25,500k,G0151,transitions tmttf,33409,2.2,ok
+pg_bm25,500k,G0152,back metric,25530,3.0,ok
+pg_bm25,500k,G0153,accretion structures during flares,109094,5.0,ok
+pg_bm25,500k,G0154,observation rightarrow,89896,2.2,ok
+pg_bm25,500k,G0155,flow nonlocal quantitative alexandrov,34071,3.9,ok
+pg_bm25,500k,G0156,radiative corrections polarized process,110750,3.9,ok
+pg_bm25,500k,G0157,there many worlds,60656,2.4,ok
+pg_bm25,500k,G0158,number limit fractional euler-alignment,148641,3.9,ok
+pg_bm25,500k,G0159,correlations interacting,81602,2.2,ok
+pg_bm25,500k,G0160,random walks monotonically changing,61148,3.4,ok
+pg_bm25,500k,G0161,quantile networks generative modeling,247489,12.1,ok
+pg_bm25,500k,G0162,ground state fractal crystals,118009,4.7,ok
+pg_bm25,500k,G0163,identification rare events,27999,4.6,ok
+pg_bm25,500k,G0164,surfaces mirror symmetry counterexample,51983,3.9,ok
+pg_bm25,500k,G0165,hyperbolic structures cusped manifolds,94362,4.6,ok
+pg_bm25,500k,G0166,search dark photon electro-produced,68099,5.8,ok
+pg_bm25,500k,G0167,graph convolutional,31352,4.8,ok
+pg_bm25,500k,G0168,very strong,72192,3.9,ok
+pg_bm25,500k,G0169,technical debt,5443,2.4,ok
+pg_bm25,500k,G0170,spin-crossover transition,55748,4.2,ok
+pg_bm25,500k,G0171,linear hyperbolic systems,150822,3.0,ok
+pg_bm25,500k,G0172,chiral anomaly longitudinal magnetoconductance,15571,5.1,ok
+pg_bm25,500k,G0173,efficient reasoning distillation,70659,4.5,ok
+pg_bm25,500k,G0174,multi-label learning structured decomposition,164256,13.7,ok
+pg_bm25,500k,G0175,enhanced image,68152,2.8,ok
+pg_bm25,500k,G0176,encoder graph neural,57259,3.8,ok
+pg_bm25,500k,G0177,renormalizable gauge invariant non-local,138722,3.5,ok
+pg_bm25,500k,G0178,signal inference,46153,2.3,ok
+pg_bm25,500k,G0179,inverse problems,87187,2.5,ok
+pg_bm25,500k,G0180,synthesis input limits hybrid,101921,3.6,ok
+pg_bm25,500k,G0181,contributions asymmetry decay,47709,3.1,ok
+pg_bm25,500k,G0182,strongly coupled charged,92492,4.3,ok
+pg_bm25,500k,G0183,system generated cuntz,167727,3.1,ok
+pg_bm25,500k,G0184,masses mixings renormalizable,55608,2.9,ok
+pg_bm25,500k,G0185,perturbed stark operators,66088,3.1,ok
+pg_bm25,500k,G0186,fixed point free,93189,4.7,ok
+pg_bm25,500k,G0187,green griffiths,3728,2.0,ok
+pg_bm25,500k,G0188,fluctuations during,38310,2.5,ok
+pg_bm25,500k,G0189,does sharpness-aware minimization minimize,61758,6.2,ok
+pg_bm25,500k,G0190,strong fractional choice,70849,3.1,ok
+pg_bm25,500k,G0191,prototype charge injection,29182,2.6,ok
+pg_bm25,500k,G0192,discrimination nuclear recoils alpha,25784,3.1,ok
+pg_bm25,500k,G0193,well-posedness semilinear heat,79572,3.6,ok
+pg_bm25,500k,G0194,nakanishi integral,45883,3.5,ok
+pg_bm25,500k,G0195,decaying dark,27908,2.5,ok
+pg_bm25,500k,G0196,binary measurements,83037,2.1,ok
+pg_bm25,500k,G0197,tkip michael,96,2.2,ok
+pg_bm25,500k,G0198,wick rotated,15300,2.3,ok
+pg_bm25,500k,G0199,downlink asymmetric interference,11231,4.1,ok
+pg_bm25,500k,G0200,baryon density effective relativistic,146166,4.9,ok
+pg_fts_and,500k,G0001,gluon contribution open heavy-meson,1,19.6,ok
+pg_fts_and,500k,G0002,single layer,3302,397.8,ok
+pg_fts_and,500k,G0003,prediction gamma gamma gamma,1868,222.1,ok
+pg_fts_and,500k,G0004,neuron populations neuromorphic spike,3,4.2,ok
+pg_fts_and,500k,G0005,phonemic graphemic,27,4.7,ok
+pg_fts_and,500k,G0006,example basic linear algebra,27,10.2,ok
+pg_fts_and,500k,G0007,helmholtz resonators including thermoviscous,1,3.7,ok
+pg_fts_and,500k,G0008,multi-model inference natural selection,1,8.2,ok
+pg_fts_and,500k,G0009,buried threat,2,1.6,ok
+pg_fts_and,500k,G0010,experiments astrophysical observations neutron,27,9.5,ok
+pg_fts_and,500k,G0011,centrosymmetric matrices sinc collocation,1,4.0,ok
+pg_fts_and,500k,G0012,gate passed checks,26,6.3,ok
+pg_fts_and,500k,G0013,droplet emergence regular,3,4.1,ok
+pg_fts_and,500k,G0014,markov chains,2370,264.9,ok
+pg_fts_and,500k,G0015,quantum computing classical stochastic,94,19.0,ok
+pg_fts_and,500k,G0016,impulse controls changing,16,5.4,ok
+pg_fts_and,500k,G0017,large group delay microwave,2,5.4,ok
+pg_fts_and,500k,G0018,bi-grid allen cahn equation,1,2.7,ok
+pg_fts_and,500k,G0019,cycles k-orbits,1,3.3,ok
+pg_fts_and,500k,G0020,weak magnetic field,1800,199.0,ok
+pg_fts_and,500k,G0021,energetic particle transport,110,14.8,ok
+pg_fts_and,500k,G0022,dark areas molecular,11,4.7,ok
+pg_fts_and,500k,G0023,influence wetting properties,21,5.8,ok
+pg_fts_and,500k,G0024,plasmas inert reactive atmospheres,2,2.6,ok
+pg_fts_and,500k,G0025,infty categories,287,32.6,ok
+pg_fts_and,500k,G0026,knowledge graph paired dataset,70,15.7,ok
+pg_fts_and,500k,G0027,branes spontaneous,52,8.5,ok
+pg_fts_and,500k,G0028,parameterized algorithms,871,93.5,ok
+pg_fts_and,500k,G0029,correlations grover search,4,4.1,ok
+pg_fts_and,500k,G0030,then forget,1284,151.9,ok
+pg_fts_and,500k,G0031,variation equilibrium,627,73.0,ok
+pg_fts_and,500k,G0032,cosmic rates black,152,21.5,ok
+pg_fts_and,500k,G0033,quantum mechanics mathematical equations,93,17.6,ok
+pg_fts_and,500k,G0034,potential large language,2672,271.2,ok
+pg_fts_and,500k,G0035,potts models,380,39.9,ok
+pg_fts_and,500k,G0036,real-time fisher,20,8.3,ok
+pg_fts_and,500k,G0037,navier-stokes equations,1302,128.1,ok
+pg_fts_and,500k,G0038,near-ultraviolet continuum modeling april,1,4.0,ok
+pg_fts_and,500k,G0039,security controls,1131,109.0,ok
+pg_fts_and,500k,G0040,coherent scattering,1006,96.2,ok
+pg_fts_and,500k,G0041,making affine correspondences work,9,6.1,ok
+pg_fts_and,500k,G0042,boosting byzantine,4,1.9,ok
+pg_fts_and,500k,G0043,suitable journal,23,4.4,ok
+pg_fts_and,500k,G0044,group theory raman,17,4.5,ok
+pg_fts_and,500k,G0045,stochastic processes,4372,393.4,ok
+pg_fts_and,500k,G0046,earth orbit satellites,349,36.4,ok
+pg_fts_and,500k,G0047,improve metaphor processing,6,3.5,ok
+pg_fts_and,500k,G0048,higher-weight limiting modular symbols,1,4.1,ok
+pg_fts_and,500k,G0049,discrete breathers,60,7.7,ok
+pg_fts_and,500k,G0050,building coverage estimation low-resolution,2,7.3,ok
+pg_fts_and,500k,G0051,geometry spaces harmonic maps,11,7.6,ok
+pg_fts_and,500k,G0052,cognitive radio systems,101,13.2,ok
+pg_fts_and,500k,G0053,intention-expression aligning multi-dimensional,1,2.9,ok
+pg_fts_and,500k,G0054,space model prediction experimental,589,56.1,ok
+pg_fts_and,500k,G0055,geometrical bounds,1764,154.3,ok
+pg_fts_and,500k,G0056,foveal avascular zone,4,2.5,ok
+pg_fts_and,500k,G0057,preimage feed-forward neural,1,3.6,ok
+pg_fts_and,500k,G0058,role galaxy mass morphology,79,12.0,ok
+pg_fts_and,500k,G0059,corotation region,103,11.8,ok
+pg_fts_and,500k,G0060,vector vorticity advanced sensing,1,4.5,ok
+pg_fts_and,500k,G0061,tasks edge,1554,126.2,ok
+pg_fts_and,500k,G0062,thermal versus vacuum magnetization,1,3.1,ok
+pg_fts_and,500k,G0063,class mathcal origin spindle,1,3.9,ok
+pg_fts_and,500k,G0064,residually finite,887,80.4,ok
+pg_fts_and,500k,G0065,hyperconnected parcel,1,1.5,ok
+pg_fts_and,500k,G0066,optimal deception attack networked,7,5.7,ok
+pg_fts_and,500k,G0067,trials delayed treatment initiation,2,2.9,ok
+pg_fts_and,500k,G0068,electron impact,1172,100.8,ok
+pg_fts_and,500k,G0069,prices case fukushima nuclear,1,3.6,ok
+pg_fts_and,500k,G0070,methylation dynamics approaches,7,4.5,ok
+pg_fts_and,500k,G0071,model extensive degeneracy,91,10.6,ok
+pg_fts_and,500k,G0072,created invariant line constraint,1,5.7,ok
+pg_fts_and,500k,G0073,estimation moments heavy-ion,5,3.1,ok
+pg_fts_and,500k,G0074,measurement orthopositronium,4,2.0,ok
+pg_fts_and,500k,G0075,signature refreshed,1,1.8,ok
+pg_fts_and,500k,G0076,cqis massive,1,1.8,ok
+pg_fts_and,500k,G0077,comparison quantum computing architectures,20,5.5,ok
+pg_fts_and,500k,G0078,theory first-principles methodology applications,2,3.7,ok
+pg_fts_and,500k,G0079,failure time models,1001,76.0,ok
+pg_fts_and,500k,G0080,cake evaluating self-supervised generalization,1,5.0,ok
+pg_fts_and,500k,G0081,equations state,10793,826.3,ok
+pg_fts_and,500k,G0082,challenge likelihood ratio,56,9.8,ok
+pg_fts_and,500k,G0083,diarization system voxceleb,4,2.2,ok
+pg_fts_and,500k,G0084,quaternion hilbert,34,5.6,ok
+pg_fts_and,500k,G0085,storage apps forensic taxonomy,1,2.0,ok
+pg_fts_and,500k,G0086,lightweight bioacoustic denoising audio,1,2.2,ok
+pg_fts_and,500k,G0087,landau gauge,379,38.5,ok
+pg_fts_and,500k,G0088,rafts self-assembled colloidal membranes,1,2.2,ok
+pg_fts_and,500k,G0089,dynamics trade,1133,94.1,ok
+pg_fts_and,500k,G0090,one-pion production neutrino-nucleus,2,3.9,ok
+pg_fts_and,500k,G0091,excluded minors,65,6.8,ok
+pg_fts_and,500k,G0092,distribution structure,10501,696.6,ok
+pg_fts_and,500k,G0093,fibonacci numbers automorphisms,3,3.2,ok
+pg_fts_and,500k,G0094,entanglement super-qubit quantum states,1,2.6,ok
+pg_fts_and,500k,G0095,processes multi-level non-parametric admixture,1,5.0,ok
+pg_fts_and,500k,G0096,theorem gibbsian invariant measures,1,3.0,ok
+pg_fts_and,500k,G0097,framework real-time agent discovery,7,6.0,ok
+pg_fts_and,500k,G0098,temperature disordered insulators,192,15.3,ok
+pg_fts_and,500k,G0099,quasilinear parabolic problem,30,3.8,ok
+pg_fts_and,500k,G0100,kondo effect novel,27,7.1,ok
+pg_fts_and,500k,G0101,shape selection,1113,68.4,ok
+pg_fts_and,500k,G0102,universal model,10200,590.3,ok
+pg_fts_and,500k,G0103,quantitative interpretation,779,44.1,ok
+pg_fts_and,500k,G0104,causal discovery spatio-temporal graphs,1,2.3,ok
+pg_fts_and,500k,G0105,optimization second-harmonic generation touching,1,2.2,ok
+pg_fts_and,500k,G0106,filtervit dropoutvit,1,1.1,ok
+pg_fts_and,500k,G0107,dicke states,216,11.4,ok
+pg_fts_and,500k,G0108,order local frustration itinerant,10,3.6,ok
+pg_fts_and,500k,G0109,approximation wigner--fokker--planck equation applications,1,2.6,ok
+pg_fts_and,500k,G0110,control against,38964,1680.2,ok
+pg_fts_and,500k,G0111,artificial brain,259,12.6,ok
+pg_fts_and,500k,G0112,proton-proton interactions,204,12.1,ok
+pg_fts_and,500k,G0113,spectral type,3223,131.8,ok
+pg_fts_and,500k,G0114,permutation automorphism groups,82,6.3,ok
+pg_fts_and,500k,G0115,scalable risk stochastic systems,6,4.2,ok
+pg_fts_and,500k,G0116,autoencoders transfer,174,5.4,ok
+pg_fts_and,500k,G0117,rotating black holes,1397,59.7,ok
+pg_fts_and,500k,G0118,medicine through low-resolution inputs,1,1.6,ok
+pg_fts_and,500k,G0119,universal spinning black,100,5.7,ok
+pg_fts_and,500k,G0120,period wolf-rayet,56,4.2,ok
+pg_fts_and,500k,G0121,finite temperature,4240,153.6,ok
+pg_fts_and,500k,G0122,solutions cubic-quintic,23,4.0,ok
+pg_fts_and,500k,G0123,shape perception emerges,22,3.0,ok
+pg_fts_and,500k,G0124,stars gaia data,535,19.8,ok
+pg_fts_and,500k,G0125,logic programming,920,32.9,ok
+pg_fts_and,500k,G0126,breakdown fluctuational,102,5.5,ok
+pg_fts_and,500k,G0127,incomplete classical,190,7.2,ok
+pg_fts_and,500k,G0128,affine invariant,501,23.4,ok
+pg_fts_and,500k,G0129,algebras associated hilbert quad,4,3.1,ok
+pg_fts_and,500k,G0130,tenerife impact photometric,1,1.6,ok
+pg_fts_and,500k,G0131,multi-modal llms,139,5.7,ok
+pg_fts_and,500k,G0132,kicked harper,7,1.3,ok
+pg_fts_and,500k,G0133,gradient-play dynamics distributed,1,2.4,ok
+pg_fts_and,500k,G0134,contact binary stars,85,5.6,ok
+pg_fts_and,500k,G0135,image representation learning deep,863,36.2,ok
+pg_fts_and,500k,G0136,approximate near neighbor search,22,2.6,ok
+pg_fts_and,500k,G0137,opportunities challenges solid-state quantum,4,3.7,ok
+pg_fts_and,500k,G0138,descent theorem,121,5.4,ok
+pg_fts_and,500k,G0139,dimensional branes,1002,43.0,ok
+pg_fts_and,500k,G0140,function spaces,15689,477.7,ok
+pg_fts_and,500k,G0141,optical lattice investigated pump-probe,6,4.7,ok
+pg_fts_and,500k,G0142,colourful holographic superconductors,1,2.2,ok
+pg_fts_and,500k,G0143,mond seven,1,1.4,ok
+pg_fts_and,500k,G0144,roots trigonometric polynomials s-tur,1,2.3,ok
+pg_fts_and,500k,G0145,motion resonance exploring disc,4,1.7,ok
+pg_fts_and,500k,G0146,first-passage times,158,5.3,ok
+pg_fts_and,500k,G0147,decays factorization,1696,57.3,ok
+pg_fts_and,500k,G0148,collaborator selection decision-making enhance,11,5.3,ok
+pg_fts_and,500k,G0149,light-cone rules,117,6.1,ok
+pg_fts_and,500k,G0150,limit particle system degenerate,26,3.1,ok
+pg_fts_and,500k,G0151,transitions tmttf,9,0.8,ok
+pg_fts_and,500k,G0152,back metric,235,7.3,ok
+pg_fts_and,500k,G0153,accretion structures during flares,54,4.0,ok
+pg_fts_and,500k,G0154,observation rightarrow,521,15.7,ok
+pg_fts_and,500k,G0155,flow nonlocal quantitative alexandrov,1,2.4,ok
+pg_fts_and,500k,G0156,radiative corrections polarized process,25,4.7,ok
+pg_fts_and,500k,G0157,there many worlds,3117,81.3,ok
+pg_fts_and,500k,G0158,number limit fractional euler-alignment,1,2.2,ok
+pg_fts_and,500k,G0159,correlations interacting,5561,132.6,ok
+pg_fts_and,500k,G0160,random walks monotonically changing,2,3.5,ok
+pg_fts_and,500k,G0161,quantile networks generative modeling,13,2.6,ok
+pg_fts_and,500k,G0162,ground state fractal crystals,2,2.5,ok
+pg_fts_and,500k,G0163,identification rare events,37,3.3,ok
+pg_fts_and,500k,G0164,surfaces mirror symmetry counterexample,1,3.2,ok
+pg_fts_and,500k,G0165,hyperbolic structures cusped manifolds,9,2.6,ok
+pg_fts_and,500k,G0166,search dark photon electro-produced,2,2.3,ok
+pg_fts_and,500k,G0167,graph convolutional,966,28.5,ok
+pg_fts_and,500k,G0168,very strong,47632,975.2,ok
+pg_fts_and,500k,G0169,technical debt,75,3.5,ok
+pg_fts_and,500k,G0170,spin-crossover transition,11,1.3,ok
+pg_fts_and,500k,G0171,linear hyperbolic systems,212,5.5,ok
+pg_fts_and,500k,G0172,chiral anomaly longitudinal magnetoconductance,7,2.4,ok
+pg_fts_and,500k,G0173,efficient reasoning distillation,155,3.7,ok
+pg_fts_and,500k,G0174,multi-label learning structured decomposition,4,2.6,ok
+pg_fts_and,500k,G0175,enhanced image,5415,79.2,ok
+pg_fts_and,500k,G0176,encoder graph neural,443,8.8,ok
+pg_fts_and,500k,G0177,renormalizable gauge invariant non-local,3,2.1,ok
+pg_fts_and,500k,G0178,signal inference,1791,23.2,ok
+pg_fts_and,500k,G0179,inverse problems,3640,55.7,ok
+pg_fts_and,500k,G0180,synthesis input limits hybrid,8,4.1,ok
+pg_fts_and,500k,G0181,contributions asymmetry decay,217,4.7,ok
+pg_fts_and,500k,G0182,strongly coupled charged,1045,3.9,ok
+pg_fts_and,500k,G0183,system generated cuntz,5,1.4,ok
+pg_fts_and,500k,G0184,masses mixings renormalizable,51,2.9,ok
+pg_fts_and,500k,G0185,perturbed stark operators,4,2.5,ok
+pg_fts_and,500k,G0186,fixed point free,527,16.3,ok
+pg_fts_and,500k,G0187,green griffiths,19,1.4,ok
+pg_fts_and,500k,G0188,fluctuations during,12594,158.3,ok
+pg_fts_and,500k,G0189,does sharpness-aware minimization minimize,45,4.7,ok
+pg_fts_and,500k,G0190,strong fractional choice,32,2.8,ok
+pg_fts_and,500k,G0191,prototype charge injection,10,1.5,ok
+pg_fts_and,500k,G0192,discrimination nuclear recoils alpha,4,1.8,ok
+pg_fts_and,500k,G0193,well-posedness semilinear heat,5,3.9,ok
+pg_fts_and,500k,G0194,nakanishi integral,10,0.8,ok
+pg_fts_and,500k,G0195,decaying dark,1285,16.3,ok
+pg_fts_and,500k,G0196,binary measurements,2258,31.5,ok
+pg_fts_and,500k,G0197,tkip michael,1,1.0,ok
+pg_fts_and,500k,G0198,wick rotated,80,1.6,ok
+pg_fts_and,500k,G0199,downlink asymmetric interference,2,1.0,ok
+pg_fts_and,500k,G0200,baryon density effective relativistic,46,3.5,ok
+pg_fts_or,500k,G0001,gluon contribution open heavy-meson,68957,706.5,ok
+pg_fts_or,500k,G0002,single layer,62719,287.3,ok
+pg_fts_or,500k,G0003,prediction gamma gamma gamma,67941,636.6,ok
+pg_fts_or,500k,G0004,neuron populations neuromorphic spike,17492,28.1,ok
+pg_fts_or,500k,G0005,phonemic graphemic,237,1.4,ok
+pg_fts_or,500k,G0006,example basic linear algebra,98064,353.3,ok
+pg_fts_or,500k,G0007,helmholtz resonators including thermoviscous,76144,87.1,ok
+pg_fts_or,500k,G0008,multi-model inference natural selection,248859,354.5,ok
+pg_fts_or,500k,G0009,buried threat,2608,4.8,ok
+pg_fts_or,500k,G0010,experiments astrophysical observations neutron,144837,346.6,ok
+pg_fts_or,500k,G0011,centrosymmetric matrices sinc collocation,25135,32.6,ok
+pg_fts_or,500k,G0012,gate passed checks,17676,20.3,ok
+pg_fts_or,500k,G0013,droplet emergence regular,40151,41.9,ok
+pg_fts_or,500k,G0014,markov chains,14810,16.6,ok
+pg_fts_or,500k,G0015,quantum computing classical stochastic,142048,352.2,ok
+pg_fts_or,500k,G0016,impulse controls changing,65836,57.2,ok
+pg_fts_or,500k,G0017,large group delay microwave,125201,366.3,ok
+pg_fts_or,500k,G0018,bi-grid allen cahn equation,55725,54.7,ok
+pg_fts_or,500k,G0019,cycles k-orbits,55629,48.8,ok
+pg_fts_or,500k,G0020,weak magnetic field,112146,349.6,ok
+pg_fts_or,500k,G0021,energetic particle transport,43895,39.9,ok
+pg_fts_or,500k,G0022,dark areas molecular,37347,33.5,ok
+pg_fts_or,500k,G0023,influence wetting properties,76492,64.2,ok
+pg_fts_or,500k,G0024,plasmas inert reactive atmospheres,13233,14.8,ok
+pg_fts_or,500k,G0025,infty categories,15549,15.9,ok
+pg_fts_or,500k,G0026,knowledge graph paired dataset,95378,354.0,ok
+pg_fts_or,500k,G0027,branes spontaneous,7304,9.1,ok
+pg_fts_or,500k,G0028,parameterized algorithms,54107,45.6,ok
+pg_fts_or,500k,G0029,correlations grover search,51492,42.3,ok
+pg_fts_or,500k,G0030,then forget,1284,2.0,ok
+pg_fts_or,500k,G0031,variation equilibrium,32421,29.1,ok
+pg_fts_or,500k,G0032,cosmic rates black,60208,48.6,ok
+pg_fts_or,500k,G0033,quantum mechanics mathematical equations,130576,353.2,ok
+pg_fts_or,500k,G0034,potential large language,139332,339.0,ok
+pg_fts_or,500k,G0035,potts models,195271,101.7,ok
+pg_fts_or,500k,G0036,real-time fisher,142689,334.3,ok
+pg_fts_or,500k,G0037,navier-stokes equations,49030,46.0,ok
+pg_fts_or,500k,G0038,near-ultraviolet continuum modeling april,217725,361.5,ok
+pg_fts_or,500k,G0039,security controls,45606,39.0,ok
+pg_fts_or,500k,G0040,coherent scattering,29980,26.8,ok
+pg_fts_or,500k,G0041,making affine correspondences work,143952,353.0,ok
+pg_fts_or,500k,G0042,boosting byzantine,4857,7.2,ok
+pg_fts_or,500k,G0043,suitable journal,13752,15.5,ok
+pg_fts_or,500k,G0044,group theory raman,94865,328.3,ok
+pg_fts_or,500k,G0045,stochastic processes,76962,62.9,ok
+pg_fts_or,500k,G0046,earth orbit satellites,23047,23.1,ok
+pg_fts_or,500k,G0047,improve metaphor processing,118556,338.0,ok
+pg_fts_or,500k,G0048,higher-weight limiting modular symbols,119448,353.3,ok
+pg_fts_or,500k,G0049,discrete breathers,17088,18.9,ok
+pg_fts_or,500k,G0050,building coverage estimation low-resolution,125499,361.1,ok
+pg_fts_or,500k,G0051,geometry spaces harmonic maps,111422,338.4,ok
+pg_fts_or,500k,G0052,cognitive radio systems,123112,350.9,ok
+pg_fts_or,500k,G0053,intention-expression aligning multi-dimensional,113303,359.2,ok
+pg_fts_or,500k,G0054,space model prediction experimental,275363,344.9,ok
+pg_fts_or,500k,G0055,geometrical bounds,55986,49.0,ok
+pg_fts_or,500k,G0056,foveal avascular zone,3541,4.6,ok
+pg_fts_or,500k,G0057,preimage feed-forward neural,33566,29.3,ok
+pg_fts_or,500k,G0058,role galaxy mass morphology,74318,55.4,ok
+pg_fts_or,500k,G0059,corotation region,33283,29.8,ok
+pg_fts_or,500k,G0060,vector vorticity advanced sensing,53263,43.7,ok
+pg_fts_or,500k,G0061,tasks edge,57650,43.4,ok
+pg_fts_or,500k,G0062,thermal versus vacuum magnetization,50806,42.8,ok
+pg_fts_or,500k,G0063,class mathcal origin spindle,72763,61.4,ok
+pg_fts_or,500k,G0064,residually finite,45630,40.2,ok
+pg_fts_or,500k,G0065,hyperconnected parcel,122,1.2,ok
+pg_fts_or,500k,G0066,optimal deception attack networked,98398,344.8,ok
+pg_fts_or,500k,G0067,trials delayed treatment initiation,40855,39.9,ok
+pg_fts_or,500k,G0068,electron impact,46456,40.1,ok
+pg_fts_or,500k,G0069,prices case fukushima nuclear,79605,63.7,ok
+pg_fts_or,500k,G0070,methylation dynamics approaches,145703,345.4,ok
+pg_fts_or,500k,G0071,model extensive degeneracy,213914,331.6,ok
+pg_fts_or,500k,G0072,created invariant line constraint,81684,70.9,ok
+pg_fts_or,500k,G0073,estimation moments heavy-ion,72152,61.7,ok
+pg_fts_or,500k,G0074,measurement orthopositronium,71787,55.8,ok
+pg_fts_or,500k,G0075,signature refreshed,8205,8.8,ok
+pg_fts_or,500k,G0076,cqis massive,12523,11.1,ok
+pg_fts_or,500k,G0077,comparison quantum computing architectures,141714,338.2,ok
+pg_fts_or,500k,G0078,theory first-principles methodology applications,197159,112.2,ok
+pg_fts_or,500k,G0079,failure time models,260864,342.4,ok
+pg_fts_or,500k,G0080,cake evaluating self-supervised generalization,150870,352.7,ok
+pg_fts_or,500k,G0081,equations state,139182,322.9,ok
+pg_fts_or,500k,G0082,challenge likelihood ratio,70825,57.4,ok
+pg_fts_or,500k,G0083,diarization system voxceleb,115088,354.1,ok
+pg_fts_or,500k,G0084,quaternion hilbert,5887,7.8,ok
+pg_fts_or,500k,G0085,storage apps forensic taxonomy,6586,7.9,ok
+pg_fts_or,500k,G0086,lightweight bioacoustic denoising audio,8971,9.5,ok
+pg_fts_or,500k,G0087,landau gauge,15360,14.7,ok
+pg_fts_or,500k,G0088,rafts self-assembled colloidal membranes,29167,26.7,ok
+pg_fts_or,500k,G0089,dynamics trade,71834,53.9,ok
+pg_fts_or,500k,G0090,one-pion production neutrino-nucleus,129515,346.8,ok
+pg_fts_or,500k,G0091,excluded minors,5890,8.5,ok
+pg_fts_or,500k,G0092,distribution structure,131019,333.1,ok
+pg_fts_or,500k,G0093,fibonacci numbers automorphisms,65206,53.2,ok
+pg_fts_or,500k,G0094,entanglement super-qubit quantum states,136160,356.8,ok
+pg_fts_or,500k,G0095,processes multi-level non-parametric admixture,193294,112.7,ok
+pg_fts_or,500k,G0096,theorem gibbsian invariant measures,104779,347.3,ok
+pg_fts_or,500k,G0097,framework real-time agent discovery,191777,111.8,ok
+pg_fts_or,500k,G0098,temperature disordered insulators,39856,36.1,ok
+pg_fts_or,500k,G0099,quasilinear parabolic problem,80193,63.2,ok
+pg_fts_or,500k,G0100,kondo effect novel,139208,330.2,ok
+pg_fts_or,500k,G0101,shape selection,43606,40.7,ok
+pg_fts_or,500k,G0102,universal model,207865,107.1,ok
+pg_fts_or,500k,G0103,quantitative interpretation,33453,33.6,ok
+pg_fts_or,500k,G0104,causal discovery spatio-temporal graphs,47441,40.6,ok
+pg_fts_or,500k,G0105,optimization second-harmonic generation touching,142726,359.3,ok
+pg_fts_or,500k,G0106,filtervit dropoutvit,1,1.5,ok
+pg_fts_or,500k,G0107,dicke states,102367,330.1,ok
+pg_fts_or,500k,G0108,order local frustration itinerant,116794,343.9,ok
+pg_fts_or,500k,G0109,approximation wigner--fokker--planck equation applications,139997,371.3,ok
+pg_fts_or,500k,G0110,control against,38964,33.6,ok
+pg_fts_or,500k,G0111,artificial brain,10491,11.2,ok
+pg_fts_or,500k,G0112,proton-proton interactions,58689,46.2,ok
+pg_fts_or,500k,G0113,spectral type,68794,56.3,ok
+pg_fts_or,500k,G0114,permutation automorphism groups,37475,34.8,ok
+pg_fts_or,500k,G0115,scalable risk stochastic systems,136577,352.4,ok
+pg_fts_or,500k,G0116,autoencoders transfer,19462,21.2,ok
+pg_fts_or,500k,G0117,rotating black holes,32247,31.4,ok
+pg_fts_or,500k,G0118,medicine through low-resolution inputs,87142,336.8,ok
+pg_fts_or,500k,G0119,universal spinning black,59325,49.1,ok
+pg_fts_or,500k,G0120,period wolf-rayet,20117,22.4,ok
+pg_fts_or,500k,G0121,finite temperature,67100,57.1,ok
+pg_fts_or,500k,G0122,solutions cubic-quintic,56057,46.0,ok
+pg_fts_or,500k,G0123,shape perception emerges,40980,35.9,ok
+pg_fts_or,500k,G0124,stars gaia data,122747,339.7,ok
+pg_fts_or,500k,G0125,logic programming,18303,19.9,ok
+pg_fts_or,500k,G0126,breakdown fluctuational,13798,14.1,ok
+pg_fts_or,500k,G0127,incomplete classical,32848,29.2,ok
+pg_fts_or,500k,G0128,affine invariant,24753,22.8,ok
+pg_fts_or,500k,G0129,algebras associated hilbert quad,57042,45.9,ok
+pg_fts_or,500k,G0130,tenerife impact photometric,22488,20.9,ok
+pg_fts_or,500k,G0131,multi-modal llms,49718,38.8,ok
+pg_fts_or,500k,G0132,kicked harper,640,1.9,ok
+pg_fts_or,500k,G0133,gradient-play dynamics distributed,137546,347.1,ok
+pg_fts_or,500k,G0134,contact binary stars,39415,37.3,ok
+pg_fts_or,500k,G0135,image representation learning deep,114980,353.7,ok
+pg_fts_or,500k,G0136,approximate near neighbor search,86278,72.0,ok
+pg_fts_or,500k,G0137,opportunities challenges solid-state quantum,168245,103.7,ok
+pg_fts_or,500k,G0138,descent theorem,21314,21.6,ok
+pg_fts_or,500k,G0139,dimensional branes,51522,43.1,ok
+pg_fts_or,500k,G0140,function spaces,144153,326.1,ok
+pg_fts_or,500k,G0141,optical lattice investigated pump-probe,105094,357.1,ok
+pg_fts_or,500k,G0142,colourful holographic superconductors,8843,11.2,ok
+pg_fts_or,500k,G0143,mond seven,3427,4.8,ok
+pg_fts_or,500k,G0144,roots trigonometric polynomials s-tur,19373,21.6,ok
+pg_fts_or,500k,G0145,motion resonance exploring disc,64693,51.8,ok
+pg_fts_or,500k,G0146,first-passage times,170611,97.4,ok
+pg_fts_or,500k,G0147,decays factorization,45280,39.4,ok
+pg_fts_or,500k,G0148,collaborator selection decision-making enhance,102351,364.6,ok
+pg_fts_or,500k,G0149,light-cone rules,39566,39.5,ok
+pg_fts_or,500k,G0150,limit particle system degenerate,187776,108.5,ok
+pg_fts_or,500k,G0151,transitions tmttf,33396,33.5,ok
+pg_fts_or,500k,G0152,back metric,25524,24.3,ok
+pg_fts_or,500k,G0153,accretion structures during flares,88394,68.7,ok
+pg_fts_or,500k,G0154,observation rightarrow,89877,341.3,ok
+pg_fts_or,500k,G0155,flow nonlocal quantitative alexandrov,34057,34.3,ok
+pg_fts_or,500k,G0156,radiative corrections polarized process,110693,345.4,ok
+pg_fts_or,500k,G0157,there many worlds,60645,51.7,ok
+pg_fts_or,500k,G0158,number limit fractional euler-alignment,148718,352.1,ok
+pg_fts_or,500k,G0159,correlations interacting,81574,67.8,ok
+pg_fts_or,500k,G0160,random walks monotonically changing,61145,52.9,ok
+pg_fts_or,500k,G0161,quantile networks generative modeling,247464,351.3,ok
+pg_fts_or,500k,G0162,ground state fractal crystals,117968,358.2,ok
+pg_fts_or,500k,G0163,identification rare events,27965,28.0,ok
+pg_fts_or,500k,G0164,surfaces mirror symmetry counterexample,51957,43.8,ok
+pg_fts_or,500k,G0165,hyperbolic structures cusped manifolds,94311,344.8,ok
+pg_fts_or,500k,G0166,search dark photon electro-produced,68056,56.4,ok
+pg_fts_or,500k,G0167,graph convolutional,31341,28.0,ok
+pg_fts_or,500k,G0168,very strong,47632,40.2,ok
+pg_fts_or,500k,G0169,technical debt,5439,5.9,ok
+pg_fts_or,500k,G0170,spin-crossover transition,55706,43.5,ok
+pg_fts_or,500k,G0171,linear hyperbolic systems,150776,338.9,ok
+pg_fts_or,500k,G0172,chiral anomaly longitudinal magnetoconductance,15552,17.7,ok
+pg_fts_or,500k,G0173,efficient reasoning distillation,70640,54.5,ok
+pg_fts_or,500k,G0174,multi-label learning structured decomposition,164188,97.8,ok
+pg_fts_or,500k,G0175,enhanced image,68085,51.2,ok
+pg_fts_or,500k,G0176,encoder graph neural,57215,43.3,ok
+pg_fts_or,500k,G0177,renormalizable gauge invariant non-local,138547,353.3,ok
+pg_fts_or,500k,G0178,signal inference,46103,40.2,ok
+pg_fts_or,500k,G0179,inverse problems,87176,336.8,ok
+pg_fts_or,500k,G0180,synthesis input limits hybrid,101954,346.1,ok
+pg_fts_or,500k,G0181,contributions asymmetry decay,47679,42.9,ok
+pg_fts_or,500k,G0182,strongly coupled charged,92426,337.0,ok
+pg_fts_or,500k,G0183,system generated cuntz,167698,344.4,ok
+pg_fts_or,500k,G0184,masses mixings renormalizable,55558,44.7,ok
+pg_fts_or,500k,G0185,perturbed stark operators,66064,49.6,ok
+pg_fts_or,500k,G0186,fixed point free,93160,342.2,ok
+pg_fts_or,500k,G0187,green griffiths,3723,5.8,ok
+pg_fts_or,500k,G0188,fluctuations during,12594,13.3,ok
+pg_fts_or,500k,G0189,does sharpness-aware minimization minimize,42375,42.0,ok
+pg_fts_or,500k,G0190,strong fractional choice,70829,55.9,ok
+pg_fts_or,500k,G0191,prototype charge injection,29108,27.3,ok
+pg_fts_or,500k,G0192,discrimination nuclear recoils alpha,27085,24.8,ok
+pg_fts_or,500k,G0193,well-posedness semilinear heat,79539,63.9,ok
+pg_fts_or,500k,G0194,nakanishi integral,45834,42.0,ok
+pg_fts_or,500k,G0195,decaying dark,27877,25.5,ok
+pg_fts_or,500k,G0196,binary measurements,83005,65.4,ok
+pg_fts_or,500k,G0197,tkip michael,95,1.5,ok
+pg_fts_or,500k,G0198,wick rotated,15257,16.4,ok
+pg_fts_or,500k,G0199,downlink asymmetric interference,11012,11.9,ok
+pg_fts_or,500k,G0200,baryon density effective relativistic,146133,356.0,ok
+pg_bm25,full,G0001,gluon contribution open heavy-meson,450330,58.9,ok
+pg_bm25,full,G0002,single layer,408081,19.2,ok
+pg_bm25,full,G0003,prediction gamma gamma gamma,433668,18.8,ok
+pg_bm25,full,G0004,neuron populations neuromorphic spike,113991,15.0,ok
+pg_bm25,full,G0005,phonemic graphemic,1619,7.2,ok
+pg_bm25,full,G0006,example basic linear algebra,637209,28.1,ok
+pg_bm25,full,G0007,helmholtz resonators including thermoviscous,495008,23.5,ok
+pg_bm25,full,G0008,multi-model inference natural selection,1618432,32.3,ok
+pg_bm25,full,G0009,buried threat,16926,7.3,ok
+pg_bm25,full,G0010,experiments astrophysical observations neutron,940444,23.9,ok
+pg_bm25,full,G0011,centrosymmetric matrices sinc collocation,163581,15.7,ok
+pg_bm25,full,G0012,gate passed checks,114804,18.6,ok
+pg_bm25,full,G0013,droplet emergence regular,159952,16.5,ok
+pg_bm25,full,G0014,markov chains,97483,9.4,ok
+pg_bm25,full,G0015,quantum computing classical stochastic,920909,32.5,ok
+pg_bm25,full,G0016,impulse controls changing,429101,15.9,ok
+pg_bm25,full,G0017,large group delay microwave,817253,25.4,ok
+pg_bm25,full,G0018,bi-grid allen cahn equation,361740,22.7,ok
+pg_bm25,full,G0019,cycles k-orbits,345976,29.3,ok
+pg_bm25,full,G0020,weak magnetic field,728790,24.9,ok
+pg_bm25,full,G0021,energetic particle transport,286087,17.6,ok
+pg_bm25,full,G0022,dark areas molecular,240322,18.0,ok
+pg_bm25,full,G0023,influence wetting properties,497444,19.2,ok
+pg_bm25,full,G0024,plasmas inert reactive atmospheres,86971,29.8,ok
+pg_bm25,full,G0025,infty categories,101130,16.4,ok
+pg_bm25,full,G0026,knowledge graph paired dataset,617409,24.9,ok
+pg_bm25,full,G0027,branes spontaneous,48067,14.9,ok
+pg_bm25,full,G0028,parameterized algorithms,349749,16.8,ok
+pg_bm25,full,G0029,correlations grover search,334240,17.3,ok
+pg_bm25,full,G0030,then forget,8012,3.8,ok
+pg_bm25,full,G0031,variation equilibrium,211686,14.7,ok
+pg_bm25,full,G0032,cosmic rates black,391798,19.3,ok
+pg_bm25,full,G0033,quantum mechanics mathematical equations,845230,16.8,ok
+pg_bm25,full,G0034,potential large language,906550,17.7,ok
+pg_bm25,full,G0035,potts models,1267816,10.8,ok
+pg_bm25,full,G0036,real-time fisher,931060,17.0,ok
+pg_bm25,full,G0037,navier-stokes equations,318240,10.0,ok
+pg_bm25,full,G0038,near-ultraviolet continuum modeling april,1413341,24.6,ok
+pg_bm25,full,G0039,security controls,297467,10.7,ok
+pg_bm25,full,G0040,coherent scattering,195645,14.2,ok
+pg_bm25,full,G0041,making affine correspondences work,937733,20.5,ok
+pg_bm25,full,G0042,boosting byzantine,31317,6.8,ok
+pg_bm25,full,G0043,suitable journal,89685,10.5,ok
+pg_bm25,full,G0044,group theory raman,619378,16.2,ok
+pg_bm25,full,G0045,stochastic processes,501010,10.6,ok
+pg_bm25,full,G0046,earth orbit satellites,149769,8.7,ok
+pg_bm25,full,G0047,improve metaphor processing,770003,13.1,ok
+pg_bm25,full,G0048,higher-weight limiting modular symbols,772604,32.3,ok
+pg_bm25,full,G0049,discrete breathers,110791,10.7,ok
+pg_bm25,full,G0050,building coverage estimation low-resolution,819069,35.5,ok
+pg_bm25,full,G0051,geometry spaces harmonic maps,723757,32.4,ok
+pg_bm25,full,G0052,cognitive radio systems,800348,16.6,ok
+pg_bm25,full,G0053,intention-expression aligning multi-dimensional,736329,20.6,ok
+pg_bm25,full,G0054,space model prediction experimental,1788031,14.7,ok
+pg_bm25,full,G0055,geometrical bounds,365123,16.1,ok
+pg_bm25,full,G0056,foveal avascular zone,22941,7.4,ok
+pg_bm25,full,G0057,preimage feed-forward neural,217824,16.6,ok
+pg_bm25,full,G0058,role galaxy mass morphology,482639,23.1,ok
+pg_bm25,full,G0059,corotation region,215881,11.5,ok
+pg_bm25,full,G0060,vector vorticity advanced sensing,346438,17.6,ok
+pg_bm25,full,G0061,tasks edge,373593,16.2,ok
+pg_bm25,full,G0062,thermal versus vacuum magnetization,330284,21.6,ok
+pg_bm25,full,G0063,class mathcal origin spindle,473393,15.6,ok
+pg_bm25,full,G0064,residually finite,296811,16.9,ok
+pg_bm25,full,G0065,hyperconnected parcel,899,4.3,ok
+pg_bm25,full,G0066,optimal deception attack networked,638913,16.8,ok
+pg_bm25,full,G0067,trials delayed treatment initiation,265992,14.6,ok
+pg_bm25,full,G0068,electron impact,302998,13.7,ok
+pg_bm25,full,G0069,prices case fukushima nuclear,517789,22.3,ok
+pg_bm25,full,G0070,methylation dynamics approaches,946334,18.6,ok
+pg_bm25,full,G0071,model extensive degeneracy,1389416,13.9,ok
+pg_bm25,full,G0072,created invariant line constraint,532206,18.2,ok
+pg_bm25,full,G0073,estimation moments heavy-ion,471315,15.5,ok
+pg_bm25,full,G0074,measurement orthopositronium,466747,12.6,ok
+pg_bm25,full,G0075,signature refreshed,54002,5.6,ok
+pg_bm25,full,G0076,cqis massive,81309,3.2,ok
+pg_bm25,full,G0077,comparison quantum computing architectures,919366,18.5,ok
+pg_bm25,full,G0078,theory first-principles methodology applications,1284000,18.4,ok
+pg_bm25,full,G0079,failure time models,1696849,11.4,ok
+pg_bm25,full,G0080,cake evaluating self-supervised generalization,980735,17.7,ok
+pg_bm25,full,G0081,equations state,903654,12.4,ok
+pg_bm25,full,G0082,challenge likelihood ratio,460270,11.4,ok
+pg_bm25,full,G0083,diarization system voxceleb,749007,11.2,ok
+pg_bm25,full,G0084,quaternion hilbert,38411,3.5,ok
+pg_bm25,full,G0085,storage apps forensic taxonomy,43086,6.2,ok
+pg_bm25,full,G0086,lightweight bioacoustic denoising audio,58175,7.3,ok
+pg_bm25,full,G0087,landau gauge,100968,5.1,ok
+pg_bm25,full,G0088,rafts self-assembled colloidal membranes,190502,14.9,ok
+pg_bm25,full,G0089,dynamics trade,466448,11.1,ok
+pg_bm25,full,G0090,one-pion production neutrino-nucleus,843597,17.3,ok
+pg_bm25,full,G0091,excluded minors,38693,4.7,ok
+pg_bm25,full,G0092,distribution structure,849367,19.3,ok
+pg_bm25,full,G0093,fibonacci numbers automorphisms,424187,12.2,ok
+pg_bm25,full,G0094,entanglement super-qubit quantum states,883134,15.8,ok
+pg_bm25,full,G0095,processes multi-level non-parametric admixture,1258693,18.0,ok
+pg_bm25,full,G0096,theorem gibbsian invariant measures,680855,15.2,ok
+pg_bm25,full,G0097,framework real-time agent discovery,1249558,16.3,ok
+pg_bm25,full,G0098,temperature disordered insulators,259267,15.7,ok
+pg_bm25,full,G0099,quasilinear parabolic problem,519305,11.6,ok
+pg_bm25,full,G0100,kondo effect novel,902407,14.3,ok
+pg_bm25,full,G0101,shape selection,283712,12.1,ok
+pg_bm25,full,G0102,universal model,1315442,14.6,ok
+pg_bm25,full,G0103,quantitative interpretation,216277,12.4,ok
+pg_bm25,full,G0104,causal discovery spatio-temporal graphs,308428,13.4,ok
+pg_bm25,full,G0105,optimization second-harmonic generation touching,927502,14.3,ok
+pg_bm25,full,G0106,filtervit dropoutvit,1,2.1,ok
+pg_bm25,full,G0107,dicke states,664012,11.1,ok
+pg_bm25,full,G0108,order local frustration itinerant,760105,12.8,ok
+pg_bm25,full,G0109,approximation wigner--fokker--planck equation applications,909513,15.6,ok
+pg_bm25,full,G0110,control against,341518,10.2,ok
+pg_bm25,full,G0111,artificial brain,67704,7.8,ok
+pg_bm25,full,G0112,proton-proton interactions,384332,13.4,ok
+pg_bm25,full,G0113,spectral type,450113,13.8,ok
+pg_bm25,full,G0114,permutation automorphism groups,245858,11.7,ok
+pg_bm25,full,G0115,scalable risk stochastic systems,889328,11.4,ok
+pg_bm25,full,G0116,autoencoders transfer,126336,8.1,ok
+pg_bm25,full,G0117,rotating black holes,208103,13.1,ok
+pg_bm25,full,G0118,medicine through low-resolution inputs,887390,15.0,ok
+pg_bm25,full,G0119,universal spinning black,327061,12.3,ok
+pg_bm25,full,G0120,period wolf-rayet,132172,7.7,ok
+pg_bm25,full,G0121,finite temperature,437166,13.7,ok
+pg_bm25,full,G0122,solutions cubic-quintic,364871,16.3,ok
+pg_bm25,full,G0123,shape perception emerges,228295,12.0,ok
+pg_bm25,full,G0124,stars gaia data,796055,16.4,ok
+pg_bm25,full,G0125,logic programming,120142,6.5,ok
+pg_bm25,full,G0126,breakdown fluctuational,89954,5.2,ok
+pg_bm25,full,G0127,incomplete classical,213865,11.7,ok
+pg_bm25,full,G0128,affine invariant,160887,3.5,ok
+pg_bm25,full,G0129,algebras associated hilbert quad,372731,14.0,ok
+pg_bm25,full,G0130,tenerife impact photometric,146495,5.9,ok
+pg_bm25,full,G0131,multi-modal llms,322138,12.9,ok
+pg_bm25,full,G0132,kicked harper,4024,2.6,ok
+pg_bm25,full,G0133,gradient-play dynamics distributed,891822,13.2,ok
+pg_bm25,full,G0134,contact binary stars,257433,14.2,ok
+pg_bm25,full,G0135,image representation learning deep,746094,17.0,ok
+pg_bm25,full,G0136,approximate near neighbor search,559837,11.3,ok
+pg_bm25,full,G0137,opportunities challenges solid-state quantum,1092748,14.1,ok
+pg_bm25,full,G0138,descent theorem,138434,4.5,ok
+pg_bm25,full,G0139,dimensional branes,336840,10.1,ok
+pg_bm25,full,G0140,function spaces,936104,9.6,ok
+pg_bm25,full,G0141,optical lattice investigated pump-probe,685019,16.1,ok
+pg_bm25,full,G0142,colourful holographic superconductors,58546,5.9,ok
+pg_bm25,full,G0143,mond seven,22538,6.0,ok
+pg_bm25,full,G0144,roots trigonometric polynomials s-tur,326509,16.2,ok
+pg_bm25,full,G0145,motion resonance exploring disc,421069,13.1,ok
+pg_bm25,full,G0146,first-passage times,1112809,10.5,ok
+pg_bm25,full,G0147,decays factorization,295292,13.9,ok
+pg_bm25,full,G0148,collaborator selection decision-making enhance,668610,16.7,ok
+pg_bm25,full,G0149,light-cone rules,259428,14.0,ok
+pg_bm25,full,G0150,limit particle system degenerate,1221018,9.8,ok
+pg_bm25,full,G0151,transitions tmttf,217551,12.5,ok
+pg_bm25,full,G0152,back metric,167574,11.4,ok
+pg_bm25,full,G0153,accretion structures during flares,707564,15.1,ok
+pg_bm25,full,G0154,observation rightarrow,583534,9.8,ok
+pg_bm25,full,G0155,flow nonlocal quantitative alexandrov,219433,12.4,ok
+pg_bm25,full,G0156,radiative corrections polarized process,719850,15.8,ok
+pg_bm25,full,G0157,there many worlds,393399,12.5,ok
+pg_bm25,full,G0158,number limit fractional euler-alignment,964522,12.8,ok
+pg_bm25,full,G0159,correlations interacting,532245,9.4,ok
+pg_bm25,full,G0160,random walks monotonically changing,396158,14.0,ok
+pg_bm25,full,G0161,quantile networks generative modeling,1605981,12.0,ok
+pg_bm25,full,G0162,ground state fractal crystals,765728,12.5,ok
+pg_bm25,full,G0163,identification rare events,181914,11.3,ok
+pg_bm25,full,G0164,surfaces mirror symmetry counterexample,338334,17.7,ok
+pg_bm25,full,G0165,hyperbolic structures cusped manifolds,611175,12.1,ok
+pg_bm25,full,G0166,search dark photon electro-produced,443586,14.8,ok
+pg_bm25,full,G0167,graph convolutional,203597,10.2,ok
+pg_bm25,full,G0168,very strong,468433,12.1,ok
+pg_bm25,full,G0169,technical debt,35197,3.9,ok
+pg_bm25,full,G0170,spin-crossover transition,362813,11.9,ok
+pg_bm25,full,G0171,linear hyperbolic systems,979135,9.8,ok
+pg_bm25,full,G0172,chiral anomaly longitudinal magnetoconductance,100511,14.6,ok
+pg_bm25,full,G0173,efficient reasoning distillation,461154,14.6,ok
+pg_bm25,full,G0174,multi-label learning structured decomposition,1066135,13.0,ok
+pg_bm25,full,G0175,enhanced image,442557,11.4,ok
+pg_bm25,full,G0176,encoder graph neural,371548,12.1,ok
+pg_bm25,full,G0177,renormalizable gauge invariant non-local,900778,11.1,ok
+pg_bm25,full,G0178,signal inference,299710,11.9,ok
+pg_bm25,full,G0179,inverse problems,564840,10.2,ok
+pg_bm25,full,G0180,synthesis input limits hybrid,661498,10.3,ok
+pg_bm25,full,G0181,contributions asymmetry decay,310040,11.5,ok
+pg_bm25,full,G0182,strongly coupled charged,599116,13.7,ok
+pg_bm25,full,G0183,system generated cuntz,1090285,9.6,ok
+pg_bm25,full,G0184,masses mixings renormalizable,360195,11.4,ok
+pg_bm25,full,G0185,perturbed stark operators,431462,12.1,ok
+pg_bm25,full,G0186,fixed point free,605633,15.6,ok
+pg_bm25,full,G0187,green griffiths,25078,2.9,ok
+pg_bm25,full,G0188,fluctuations during,249038,9.3,ok
+pg_bm25,full,G0189,does sharpness-aware minimization minimize,399891,17.6,ok
+pg_bm25,full,G0190,strong fractional choice,458925,12.6,ok
+pg_bm25,full,G0191,prototype charge injection,189978,9.9,ok
+pg_bm25,full,G0192,discrimination nuclear recoils alpha,168083,5.3,ok
+pg_bm25,full,G0193,well-posedness semilinear heat,520362,19.0,ok
+pg_bm25,full,G0194,nakanishi integral,296616,11.1,ok
+pg_bm25,full,G0195,decaying dark,181064,9.0,ok
+pg_bm25,full,G0196,binary measurements,540660,9.1,ok
+pg_bm25,full,G0197,tkip michael,596,2.6,ok
+pg_bm25,full,G0198,wick rotated,97344,3.7,ok
+pg_bm25,full,G0199,downlink asymmetric interference,73389,5.0,ok
+pg_bm25,full,G0200,baryon density effective relativistic,950668,13.2,ok
+pg_fts_and,full,G0001,gluon contribution open heavy-meson,1,29.5,ok
+pg_fts_and,full,G0002,single layer,21362,1601.1,ok
+pg_fts_and,full,G0003,prediction gamma gamma gamma,12103,749.7,ok
+pg_fts_and,full,G0004,neuron populations neuromorphic spike,29,9.3,ok
+pg_fts_and,full,G0005,phonemic graphemic,188,16.0,ok
+pg_fts_and,full,G0006,example basic linear algebra,136,31.3,ok
+pg_fts_and,full,G0007,helmholtz resonators including thermoviscous,2,8.7,ok
+pg_fts_and,full,G0008,multi-model inference natural selection,4,24.8,ok
+pg_fts_and,full,G0009,buried threat,13,4.3,ok
+pg_fts_and,full,G0010,experiments astrophysical observations neutron,229,39.3,ok
+pg_fts_and,full,G0011,centrosymmetric matrices sinc collocation,1,10.8,ok
+pg_fts_and,full,G0012,gate passed checks,176,12.4,ok
+pg_fts_and,full,G0013,droplet emergence regular,16,9.5,ok
+pg_fts_and,full,G0014,markov chains,15551,1139.3,ok
+pg_fts_and,full,G0015,quantum computing classical stochastic,555,60.4,ok
+pg_fts_and,full,G0016,impulse controls changing,79,13.5,ok
+pg_fts_and,full,G0017,large group delay microwave,4,18.6,ok
+pg_fts_and,full,G0018,bi-grid allen cahn equation,1,5.5,ok
+pg_fts_and,full,G0019,cycles k-orbits,1,5.3,ok
+pg_fts_and,full,G0020,weak magnetic field,11385,681.1,ok
+pg_fts_and,full,G0021,energetic particle transport,645,53.8,ok
+pg_fts_and,full,G0022,dark areas molecular,82,16.3,ok
+pg_fts_and,full,G0023,influence wetting properties,108,16.7,ok
+pg_fts_and,full,G0024,plasmas inert reactive atmospheres,2,6.3,ok
+pg_fts_and,full,G0025,infty categories,1911,145.4,ok
+pg_fts_and,full,G0026,knowledge graph paired dataset,421,54.5,ok
+pg_fts_and,full,G0027,branes spontaneous,451,23.0,ok
+pg_fts_and,full,G0028,parameterized algorithms,5693,459.2,ok
+pg_fts_and,full,G0029,correlations grover search,27,9.6,ok
+pg_fts_and,full,G0030,then forget,7999,452.4,ok
+pg_fts_and,full,G0031,variation equilibrium,4127,250.5,ok
+pg_fts_and,full,G0032,cosmic rates black,914,66.6,ok
+pg_fts_and,full,G0033,quantum mechanics mathematical equations,550,55.5,ok
+pg_fts_and,full,G0034,potential large language,16947,859.0,ok
+pg_fts_and,full,G0035,potts models,2470,121.9,ok
+pg_fts_and,full,G0036,real-time fisher,87,22.7,ok
+pg_fts_and,full,G0037,navier-stokes equations,8038,530.6,ok
+pg_fts_and,full,G0038,near-ultraviolet continuum modeling april,1,9.6,ok
+pg_fts_and,full,G0039,security controls,7440,455.0,ok
+pg_fts_and,full,G0040,coherent scattering,6714,380.6,ok
+pg_fts_and,full,G0041,making affine correspondences work,53,20.7,ok
+pg_fts_and,full,G0042,boosting byzantine,14,4.0,ok
+pg_fts_and,full,G0043,suitable journal,110,11.3,ok
+pg_fts_and,full,G0044,group theory raman,127,16.2,ok
+pg_fts_and,full,G0045,stochastic processes,28111,1764.8,ok
+pg_fts_and,full,G0046,earth orbit satellites,2410,164.7,ok
+pg_fts_and,full,G0047,improve metaphor processing,40,10.7,ok
+pg_fts_and,full,G0048,higher-weight limiting modular symbols,1,7.4,ok
+pg_fts_and,full,G0049,discrete breathers,368,21.5,ok
+pg_fts_and,full,G0050,building coverage estimation low-resolution,2,16.9,ok
+pg_fts_and,full,G0051,geometry spaces harmonic maps,133,24.8,ok
+pg_fts_and,full,G0052,cognitive radio systems,615,57.8,ok
+pg_fts_and,full,G0053,intention-expression aligning multi-dimensional,1,3.1,ok
+pg_fts_and,full,G0054,space model prediction experimental,3775,275.8,ok
+pg_fts_and,full,G0055,geometrical bounds,11179,597.1,ok
+pg_fts_and,full,G0056,foveal avascular zone,16,4.3,ok
+pg_fts_and,full,G0057,preimage feed-forward neural,2,8.7,ok
+pg_fts_and,full,G0058,role galaxy mass morphology,516,42.6,ok
+pg_fts_and,full,G0059,corotation region,588,36.1,ok
+pg_fts_and,full,G0060,vector vorticity advanced sensing,1,11.9,ok
+pg_fts_and,full,G0061,tasks edge,10065,563.4,ok
+pg_fts_and,full,G0062,thermal versus vacuum magnetization,4,9.0,ok
+pg_fts_and,full,G0063,class mathcal origin spindle,2,9.0,ok
+pg_fts_and,full,G0064,residually finite,5715,276.3,ok
+pg_fts_and,full,G0065,hyperconnected parcel,3,1.9,ok
+pg_fts_and,full,G0066,optimal deception attack networked,43,13.6,ok
+pg_fts_and,full,G0067,trials delayed treatment initiation,7,8.5,ok
+pg_fts_and,full,G0068,electron impact,7485,441.4,ok
+pg_fts_and,full,G0069,prices case fukushima nuclear,1,8.5,ok
+pg_fts_and,full,G0070,methylation dynamics approaches,53,13.7,ok
+pg_fts_and,full,G0071,model extensive degeneracy,559,39.2,ok
+pg_fts_and,full,G0072,created invariant line constraint,4,18.7,ok
+pg_fts_and,full,G0073,estimation moments heavy-ion,24,8.3,ok
+pg_fts_and,full,G0074,measurement orthopositronium,18,3.6,ok
+pg_fts_and,full,G0075,signature refreshed,19,5.3,ok
+pg_fts_and,full,G0076,cqis massive,1,1.1,ok
+pg_fts_and,full,G0077,comparison quantum computing architectures,115,21.7,ok
+pg_fts_and,full,G0078,theory first-principles methodology applications,45,19.3,ok
+pg_fts_and,full,G0079,failure time models,6227,248.3,ok
+pg_fts_and,full,G0080,cake evaluating self-supervised generalization,1,13.1,ok
+pg_fts_and,full,G0081,equations state,69388,3278.3,ok
+pg_fts_and,full,G0082,challenge likelihood ratio,388,28.7,ok
+pg_fts_and,full,G0083,diarization system voxceleb,18,4.3,ok
+pg_fts_and,full,G0084,quaternion hilbert,251,18.7,ok
+pg_fts_and,full,G0085,storage apps forensic taxonomy,1,2.8,ok
+pg_fts_and,full,G0086,lightweight bioacoustic denoising audio,1,3.6,ok
+pg_fts_and,full,G0087,landau gauge,2645,99.5,ok
+pg_fts_and,full,G0088,rafts self-assembled colloidal membranes,3,3.5,ok
+pg_fts_and,full,G0089,dynamics trade,7590,289.2,ok
+pg_fts_and,full,G0090,one-pion production neutrino-nucleus,3,12.7,ok
+pg_fts_and,full,G0091,excluded minors,566,34.5,ok
+pg_fts_and,full,G0092,distribution structure,68098,2766.5,ok
+pg_fts_and,full,G0093,fibonacci numbers automorphisms,8,8.7,ok
+pg_fts_and,full,G0094,entanglement super-qubit quantum states,2,2.3,ok
+pg_fts_and,full,G0095,processes multi-level non-parametric admixture,1,16.4,ok
+pg_fts_and,full,G0096,theorem gibbsian invariant measures,6,9.0,ok
+pg_fts_and,full,G0097,framework real-time agent discovery,37,18.8,ok
+pg_fts_and,full,G0098,temperature disordered insulators,1165,57.7,ok
+pg_fts_and,full,G0099,quasilinear parabolic problem,214,17.3,ok
+pg_fts_and,full,G0100,kondo effect novel,181,19.7,ok
+pg_fts_and,full,G0101,shape selection,7141,277.7,ok
+pg_fts_and,full,G0102,universal model,66195,2365.9,ok
+pg_fts_and,full,G0103,quantitative interpretation,5073,179.3,ok
+pg_fts_and,full,G0104,causal discovery spatio-temporal graphs,5,7.9,ok
+pg_fts_and,full,G0105,optimization second-harmonic generation touching,2,14.5,ok
+pg_fts_and,full,G0106,filtervit dropoutvit,1,1.3,ok
+pg_fts_and,full,G0107,dicke states,1342,47.7,ok
+pg_fts_and,full,G0108,order local frustration itinerant,62,16.9,ok
+pg_fts_and,full,G0109,approximation wigner--fokker--planck equation applications,4,12.0,ok
+pg_fts_and,full,G0110,control against,253277,7031.5,ok
+pg_fts_and,full,G0111,artificial brain,1827,65.3,ok
+pg_fts_and,full,G0112,proton-proton interactions,1315,63.4,ok
+pg_fts_and,full,G0113,spectral type,20566,762.2,ok
+pg_fts_and,full,G0114,permutation automorphism groups,515,26.9,ok
+pg_fts_and,full,G0115,scalable risk stochastic systems,40,18.8,ok
+pg_fts_and,full,G0116,autoencoders transfer,1029,37.9,ok
+pg_fts_and,full,G0117,rotating black holes,8969,335.9,ok
+pg_fts_and,full,G0118,medicine through low-resolution inputs,1,12.9,ok
+pg_fts_and,full,G0119,universal spinning black,635,32.4,ok
+pg_fts_and,full,G0120,period wolf-rayet,243,13.5,ok
+pg_fts_and,full,G0121,finite temperature,27805,860.1,ok
+pg_fts_and,full,G0122,solutions cubic-quintic,115,14.7,ok
+pg_fts_and,full,G0123,shape perception emerges,172,12.7,ok
+pg_fts_and,full,G0124,stars gaia data,3760,187.3,ok
+pg_fts_and,full,G0125,logic programming,5926,231.7,ok
+pg_fts_and,full,G0126,breakdown fluctuational,641,23.5,ok
+pg_fts_and,full,G0127,incomplete classical,1110,44.5,ok
+pg_fts_and,full,G0128,affine invariant,3349,132.2,ok
+pg_fts_and,full,G0129,algebras associated hilbert quad,11,12.8,ok
+pg_fts_and,full,G0130,tenerife impact photometric,1,4.7,ok
+pg_fts_and,full,G0131,multi-modal llms,974,22.6,ok
+pg_fts_and,full,G0132,kicked harper,38,3.1,ok
+pg_fts_and,full,G0133,gradient-play dynamics distributed,3,4.7,ok
+pg_fts_and,full,G0134,contact binary stars,532,25.6,ok
+pg_fts_and,full,G0135,image representation learning deep,5646,267.4,ok
+pg_fts_and,full,G0136,approximate near neighbor search,135,18.3,ok
+pg_fts_and,full,G0137,opportunities challenges solid-state quantum,31,21.0,ok
+pg_fts_and,full,G0138,descent theorem,826,35.3,ok
+pg_fts_and,full,G0139,dimensional branes,6670,183.4,ok
+pg_fts_and,full,G0140,function spaces,102060,3984.8,ok
+pg_fts_and,full,G0141,optical lattice investigated pump-probe,31,21.6,ok
+pg_fts_and,full,G0142,colourful holographic superconductors,3,5.5,ok
+pg_fts_and,full,G0143,mond seven,9,2.9,ok
+pg_fts_and,full,G0144,roots trigonometric polynomials s-tur,2,5.3,ok
+pg_fts_and,full,G0145,motion resonance exploring disc,25,12.4,ok
+pg_fts_and,full,G0146,first-passage times,933,39.9,ok
+pg_fts_and,full,G0147,decays factorization,11150,339.0,ok
+pg_fts_and,full,G0148,collaborator selection decision-making enhance,40,16.2,ok
+pg_fts_and,full,G0149,light-cone rules,774,23.7,ok
+pg_fts_and,full,G0150,limit particle system degenerate,180,20.7,ok
+pg_fts_and,full,G0151,transitions tmttf,40,3.0,ok
+pg_fts_and,full,G0152,back metric,1595,50.4,ok
+pg_fts_and,full,G0153,accretion structures during flares,329,19.0,ok
+pg_fts_and,full,G0154,observation rightarrow,3405,158.8,ok
+pg_fts_and,full,G0155,flow nonlocal quantitative alexandrov,1,5.9,ok
+pg_fts_and,full,G0156,radiative corrections polarized process,137,23.4,ok
+pg_fts_and,full,G0157,there many worlds,20705,873.9,ok
+pg_fts_and,full,G0158,number limit fractional euler-alignment,1,7.5,ok
+pg_fts_and,full,G0159,correlations interacting,36316,1192.4,ok
+pg_fts_and,full,G0160,random walks monotonically changing,17,11.5,ok
+pg_fts_and,full,G0161,quantile networks generative modeling,74,16.0,ok
+pg_fts_and,full,G0162,ground state fractal crystals,5,10.1,ok
+pg_fts_and,full,G0163,identification rare events,202,16.5,ok
+pg_fts_and,full,G0164,surfaces mirror symmetry counterexample,2,11.9,ok
+pg_fts_and,full,G0165,hyperbolic structures cusped manifolds,72,8.6,ok
+pg_fts_and,full,G0166,search dark photon electro-produced,4,5.6,ok
+pg_fts_and,full,G0167,graph convolutional,6241,245.1,ok
+pg_fts_and,full,G0168,very strong,308306,7216.2,ok
+pg_fts_and,full,G0169,technical debt,387,18.0,ok
+pg_fts_and,full,G0170,spin-crossover transition,66,9.2,ok
+pg_fts_and,full,G0171,linear hyperbolic systems,1439,54.9,ok
+pg_fts_and,full,G0172,chiral anomaly longitudinal magnetoconductance,39,7.7,ok
+pg_fts_and,full,G0173,efficient reasoning distillation,981,23.9,ok
+pg_fts_and,full,G0174,multi-label learning structured decomposition,10,11.1,ok
+pg_fts_and,full,G0175,enhanced image,35226,827.1,ok
+pg_fts_and,full,G0176,encoder graph neural,2839,68.4,ok
+pg_fts_and,full,G0177,renormalizable gauge invariant non-local,11,11.5,ok
+pg_fts_and,full,G0178,signal inference,11668,228.4,ok
+pg_fts_and,full,G0179,inverse problems,23648,680.4,ok
+pg_fts_and,full,G0180,synthesis input limits hybrid,46,12.4,ok
+pg_fts_and,full,G0181,contributions asymmetry decay,1340,33.8,ok
+pg_fts_and,full,G0182,strongly coupled charged,6447,65.5,ok
+pg_fts_and,full,G0183,system generated cuntz,39,8.2,ok
+pg_fts_and,full,G0184,masses mixings renormalizable,271,13.9,ok
+pg_fts_and,full,G0185,perturbed stark operators,52,11.3,ok
+pg_fts_and,full,G0186,fixed point free,3660,100.9,ok
+pg_fts_and,full,G0187,green griffiths,123,6.0,ok
+pg_fts_and,full,G0188,fluctuations during,81917,1764.5,ok
+pg_fts_and,full,G0189,does sharpness-aware minimization minimize,294,12.6,ok
+pg_fts_and,full,G0190,strong fractional choice,195,14.7,ok
+pg_fts_and,full,G0191,prototype charge injection,50,6.9,ok
+pg_fts_and,full,G0192,discrimination nuclear recoils alpha,23,6.2,ok
+pg_fts_and,full,G0193,well-posedness semilinear heat,24,12.3,ok
+pg_fts_and,full,G0194,nakanishi integral,56,8.3,ok
+pg_fts_and,full,G0195,decaying dark,8172,206.4,ok
+pg_fts_and,full,G0196,binary measurements,14729,357.5,ok
+pg_fts_and,full,G0197,tkip michael,1,1.3,ok
+pg_fts_and,full,G0198,wick rotated,500,13.3,ok
+pg_fts_and,full,G0199,downlink asymmetric interference,23,2.8,ok
+pg_fts_and,full,G0200,baryon density effective relativistic,361,24.7,ok
+pg_fts_or,full,G0001,gluon contribution open heavy-meson,449906,8123.0,ok
+pg_fts_or,full,G0002,single layer,407856,5522.8,ok
+pg_fts_or,full,G0003,prediction gamma gamma gamma,439121,5815.5,ok
+pg_fts_or,full,G0004,neuron populations neuromorphic spike,113925,3852.0,ok
+pg_fts_or,full,G0005,phonemic graphemic,1608,74.1,ok
+pg_fts_or,full,G0006,example basic linear algebra,636902,5364.3,ok
+pg_fts_or,full,G0007,helmholtz resonators including thermoviscous,494944,10802.3,ok
+pg_fts_or,full,G0008,multi-model inference natural selection,1618184,5534.0,ok
+pg_fts_or,full,G0009,buried threat,16915,787.8,ok
+pg_fts_or,full,G0010,experiments astrophysical observations neutron,940219,4990.2,ok
+pg_fts_or,full,G0011,centrosymmetric matrices sinc collocation,163551,6570.6,ok
+pg_fts_or,full,G0012,gate passed checks,114656,3577.0,ok
+pg_fts_or,full,G0013,droplet emergence regular,261580,6571.2,ok
+pg_fts_or,full,G0014,markov chains,97444,2419.7,ok
+pg_fts_or,full,G0015,quantum computing classical stochastic,920523,5007.2,ok
+pg_fts_or,full,G0016,impulse controls changing,428915,9003.3,ok
+pg_fts_or,full,G0017,large group delay microwave,816512,5494.0,ok
+pg_fts_or,full,G0018,bi-grid allen cahn equation,362009,8981.9,ok
+pg_fts_or,full,G0019,cycles k-orbits,362675,7308.3,ok
+pg_fts_or,full,G0020,weak magnetic field,728363,5840.4,ok
+pg_fts_or,full,G0021,energetic particle transport,285820,9932.0,ok
+pg_fts_or,full,G0022,dark areas molecular,239999,6917.0,ok
+pg_fts_or,full,G0023,influence wetting properties,497369,10375.2,ok
+pg_fts_or,full,G0024,plasmas inert reactive atmospheres,86840,1594.2,ok
+pg_fts_or,full,G0025,infty categories,101388,2388.7,ok
+pg_fts_or,full,G0026,knowledge graph paired dataset,617112,6567.7,ok
+pg_fts_or,full,G0027,branes spontaneous,47989,2120.7,ok
+pg_fts_or,full,G0028,parameterized algorithms,349665,12220.3,ok
+pg_fts_or,full,G0029,correlations grover search,334118,9132.0,ok
+pg_fts_or,full,G0030,then forget,7999,227.8,ok
+pg_fts_or,full,G0031,variation equilibrium,211629,5646.9,ok
+pg_fts_or,full,G0032,cosmic rates black,391610,8049.5,ok
+pg_fts_or,full,G0033,quantum mechanics mathematical equations,845040,6696.1,ok
+pg_fts_or,full,G0034,potential large language,906277,5049.2,ok
+pg_fts_or,full,G0035,potts models,1267667,5324.7,ok
+pg_fts_or,full,G0036,real-time fisher,930843,5317.2,ok
+pg_fts_or,full,G0037,navier-stokes equations,318184,9646.2,ok
+pg_fts_or,full,G0038,near-ultraviolet continuum modeling april,1412790,5685.5,ok
+pg_fts_or,full,G0039,security controls,297226,8917.4,ok
+pg_fts_or,full,G0040,coherent scattering,195481,5414.7,ok
+pg_fts_or,full,G0041,making affine correspondences work,937660,5850.8,ok
+pg_fts_or,full,G0042,boosting byzantine,31293,1606.7,ok
+pg_fts_or,full,G0043,suitable journal,89628,4524.4,ok
+pg_fts_or,full,G0044,group theory raman,618564,5560.8,ok
+pg_fts_or,full,G0045,stochastic processes,500806,13389.2,ok
+pg_fts_or,full,G0046,earth orbit satellites,149674,5193.5,ok
+pg_fts_or,full,G0047,improve metaphor processing,769825,5664.7,ok
+pg_fts_or,full,G0048,higher-weight limiting modular symbols,773221,6351.6,ok
+pg_fts_or,full,G0049,discrete breathers,110721,4510.1,ok
+pg_fts_or,full,G0050,building coverage estimation low-resolution,818447,4524.9,ok
+pg_fts_or,full,G0051,geometry spaces harmonic maps,723297,4435.0,ok
+pg_fts_or,full,G0052,cognitive radio systems,800040,4619.5,ok
+pg_fts_or,full,G0053,intention-expression aligning multi-dimensional,736086,3872.8,ok
+pg_fts_or,full,G0054,space model prediction experimental,1787718,3722.3,ok
+pg_fts_or,full,G0055,geometrical bounds,364899,12018.9,ok
+pg_fts_or,full,G0056,foveal avascular zone,22929,812.5,ok
+pg_fts_or,full,G0057,preimage feed-forward neural,217605,5400.8,ok
+pg_fts_or,full,G0058,role galaxy mass morphology,482380,10317.4,ok
+pg_fts_or,full,G0059,corotation region,215766,4256.9,ok
+pg_fts_or,full,G0060,vector vorticity advanced sensing,346090,6149.3,ok
+pg_fts_or,full,G0061,tasks edge,373274,4177.5,ok
+pg_fts_or,full,G0062,thermal versus vacuum magnetization,329993,3317.5,ok
+pg_fts_or,full,G0063,class mathcal origin spindle,473126,5003.3,ok
+pg_fts_or,full,G0064,residually finite,296712,2510.5,ok
+pg_fts_or,full,G0065,hyperconnected parcel,895,11.8,ok
+pg_fts_or,full,G0066,optimal deception attack networked,638730,5783.9,ok
+pg_fts_or,full,G0067,trials delayed treatment initiation,265729,6766.6,ok
+pg_fts_or,full,G0068,electron impact,302503,6016.0,ok
+pg_fts_or,full,G0069,prices case fukushima nuclear,517662,8958.9,ok
+pg_fts_or,full,G0070,methylation dynamics approaches,946124,5684.2,ok
+pg_fts_or,full,G0071,model extensive degeneracy,1389234,5037.5,ok
+pg_fts_or,full,G0072,created invariant line constraint,532018,16753.5,ok
+pg_fts_or,full,G0073,estimation moments heavy-ion,470934,10978.6,ok
+pg_fts_or,full,G0074,measurement orthopositronium,466655,9444.8,ok
+pg_fts_or,full,G0075,signature refreshed,53987,876.7,ok
+pg_fts_or,full,G0076,cqis massive,81243,1301.9,ok
+pg_fts_or,full,G0077,comparison quantum computing architectures,919034,6341.0,ok
+pg_fts_or,full,G0078,theory first-principles methodology applications,1283675,5314.6,ok
+pg_fts_or,full,G0079,failure time models,1696765,7943.4,ok
+pg_fts_or,full,G0080,cake evaluating self-supervised generalization,980552,5225.1,ok
+pg_fts_or,full,G0081,equations state,903476,4297.4,ok
+pg_fts_or,full,G0082,challenge likelihood ratio,460173,14362.2,ok
+pg_fts_or,full,G0083,diarization system voxceleb,748851,5531.8,ok
+pg_fts_or,full,G0084,quaternion hilbert,38387,1909.3,ok
+pg_fts_or,full,G0085,storage apps forensic taxonomy,42927,1796.1,ok
+pg_fts_or,full,G0086,lightweight bioacoustic denoising audio,58062,2296.5,ok
+pg_fts_or,full,G0087,landau gauge,100274,3421.9,ok
+pg_fts_or,full,G0088,rafts self-assembled colloidal membranes,190358,5792.6,ok
+pg_fts_or,full,G0089,dynamics trade,466292,8790.8,ok
+pg_fts_or,full,G0090,one-pion production neutrino-nucleus,843335,4981.6,ok
+pg_fts_or,full,G0091,excluded minors,38617,1658.2,ok
+pg_fts_or,full,G0092,distribution structure,849043,4723.3,ok
+pg_fts_or,full,G0093,fibonacci numbers automorphisms,424136,12268.1,ok
+pg_fts_or,full,G0094,entanglement super-qubit quantum states,882835,5423.4,ok
+pg_fts_or,full,G0095,processes multi-level non-parametric admixture,1257916,4929.4,ok
+pg_fts_or,full,G0096,theorem gibbsian invariant measures,680720,5714.7,ok
+pg_fts_or,full,G0097,framework real-time agent discovery,1249374,5021.5,ok
+pg_fts_or,full,G0098,temperature disordered insulators,258863,9200.5,ok
+pg_fts_or,full,G0099,quasilinear parabolic problem,519209,11791.4,ok
+pg_fts_or,full,G0100,kondo effect novel,902345,5506.2,ok
+pg_fts_or,full,G0101,shape selection,283453,8064.1,ok
+pg_fts_or,full,G0102,universal model,1349360,5030.3,ok
+pg_fts_or,full,G0103,quantitative interpretation,216212,8118.8,ok
+pg_fts_or,full,G0104,causal discovery spatio-temporal graphs,308184,7905.4,ok
+pg_fts_or,full,G0105,optimization second-harmonic generation touching,927127,5887.5,ok
+pg_fts_or,full,G0106,filtervit dropoutvit,1,78.4,ok
+pg_fts_or,full,G0107,dicke states,663842,5605.7,ok
+pg_fts_or,full,G0108,order local frustration itinerant,759775,4821.0,ok
+pg_fts_or,full,G0109,approximation wigner--fokker--planck equation applications,909317,4929.7,ok
+pg_fts_or,full,G0110,control against,253277,8065.8,ok
+pg_fts_or,full,G0111,artificial brain,67650,2064.2,ok
+pg_fts_or,full,G0112,proton-proton interactions,384041,6666.1,ok
+pg_fts_or,full,G0113,spectral type,449692,6714.4,ok
+pg_fts_or,full,G0114,permutation automorphism groups,245132,2900.7,ok
+pg_fts_or,full,G0115,scalable risk stochastic systems,889132,5541.8,ok
+pg_fts_or,full,G0116,autoencoders transfer,126275,4441.0,ok
+pg_fts_or,full,G0117,rotating black holes,207570,4414.7,ok
+pg_fts_or,full,G0118,medicine through low-resolution inputs,567293,5180.9,ok
+pg_fts_or,full,G0119,universal spinning black,385663,8400.7,ok
+pg_fts_or,full,G0120,period wolf-rayet,132100,2895.5,ok
+pg_fts_or,full,G0121,finite temperature,436910,6266.7,ok
+pg_fts_or,full,G0122,solutions cubic-quintic,364790,5890.1,ok
+pg_fts_or,full,G0123,shape perception emerges,265538,4199.7,ok
+pg_fts_or,full,G0124,stars gaia data,795767,5815.2,ok
+pg_fts_or,full,G0125,logic programming,120058,5845.7,ok
+pg_fts_or,full,G0126,breakdown fluctuational,89930,3551.4,ok
+pg_fts_or,full,G0127,incomplete classical,213699,6614.7,ok
+pg_fts_or,full,G0128,affine invariant,160817,4527.6,ok
+pg_fts_or,full,G0129,algebras associated hilbert quad,372621,9812.5,ok
+pg_fts_or,full,G0130,tenerife impact photometric,146422,4119.1,ok
+pg_fts_or,full,G0131,multi-modal llms,321920,5843.2,ok
+pg_fts_or,full,G0132,kicked harper,4020,94.3,ok
+pg_fts_or,full,G0133,gradient-play dynamics distributed,891537,5819.4,ok
+pg_fts_or,full,G0134,contact binary stars,257262,6877.6,ok
+pg_fts_or,full,G0135,image representation learning deep,745764,5489.6,ok
+pg_fts_or,full,G0136,approximate near neighbor search,559296,13598.0,ok
+pg_fts_or,full,G0137,opportunities challenges solid-state quantum,1092421,5952.0,ok
+pg_fts_or,full,G0138,descent theorem,138375,5349.8,ok
+pg_fts_or,full,G0139,dimensional branes,336757,8346.0,ok
+pg_fts_or,full,G0140,function spaces,935687,5224.0,ok
+pg_fts_or,full,G0141,optical lattice investigated pump-probe,683687,4964.3,ok
+pg_fts_or,full,G0142,colourful holographic superconductors,58105,2243.7,ok
+pg_fts_or,full,G0143,mond seven,22536,617.3,ok
+pg_fts_or,full,G0144,roots trigonometric polynomials s-tur,126734,3806.7,ok
+pg_fts_or,full,G0145,motion resonance exploring disc,420876,7357.2,ok
+pg_fts_or,full,G0146,first-passage times,1112647,4747.4,ok
+pg_fts_or,full,G0147,decays factorization,295088,6096.6,ok
+pg_fts_or,full,G0148,collaborator selection decision-making enhance,668367,5489.3,ok
+pg_fts_or,full,G0149,light-cone rules,259244,5886.6,ok
+pg_fts_or,full,G0150,limit particle system degenerate,1221565,5324.3,ok
+pg_fts_or,full,G0151,transitions tmttf,217422,6181.9,ok
+pg_fts_or,full,G0152,back metric,167493,4346.0,ok
+pg_fts_or,full,G0153,accretion structures during flares,573068,10840.9,ok
+pg_fts_or,full,G0154,observation rightarrow,583377,5497.9,ok
+pg_fts_or,full,G0155,flow nonlocal quantitative alexandrov,219303,7167.9,ok
+pg_fts_or,full,G0156,radiative corrections polarized process,719462,5240.9,ok
+pg_fts_or,full,G0157,there many worlds,393351,10265.3,ok
+pg_fts_or,full,G0158,number limit fractional euler-alignment,964986,5175.6,ok
+pg_fts_or,full,G0159,correlations interacting,532025,5043.1,ok
+pg_fts_or,full,G0160,random walks monotonically changing,396049,13583.9,ok
+pg_fts_or,full,G0161,quantile networks generative modeling,1605792,5305.9,ok
+pg_fts_or,full,G0162,ground state fractal crystals,765483,5035.3,ok
+pg_fts_or,full,G0163,identification rare events,181696,6025.3,ok
+pg_fts_or,full,G0164,surfaces mirror symmetry counterexample,338127,9150.2,ok
+pg_fts_or,full,G0165,hyperbolic structures cusped manifolds,610869,5118.7,ok
+pg_fts_or,full,G0166,search dark photon electro-produced,443261,10197.1,ok
+pg_fts_or,full,G0167,graph convolutional,203522,5487.6,ok
+pg_fts_or,full,G0168,very strong,308306,6852.0,ok
+pg_fts_or,full,G0169,technical debt,35170,812.1,ok
+pg_fts_or,full,G0170,spin-crossover transition,362499,7089.2,ok
+pg_fts_or,full,G0171,linear hyperbolic systems,978794,6293.8,ok
+pg_fts_or,full,G0172,chiral anomaly longitudinal magnetoconductance,100400,3308.2,ok
+pg_fts_or,full,G0173,efficient reasoning distillation,461024,11015.6,ok
+pg_fts_or,full,G0174,multi-label learning structured decomposition,1065737,5276.7,ok
+pg_fts_or,full,G0175,enhanced image,442147,8782.7,ok
+pg_fts_or,full,G0176,encoder graph neural,371274,6321.3,ok
+pg_fts_or,full,G0177,renormalizable gauge invariant non-local,899572,6455.9,ok
+pg_fts_or,full,G0178,signal inference,299425,10112.0,ok
+pg_fts_or,full,G0179,inverse problems,564735,5840.9,ok
+pg_fts_or,full,G0180,synthesis input limits hybrid,661672,5275.2,ok
+pg_fts_or,full,G0181,contributions asymmetry decay,309868,9286.8,ok
+pg_fts_or,full,G0182,strongly coupled charged,598703,5254.3,ok
+pg_fts_or,full,G0183,system generated cuntz,1090063,5124.8,ok
+pg_fts_or,full,G0184,masses mixings renormalizable,359866,7660.4,ok
+pg_fts_or,full,G0185,perturbed stark operators,431305,6573.6,ok
+pg_fts_or,full,G0186,fixed point free,605372,4801.0,ok
+pg_fts_or,full,G0187,green griffiths,25037,956.6,ok
+pg_fts_or,full,G0188,fluctuations during,81917,2511.0,ok
+pg_fts_or,full,G0189,does sharpness-aware minimization minimize,273856,5458.7,ok
+pg_fts_or,full,G0190,strong fractional choice,458722,7091.4,ok
+pg_fts_or,full,G0191,prototype charge injection,189527,3003.2,ok
+pg_fts_or,full,G0192,discrimination nuclear recoils alpha,176504,3118.9,ok
+pg_fts_or,full,G0193,well-posedness semilinear heat,520188,6949.2,ok
+pg_fts_or,full,G0194,nakanishi integral,296321,2917.2,ok
+pg_fts_or,full,G0195,decaying dark,180879,1385.0,ok
+pg_fts_or,full,G0196,binary measurements,540493,4128.0,ok
+pg_fts_or,full,G0197,tkip michael,589,10.2,ok
+pg_fts_or,full,G0198,wick rotated,97032,832.8,ok
+pg_fts_or,full,G0199,downlink asymmetric interference,71996,621.5,ok
+pg_fts_or,full,G0200,baryon density effective relativistic,950458,5415.4,ok
+es,10k,G0001,gluon contribution open heavy-meson,1363,9.8,ok
+es,10k,G0002,single layer,1240,2.6,ok
+es,10k,G0003,prediction gamma gamma gamma,1341,2.2,ok
+es,10k,G0004,neuron populations neuromorphic spike,341,2.1,ok
+es,10k,G0005,phonemic graphemic,6,1.7,ok
+es,10k,G0006,example basic linear algebra,1868,1.9,ok
+es,10k,G0007,helmholtz resonators including thermoviscous,1561,1.7,ok
+es,10k,G0008,multi-model inference natural selection,4904,1.9,ok
+es,10k,G0009,buried threat,54,1.6,ok
+es,10k,G0010,experiments astrophysical observations neutron,2890,1.7,ok
+es,10k,G0011,centrosymmetric matrices sinc collocation,496,1.7,ok
+es,10k,G0012,gate passed checks,369,1.7,ok
+es,10k,G0013,droplet emergence regular,808,1.7,ok
+es,10k,G0014,markov chains,320,1.7,ok
+es,10k,G0015,quantum computing classical stochastic,2764,1.9,ok
+es,10k,G0016,impulse controls changing,1278,1.6,ok
+es,10k,G0017,large group delay microwave,2554,1.6,ok
+es,10k,G0018,bi-grid allen cahn equation,1053,1.7,ok
+es,10k,G0019,cycles k-orbits,1075,1.9,ok
+es,10k,G0020,weak magnetic field,2149,1.8,ok
+es,10k,G0021,energetic particle transport,900,1.9,ok
+es,10k,G0022,dark areas molecular,771,1.8,ok
+es,10k,G0023,influence wetting properties,1462,1.7,ok
+es,10k,G0024,plasmas inert reactive atmospheres,263,1.6,ok
+es,10k,G0025,infty categories,311,1.5,ok
+es,10k,G0026,knowledge graph paired dataset,1880,1.5,ok
+es,10k,G0027,branes spontaneous,147,1.4,ok
+es,10k,G0028,parameterized algorithms,1071,1.4,ok
+es,10k,G0029,correlations grover search,1026,1.5,ok
+es,10k,G0030,then forget,29,1.4,ok
+es,10k,G0031,variation equilibrium,634,1.7,ok
+es,10k,G0032,cosmic rates black,1211,1.7,ok
+es,10k,G0033,quantum mechanics mathematical equations,2561,1.7,ok
+es,10k,G0034,potential large language,2858,1.6,ok
+es,10k,G0035,potts models,3826,1.6,ok
+es,10k,G0036,real-time fisher,2856,1.7,ok
+es,10k,G0037,navier-stokes equations,935,1.6,ok
+es,10k,G0038,near-ultraviolet continuum modeling april,4212,1.8,ok
+es,10k,G0039,security controls,868,1.4,ok
+es,10k,G0040,coherent scattering,582,1.5,ok
+es,10k,G0041,making affine correspondences work,2916,1.7,ok
+es,10k,G0042,boosting byzantine,105,1.5,ok
+es,10k,G0043,suitable journal,270,1.6,ok
+es,10k,G0044,group theory raman,1921,1.5,ok
+es,10k,G0045,stochastic processes,1510,1.5,ok
+es,10k,G0046,earth orbit satellites,438,1.5,ok
+es,10k,G0047,improve metaphor processing,2340,1.6,ok
+es,10k,G0048,higher-weight limiting modular symbols,2386,1.7,ok
+es,10k,G0049,discrete breathers,313,1.4,ok
+es,10k,G0050,building coverage estimation low-resolution,2554,1.7,ok
+es,10k,G0051,geometry spaces harmonic maps,2217,1.6,ok
+es,10k,G0052,cognitive radio systems,2483,1.5,ok
+es,10k,G0053,intention-expression aligning multi-dimensional,2180,1.6,ok
+es,10k,G0054,space model prediction experimental,5457,1.6,ok
+es,10k,G0055,geometrical bounds,1092,1.5,ok
+es,10k,G0056,foveal avascular zone,88,1.6,ok
+es,10k,G0057,preimage feed-forward neural,714,1.4,ok
+es,10k,G0058,role galaxy mass morphology,1440,1.4,ok
+es,10k,G0059,corotation region,686,1.3,ok
+es,10k,G0060,vector vorticity advanced sensing,1019,1.6,ok
+es,10k,G0061,tasks edge,1144,1.7,ok
+es,10k,G0062,thermal versus vacuum magnetization,1008,1.6,ok
+es,10k,G0063,class mathcal origin spindle,1460,1.6,ok
+es,10k,G0064,residually finite,908,1.6,ok
+es,10k,G0065,hyperconnected parcel,2,1.5,ok
+es,10k,G0066,optimal deception attack networked,1939,1.6,ok
+es,10k,G0067,trials delayed treatment initiation,809,1.6,ok
+es,10k,G0068,electron impact,922,1.4,ok
+es,10k,G0069,prices case fukushima nuclear,1600,1.6,ok
+es,10k,G0070,methylation dynamics approaches,2841,1.9,ok
+es,10k,G0071,model extensive degeneracy,4204,1.8,ok
+es,10k,G0072,created invariant line constraint,1624,1.7,ok
+es,10k,G0073,estimation moments heavy-ion,1484,1.6,ok
+es,10k,G0074,measurement orthopositronium,1481,1.5,ok
+es,10k,G0075,signature refreshed,190,1.4,ok
+es,10k,G0076,cqis massive,260,1.5,ok
+es,10k,G0077,comparison quantum computing architectures,2753,2.2,ok
+es,10k,G0078,theory first-principles methodology applications,3905,1.7,ok
+es,10k,G0079,failure time models,5201,1.6,ok
+es,10k,G0080,cake evaluating self-supervised generalization,3917,1.7,ok
+es,10k,G0081,equations state,2734,1.6,ok
+es,10k,G0082,challenge likelihood ratio,1444,1.5,ok
+es,10k,G0083,diarization system voxceleb,2325,1.4,ok
+es,10k,G0084,quaternion hilbert,109,1.3,ok
+es,10k,G0085,storage apps forensic taxonomy,136,1.4,ok
+es,10k,G0086,lightweight bioacoustic denoising audio,184,1.5,ok
+es,10k,G0087,landau gauge,299,1.5,ok
+es,10k,G0088,rafts self-assembled colloidal membranes,623,1.5,ok
+es,10k,G0089,dynamics trade,1352,1.7,ok
+es,10k,G0090,one-pion production neutrino-nucleus,2589,1.6,ok
+es,10k,G0091,excluded minors,125,1.4,ok
+es,10k,G0092,distribution structure,2652,1.4,ok
+es,10k,G0093,fibonacci numbers automorphisms,1264,1.3,ok
+es,10k,G0094,entanglement super-qubit quantum states,2685,1.5,ok
+es,10k,G0095,processes multi-level non-parametric admixture,3732,1.5,ok
+es,10k,G0096,theorem gibbsian invariant measures,2138,1.5,ok
+es,10k,G0097,framework real-time agent discovery,3836,1.7,ok
+es,10k,G0098,temperature disordered insulators,806,1.5,ok
+es,10k,G0099,quasilinear parabolic problem,1583,1.9,ok
+es,10k,G0100,kondo effect novel,2742,1.9,ok
+es,10k,G0101,shape selection,899,2.1,ok
+es,10k,G0102,universal model,4088,2.0,ok
+es,10k,G0103,quantitative interpretation,679,1.9,ok
+es,10k,G0104,causal discovery spatio-temporal graphs,930,1.7,ok
+es,10k,G0105,optimization second-harmonic generation touching,4044,1.8,ok
+es,10k,G0106,filtervit dropoutvit,1,1.6,ok
+es,10k,G0107,dicke states,2034,1.8,ok
+es,10k,G0108,order local frustration itinerant,2337,1.5,ok
+es,10k,G0109,approximation wigner--fokker--planck equation applications,2805,1.6,ok
+es,10k,G0110,control against,1032,1.6,ok
+es,10k,G0111,artificial brain,201,1.5,ok
+es,10k,G0112,proton-proton interactions,1184,1.4,ok
+es,10k,G0113,spectral type,1302,1.4,ok
+es,10k,G0114,permutation automorphism groups,747,1.5,ok
+es,10k,G0115,scalable risk stochastic systems,2760,1.5,ok
+es,10k,G0116,autoencoders transfer,369,1.6,ok
+es,10k,G0117,rotating black holes,628,1.6,ok
+es,10k,G0118,medicine through low-resolution inputs,2771,1.7,ok
+es,10k,G0119,universal spinning black,1228,1.7,ok
+es,10k,G0120,period wolf-rayet,395,1.6,ok
+es,10k,G0121,finite temperature,1352,1.6,ok
+es,10k,G0122,solutions cubic-quintic,1092,1.5,ok
+es,10k,G0123,shape perception emerges,864,1.5,ok
+es,10k,G0124,stars gaia data,2418,1.5,ok
+es,10k,G0125,logic programming,359,1.6,ok
+es,10k,G0126,breakdown fluctuational,268,1.8,ok
+es,10k,G0127,incomplete classical,662,1.7,ok
+es,10k,G0128,affine invariant,529,1.6,ok
+es,10k,G0129,algebras associated hilbert quad,1143,1.5,ok
+es,10k,G0130,tenerife impact photometric,425,1.4,ok
+es,10k,G0131,multi-modal llms,988,1.4,ok
+es,10k,G0132,kicked harper,13,1.3,ok
+es,10k,G0133,gradient-play dynamics distributed,2734,1.5,ok
+es,10k,G0134,contact binary stars,772,1.8,ok
+es,10k,G0135,image representation learning deep,2240,1.5,ok
+es,10k,G0136,approximate near neighbor search,1654,1.6,ok
+es,10k,G0137,opportunities challenges solid-state quantum,3313,1.6,ok
+es,10k,G0138,descent theorem,417,1.6,ok
+es,10k,G0139,dimensional branes,1006,1.6,ok
+es,10k,G0140,function spaces,2836,1.6,ok
+es,10k,G0141,optical lattice investigated pump-probe,2196,1.5,ok
+es,10k,G0142,colourful holographic superconductors,179,1.4,ok
+es,10k,G0143,mond seven,69,1.4,ok
+es,10k,G0144,roots trigonometric polynomials s-tur,1036,1.5,ok
+es,10k,G0145,motion resonance exploring disc,1292,1.4,ok
+es,10k,G0146,first-passage times,3332,1.5,ok
+es,10k,G0147,decays factorization,902,1.4,ok
+es,10k,G0148,collaborator selection decision-making enhance,2070,1.4,ok
+es,10k,G0149,light-cone rules,760,1.4,ok
+es,10k,G0150,limit particle system degenerate,3813,1.5,ok
+es,10k,G0151,transitions tmttf,687,1.4,ok
+es,10k,G0152,back metric,527,1.5,ok
+es,10k,G0153,accretion structures during flares,2162,1.5,ok
+es,10k,G0154,observation rightarrow,1855,1.6,ok
+es,10k,G0155,flow nonlocal quantitative alexandrov,685,1.5,ok
+es,10k,G0156,radiative corrections polarized process,2057,1.7,ok
+es,10k,G0157,there many worlds,1224,1.6,ok
+es,10k,G0158,number limit fractional euler-alignment,2999,1.5,ok
+es,10k,G0159,correlations interacting,1667,1.4,ok
+es,10k,G0160,random walks monotonically changing,1196,1.5,ok
+es,10k,G0161,quantile networks generative modeling,5842,1.8,ok
+es,10k,G0162,ground state fractal crystals,2346,1.6,ok
+es,10k,G0163,identification rare events,542,1.4,ok
+es,10k,G0164,surfaces mirror symmetry counterexample,1091,1.4,ok
+es,10k,G0165,hyperbolic structures cusped manifolds,1919,1.6,ok
+es,10k,G0166,search dark photon electro-produced,1317,1.6,ok
+es,10k,G0167,graph convolutional,616,1.4,ok
+es,10k,G0168,very strong,1197,1.4,ok
+es,10k,G0169,technical debt,135,1.3,ok
+es,10k,G0170,spin-crossover transition,1151,1.4,ok
+es,10k,G0171,linear hyperbolic systems,3007,1.5,ok
+es,10k,G0172,chiral anomaly longitudinal magnetoconductance,296,1.4,ok
+es,10k,G0173,efficient reasoning distillation,1394,1.4,ok
+es,10k,G0174,multi-label learning structured decomposition,3222,1.5,ok
+es,10k,G0175,enhanced image,1373,1.4,ok
+es,10k,G0176,encoder graph neural,1165,1.4,ok
+es,10k,G0177,renormalizable gauge invariant non-local,2777,1.5,ok
+es,10k,G0178,signal inference,917,1.3,ok
+es,10k,G0179,inverse problems,1716,1.4,ok
+es,10k,G0180,synthesis input limits hybrid,2077,1.4,ok
+es,10k,G0181,contributions asymmetry decay,973,1.5,ok
+es,10k,G0182,strongly coupled charged,1321,1.7,ok
+es,10k,G0183,system generated cuntz,4558,1.5,ok
+es,10k,G0184,masses mixings renormalizable,1091,1.7,ok
+es,10k,G0185,perturbed stark operators,1280,1.4,ok
+es,10k,G0186,fixed point free,1891,1.4,ok
+es,10k,G0187,green griffiths,89,1.4,ok
+es,10k,G0188,fluctuations during,722,1.5,ok
+es,10k,G0189,does sharpness-aware minimization minimize,1215,1.4,ok
+es,10k,G0190,strong fractional choice,1178,1.5,ok
+es,10k,G0191,prototype charge injection,584,1.5,ok
+es,10k,G0192,discrimination nuclear recoils alpha,506,1.6,ok
+es,10k,G0193,well-posedness semilinear heat,1585,1.6,ok
+es,10k,G0194,nakanishi integral,945,1.5,ok
+es,10k,G0195,decaying dark,579,1.6,ok
+es,10k,G0196,binary measurements,1699,1.4,ok
+es,10k,G0197,tkip michael,2,1.4,ok
+es,10k,G0198,wick rotated,293,1.4,ok
+es,10k,G0199,downlink asymmetric interference,203,1.4,ok
+es,10k,G0200,baryon density effective relativistic,2894,1.4,ok
+es,100k,G0001,gluon contribution open heavy-meson,13793,10.9,ok
+es,100k,G0002,single layer,12590,2.7,ok
+es,100k,G0003,prediction gamma gamma gamma,13525,1.9,ok
+es,100k,G0004,neuron populations neuromorphic spike,3446,3.0,ok
+es,100k,G0005,phonemic graphemic,45,1.7,ok
+es,100k,G0006,example basic linear algebra,19172,2.0,ok
+es,100k,G0007,helmholtz resonators including thermoviscous,15188,1.9,ok
+es,100k,G0008,multi-model inference natural selection,49651,3.0,ok
+es,100k,G0009,buried threat,543,1.5,ok
+es,100k,G0010,experiments astrophysical observations neutron,29031,2.2,ok
+es,100k,G0011,centrosymmetric matrices sinc collocation,5010,1.6,ok
+es,100k,G0012,gate passed checks,3507,1.6,ok
+es,100k,G0013,droplet emergence regular,7927,1.6,ok
+es,100k,G0014,markov chains,2956,1.4,ok
+es,100k,G0015,quantum computing classical stochastic,27820,2.4,ok
+es,100k,G0016,impulse controls changing,13073,1.7,ok
+es,100k,G0017,large group delay microwave,25071,1.9,ok
+es,100k,G0018,bi-grid allen cahn equation,11300,1.7,ok
+es,100k,G0019,cycles k-orbits,10556,1.6,ok
+es,100k,G0020,weak magnetic field,21651,2.1,ok
+es,100k,G0021,energetic particle transport,8867,1.7,ok
+es,100k,G0022,dark areas molecular,7493,1.8,ok
+es,100k,G0023,influence wetting properties,15175,2.3,ok
+es,100k,G0024,plasmas inert reactive atmospheres,2721,1.6,ok
+es,100k,G0025,infty categories,3090,1.6,ok
+es,100k,G0026,knowledge graph paired dataset,19011,1.8,ok
+es,100k,G0027,branes spontaneous,1489,1.4,ok
+es,100k,G0028,parameterized algorithms,10736,1.5,ok
+es,100k,G0029,correlations grover search,10303,1.6,ok
+es,100k,G0030,then forget,263,1.5,ok
+es,100k,G0031,variation equilibrium,6503,1.7,ok
+es,100k,G0032,cosmic rates black,11938,1.7,ok
+es,100k,G0033,quantum mechanics mathematical equations,26296,2.1,ok
+es,100k,G0034,potential large language,27991,2.2,ok
+es,100k,G0035,potts models,39018,2.5,ok
+es,100k,G0036,real-time fisher,28455,2.1,ok
+es,100k,G0037,navier-stokes equations,9915,1.7,ok
+es,100k,G0038,near-ultraviolet continuum modeling april,42839,2.5,ok
+es,100k,G0039,security controls,9197,1.6,ok
+es,100k,G0040,coherent scattering,6134,1.6,ok
+es,100k,G0041,making affine correspondences work,28916,1.9,ok
+es,100k,G0042,boosting byzantine,921,1.4,ok
+es,100k,G0043,suitable journal,2708,1.5,ok
+es,100k,G0044,group theory raman,19053,1.9,ok
+es,100k,G0045,stochastic processes,15340,1.9,ok
+es,100k,G0046,earth orbit satellites,4497,1.8,ok
+es,100k,G0047,improve metaphor processing,23607,1.9,ok
+es,100k,G0048,higher-weight limiting modular symbols,23943,2.3,ok
+es,100k,G0049,discrete breathers,3397,1.8,ok
+es,100k,G0050,building coverage estimation low-resolution,25224,2.3,ok
+es,100k,G0051,geometry spaces harmonic maps,22341,2.3,ok
+es,100k,G0052,cognitive radio systems,24726,2.5,ok
+es,100k,G0053,intention-expression aligning multi-dimensional,22522,2.1,ok
+es,100k,G0054,space model prediction experimental,55104,3.0,ok
+es,100k,G0055,geometrical bounds,11196,1.7,ok
+es,100k,G0056,foveal avascular zone,757,1.6,ok
+es,100k,G0057,preimage feed-forward neural,6600,1.6,ok
+es,100k,G0058,role galaxy mass morphology,14792,1.9,ok
+es,100k,G0059,corotation region,6722,1.4,ok
+es,100k,G0060,vector vorticity advanced sensing,10584,1.5,ok
+es,100k,G0061,tasks edge,11604,1.6,ok
+es,100k,G0062,thermal versus vacuum magnetization,10173,1.9,ok
+es,100k,G0063,class mathcal origin spindle,14438,2.0,ok
+es,100k,G0064,residually finite,9205,1.6,ok
+es,100k,G0065,hyperconnected parcel,18,1.4,ok
+es,100k,G0066,optimal deception attack networked,19448,2.1,ok
+es,100k,G0067,trials delayed treatment initiation,8292,2.1,ok
+es,100k,G0068,electron impact,9369,2.1,ok
+es,100k,G0069,prices case fukushima nuclear,16196,1.9,ok
+es,100k,G0070,methylation dynamics approaches,29075,2.1,ok
+es,100k,G0071,model extensive degeneracy,42829,2.4,ok
+es,100k,G0072,created invariant line constraint,16316,2.3,ok
+es,100k,G0073,estimation moments heavy-ion,14515,2.1,ok
+es,100k,G0074,measurement orthopositronium,14363,1.7,ok
+es,100k,G0075,signature refreshed,1647,1.5,ok
+es,100k,G0076,cqis massive,2512,1.6,ok
+es,100k,G0077,comparison quantum computing architectures,27775,2.3,ok
+es,100k,G0078,theory first-principles methodology applications,39199,2.6,ok
+es,100k,G0079,failure time models,52157,2.8,ok
+es,100k,G0080,cake evaluating self-supervised generalization,39901,2.6,ok
+es,100k,G0081,equations state,28007,2.2,ok
+es,100k,G0082,challenge likelihood ratio,14419,1.8,ok
+es,100k,G0083,diarization system voxceleb,23075,1.9,ok
+es,100k,G0084,quaternion hilbert,1159,1.4,ok
+es,100k,G0085,storage apps forensic taxonomy,1359,1.7,ok
+es,100k,G0086,lightweight bioacoustic denoising audio,1780,1.6,ok
+es,100k,G0087,landau gauge,3029,1.5,ok
+es,100k,G0088,rafts self-assembled colloidal membranes,5927,1.8,ok
+es,100k,G0089,dynamics trade,14375,1.8,ok
+es,100k,G0090,one-pion production neutrino-nucleus,25865,2.1,ok
+es,100k,G0091,excluded minors,1159,1.6,ok
+es,100k,G0092,distribution structure,26087,2.0,ok
+es,100k,G0093,fibonacci numbers automorphisms,13107,1.7,ok
+es,100k,G0094,entanglement super-qubit quantum states,27392,2.3,ok
+es,100k,G0095,processes multi-level non-parametric admixture,38674,2.8,ok
+es,100k,G0096,theorem gibbsian invariant measures,20999,2.0,ok
+es,100k,G0097,framework real-time agent discovery,38220,2.6,ok
+es,100k,G0098,temperature disordered insulators,7909,2.0,ok
+es,100k,G0099,quasilinear parabolic problem,15990,1.9,ok
+es,100k,G0100,kondo effect novel,28102,2.3,ok
+es,100k,G0101,shape selection,8755,1.7,ok
+es,100k,G0102,universal model,41553,2.2,ok
+es,100k,G0103,quantitative interpretation,6745,1.7,ok
+es,100k,G0104,causal discovery spatio-temporal graphs,9490,1.9,ok
+es,100k,G0105,optimization second-harmonic generation touching,41353,2.9,ok
+es,100k,G0106,filtervit dropoutvit,1,1.5,ok
+es,100k,G0107,dicke states,20620,1.8,ok
+es,100k,G0108,order local frustration itinerant,23155,2.2,ok
+es,100k,G0109,approximation wigner--fokker--planck equation applications,28141,2.4,ok
+es,100k,G0110,control against,10599,1.8,ok
+es,100k,G0111,artificial brain,2101,1.7,ok
+es,100k,G0112,proton-proton interactions,11867,1.7,ok
+es,100k,G0113,spectral type,13782,1.8,ok
+es,100k,G0114,permutation automorphism groups,7512,1.7,ok
+es,100k,G0115,scalable risk stochastic systems,27313,2.8,ok
+es,100k,G0116,autoencoders transfer,3878,1.7,ok
+es,100k,G0117,rotating black holes,6427,1.7,ok
+es,100k,G0118,medicine through low-resolution inputs,27346,2.1,ok
+es,100k,G0119,universal spinning black,11941,1.9,ok
+es,100k,G0120,period wolf-rayet,3948,1.5,ok
+es,100k,G0121,finite temperature,13421,1.6,ok
+es,100k,G0122,solutions cubic-quintic,11195,1.7,ok
+es,100k,G0123,shape perception emerges,8187,1.4,ok
+es,100k,G0124,stars gaia data,24672,1.9,ok
+es,100k,G0125,logic programming,3561,1.4,ok
+es,100k,G0126,breakdown fluctuational,2858,1.4,ok
+es,100k,G0127,incomplete classical,6628,1.5,ok
+es,100k,G0128,affine invariant,5026,1.4,ok
+es,100k,G0129,algebras associated hilbert quad,11418,1.7,ok
+es,100k,G0130,tenerife impact photometric,4471,1.6,ok
+es,100k,G0131,multi-modal llms,10377,1.7,ok
+es,100k,G0132,kicked harper,117,1.9,ok
+es,100k,G0133,gradient-play dynamics distributed,27491,2.2,ok
+es,100k,G0134,contact binary stars,7887,1.7,ok
+es,100k,G0135,image representation learning deep,23068,2.3,ok
+es,100k,G0136,approximate near neighbor search,16108,1.9,ok
+es,100k,G0137,opportunities challenges solid-state quantum,33981,2.5,ok
+es,100k,G0138,descent theorem,4289,1.6,ok
+es,100k,G0139,dimensional branes,10325,1.6,ok
+es,100k,G0140,function spaces,28677,2.0,ok
+es,100k,G0141,optical lattice investigated pump-probe,21247,2.1,ok
+es,100k,G0142,colourful holographic superconductors,1825,1.5,ok
+es,100k,G0143,mond seven,652,1.4,ok
+es,100k,G0144,roots trigonometric polynomials s-tur,10043,1.5,ok
+es,100k,G0145,motion resonance exploring disc,12913,1.7,ok
+es,100k,G0146,first-passage times,33675,2.1,ok
+es,100k,G0147,decays factorization,9183,1.7,ok
+es,100k,G0148,collaborator selection decision-making enhance,20478,1.9,ok
+es,100k,G0149,light-cone rules,7881,1.5,ok
+es,100k,G0150,limit particle system degenerate,37578,2.3,ok
+es,100k,G0151,transitions tmttf,6613,1.6,ok
+es,100k,G0152,back metric,5050,1.4,ok
+es,100k,G0153,accretion structures during flares,21785,1.8,ok
+es,100k,G0154,observation rightarrow,18023,1.8,ok
+es,100k,G0155,flow nonlocal quantitative alexandrov,6858,1.8,ok
+es,100k,G0156,radiative corrections polarized process,20343,1.9,ok
+es,100k,G0157,there many worlds,12104,1.5,ok
+es,100k,G0158,number limit fractional euler-alignment,29753,2.1,ok
+es,100k,G0159,correlations interacting,16529,1.7,ok
+es,100k,G0160,random walks monotonically changing,11678,1.8,ok
+es,100k,G0161,quantile networks generative modeling,58895,3.2,ok
+es,100k,G0162,ground state fractal crystals,23748,2.2,ok
+es,100k,G0163,identification rare events,5496,1.6,ok
+es,100k,G0164,surfaces mirror symmetry counterexample,10429,1.6,ok
+es,100k,G0165,hyperbolic structures cusped manifolds,18770,1.6,ok
+es,100k,G0166,search dark photon electro-produced,13571,1.8,ok
+es,100k,G0167,graph convolutional,6256,1.5,ok
+es,100k,G0168,very strong,11973,1.5,ok
+es,100k,G0169,technical debt,1101,1.3,ok
+es,100k,G0170,spin-crossover transition,11090,1.5,ok
+es,100k,G0171,linear hyperbolic systems,29760,2.3,ok
+es,100k,G0172,chiral anomaly longitudinal magnetoconductance,3033,1.4,ok
+es,100k,G0173,efficient reasoning distillation,14141,1.6,ok
+es,100k,G0174,multi-label learning structured decomposition,32773,2.5,ok
+es,100k,G0175,enhanced image,13775,1.9,ok
+es,100k,G0176,encoder graph neural,11375,1.8,ok
+es,100k,G0177,renormalizable gauge invariant non-local,27710,2.1,ok
+es,100k,G0178,signal inference,9144,1.7,ok
+es,100k,G0179,inverse problems,17406,1.7,ok
+es,100k,G0180,synthesis input limits hybrid,20349,1.9,ok
+es,100k,G0181,contributions asymmetry decay,9632,1.5,ok
+es,100k,G0182,strongly coupled charged,13502,1.6,ok
+es,100k,G0183,system generated cuntz,46297,2.5,ok
+es,100k,G0184,masses mixings renormalizable,11116,1.8,ok
+es,100k,G0185,perturbed stark operators,13221,1.5,ok
+es,100k,G0186,fixed point free,18690,1.7,ok
+es,100k,G0187,green griffiths,827,1.4,ok
+es,100k,G0188,fluctuations during,7722,1.4,ok
+es,100k,G0189,does sharpness-aware minimization minimize,12397,1.7,ok
+es,100k,G0190,strong fractional choice,11611,1.8,ok
+es,100k,G0191,prototype charge injection,5748,1.9,ok
+es,100k,G0192,discrimination nuclear recoils alpha,5158,1.7,ok
+es,100k,G0193,well-posedness semilinear heat,15808,1.8,ok
+es,100k,G0194,nakanishi integral,9177,1.6,ok
+es,100k,G0195,decaying dark,5620,1.6,ok
+es,100k,G0196,binary measurements,16593,1.6,ok
+es,100k,G0197,tkip michael,24,1.3,ok
+es,100k,G0198,wick rotated,3007,1.3,ok
+es,100k,G0199,downlink asymmetric interference,2248,1.4,ok
+es,100k,G0200,baryon density effective relativistic,29465,2.1,ok
+es,500k,G0001,gluon contribution open heavy-meson,68869,23.8,ok
+es,500k,G0002,single layer,62410,10.4,ok
+es,500k,G0003,prediction gamma gamma gamma,67080,4.1,ok
+es,500k,G0004,neuron populations neuromorphic spike,17505,2.5,ok
+es,500k,G0005,phonemic graphemic,239,1.7,ok
+es,500k,G0006,example basic linear algebra,95479,4.7,ok
+es,500k,G0007,helmholtz resonators including thermoviscous,76010,3.8,ok
+es,500k,G0008,multi-model inference natural selection,248896,11.0,ok
+es,500k,G0009,buried threat,2610,2.1,ok
+es,500k,G0010,experiments astrophysical observations neutron,144704,3.9,ok
+es,500k,G0011,centrosymmetric matrices sinc collocation,25141,2.2,ok
+es,500k,G0012,gate passed checks,17706,1.9,ok
+es,500k,G0013,droplet emergence regular,39702,2.1,ok
+es,500k,G0014,markov chains,14816,1.5,ok
+es,500k,G0015,quantum computing classical stochastic,139302,3.7,ok
+es,500k,G0016,impulse controls changing,65851,2.2,ok
+es,500k,G0017,large group delay microwave,125319,3.2,ok
+es,500k,G0018,bi-grid allen cahn equation,55740,2.6,ok
+es,500k,G0019,cycles k-orbits,53119,2.1,ok
+es,500k,G0020,weak magnetic field,108362,5.4,ok
+es,500k,G0021,energetic particle transport,43937,1.9,ok
+es,500k,G0022,dark areas molecular,37370,2.0,ok
+es,500k,G0023,influence wetting properties,76502,2.2,ok
+es,500k,G0024,plasmas inert reactive atmospheres,13252,1.7,ok
+es,500k,G0025,infty categories,15502,1.5,ok
+es,500k,G0026,knowledge graph paired dataset,95426,2.8,ok
+es,500k,G0027,branes spontaneous,7316,1.4,ok
+es,500k,G0028,parameterized algorithms,54117,1.8,ok
+es,500k,G0029,correlations grover search,51511,1.9,ok
+es,500k,G0030,then forget,1284,1.4,ok
+es,500k,G0031,variation equilibrium,32381,1.9,ok
+es,500k,G0032,cosmic rates black,60238,2.3,ok
+es,500k,G0033,quantum mechanics mathematical equations,130599,3.5,ok
+es,500k,G0034,potential large language,139372,3.1,ok
+es,500k,G0035,potts models,195289,3.8,ok
+es,500k,G0036,real-time fisher,142721,3.3,ok
+es,500k,G0037,navier-stokes equations,49029,2.0,ok
+es,500k,G0038,near-ultraviolet continuum modeling april,214393,3.9,ok
+es,500k,G0039,security controls,45642,1.9,ok
+es,500k,G0040,coherent scattering,30002,1.8,ok
+es,500k,G0041,making affine correspondences work,143635,6.9,ok
+es,500k,G0042,boosting byzantine,4859,1.9,ok
+es,500k,G0043,suitable journal,13756,1.6,ok
+es,500k,G0044,group theory raman,95004,3.0,ok
+es,500k,G0045,stochastic processes,76987,2.4,ok
+es,500k,G0046,earth orbit satellites,23055,1.7,ok
+es,500k,G0047,improve metaphor processing,118575,2.5,ok
+es,500k,G0048,higher-weight limiting modular symbols,119341,2.9,ok
+es,500k,G0049,discrete breathers,17100,1.5,ok
+es,500k,G0050,building coverage estimation low-resolution,125595,3.3,ok
+es,500k,G0051,geometry spaces harmonic maps,111494,3.1,ok
+es,500k,G0052,cognitive radio systems,123157,2.9,ok
+es,500k,G0053,intention-expression aligning multi-dimensional,113143,3.3,ok
+es,500k,G0054,space model prediction experimental,275402,5.9,ok
+es,500k,G0055,geometrical bounds,55992,2.2,ok
+es,500k,G0056,foveal avascular zone,3543,1.3,ok
+es,500k,G0057,preimage feed-forward neural,33582,1.8,ok
+es,500k,G0058,role galaxy mass morphology,74356,2.5,ok
+es,500k,G0059,corotation region,33304,1.7,ok
+es,500k,G0060,vector vorticity advanced sensing,53325,2.0,ok
+es,500k,G0061,tasks edge,57688,1.9,ok
+es,500k,G0062,thermal versus vacuum magnetization,50853,2.2,ok
+es,500k,G0063,class mathcal origin spindle,72802,2.3,ok
+es,500k,G0064,residually finite,45650,1.7,ok
+es,500k,G0065,hyperconnected parcel,122,1.3,ok
+es,500k,G0066,optimal deception attack networked,98429,3.2,ok
+es,500k,G0067,trials delayed treatment initiation,40901,2.1,ok
+es,500k,G0068,electron impact,46532,2.2,ok
+es,500k,G0069,prices case fukushima nuclear,79617,2.3,ok
+es,500k,G0070,methylation dynamics approaches,145740,3.3,ok
+es,500k,G0071,model extensive degeneracy,213940,4.3,ok
+es,500k,G0072,created invariant line constraint,81700,3.3,ok
+es,500k,G0073,estimation moments heavy-ion,72203,2.7,ok
+es,500k,G0074,measurement orthopositronium,71802,3.1,ok
+es,500k,G0075,signature refreshed,8210,1.7,ok
+es,500k,G0076,cqis massive,12547,1.6,ok
+es,500k,G0077,comparison quantum computing architectures,139028,4.0,ok
+es,500k,G0078,theory first-principles methodology applications,195805,4.9,ok
+es,500k,G0079,failure time models,260866,5.0,ok
+es,500k,G0080,cake evaluating self-supervised generalization,198571,4.6,ok
+es,500k,G0081,equations state,139202,4.2,ok
+es,500k,G0082,challenge likelihood ratio,70833,2.4,ok
+es,500k,G0083,diarization system voxceleb,115112,2.6,ok
+es,500k,G0084,quaternion hilbert,5890,1.6,ok
+es,500k,G0085,storage apps forensic taxonomy,6619,1.8,ok
+es,500k,G0086,lightweight bioacoustic denoising audio,8991,1.8,ok
+es,500k,G0087,landau gauge,15458,1.7,ok
+es,500k,G0088,rafts self-assembled colloidal membranes,29186,2.0,ok
+es,500k,G0089,dynamics trade,71867,2.4,ok
+es,500k,G0090,one-pion production neutrino-nucleus,129590,3.2,ok
+es,500k,G0091,excluded minors,5902,1.6,ok
+es,500k,G0092,distribution structure,130987,3.0,ok
+es,500k,G0093,fibonacci numbers automorphisms,65212,2.0,ok
+es,500k,G0094,entanglement super-qubit quantum states,136206,4.5,ok
+es,500k,G0095,processes multi-level non-parametric admixture,193407,5.4,ok
+es,500k,G0096,theorem gibbsian invariant measures,104786,3.4,ok
+es,500k,G0097,framework real-time agent discovery,191802,5.5,ok
+es,500k,G0098,temperature disordered insulators,39914,2.4,ok
+es,500k,G0099,quasilinear parabolic problem,80206,2.4,ok
+es,500k,G0100,kondo effect novel,139215,3.0,ok
+es,500k,G0101,shape selection,43649,2.0,ok
+es,500k,G0102,universal model,207888,3.8,ok
+es,500k,G0103,quantitative interpretation,33462,1.8,ok
+es,500k,G0104,causal discovery spatio-temporal graphs,47479,2.3,ok
+es,500k,G0105,optimization second-harmonic generation touching,205912,4.7,ok
+es,500k,G0106,filtervit dropoutvit,1,1.4,ok
+es,500k,G0107,dicke states,102395,2.1,ok
+es,500k,G0108,order local frustration itinerant,116801,3.4,ok
+es,500k,G0109,approximation wigner--fokker--planck equation applications,140025,4.3,ok
+es,500k,G0110,control against,52569,2.2,ok
+es,500k,G0111,artificial brain,10504,1.8,ok
+es,500k,G0112,proton-proton interactions,58724,2.2,ok
+es,500k,G0113,spectral type,68855,2.3,ok
+es,500k,G0114,permutation automorphism groups,37579,1.9,ok
+es,500k,G0115,scalable risk stochastic systems,136608,2.9,ok
+es,500k,G0116,autoencoders transfer,19470,1.6,ok
+es,500k,G0117,rotating black holes,32032,1.9,ok
+es,500k,G0118,medicine through low-resolution inputs,136402,3.2,ok
+es,500k,G0119,universal spinning black,59375,2.2,ok
+es,500k,G0120,period wolf-rayet,20126,1.5,ok
+es,500k,G0121,finite temperature,67145,2.1,ok
+es,500k,G0122,solutions cubic-quintic,56068,2.0,ok
+es,500k,G0123,shape perception emerges,41014,1.8,ok
+es,500k,G0124,stars gaia data,122803,2.9,ok
+es,500k,G0125,logic programming,18314,1.6,ok
+es,500k,G0126,breakdown fluctuational,13801,1.4,ok
+es,500k,G0127,incomplete classical,32864,2.0,ok
+es,500k,G0128,affine invariant,24747,1.7,ok
+es,500k,G0129,algebras associated hilbert quad,57051,2.4,ok
+es,500k,G0130,tenerife impact photometric,22500,1.7,ok
+es,500k,G0131,multi-modal llms,52237,2.3,ok
+es,500k,G0132,kicked harper,642,1.5,ok
+es,500k,G0133,gradient-play dynamics distributed,137496,3.5,ok
+es,500k,G0134,contact binary stars,39452,2.0,ok
+es,500k,G0135,image representation learning deep,115039,3.4,ok
+es,500k,G0136,approximate near neighbor search,81281,2.6,ok
+es,500k,G0137,opportunities challenges solid-state quantum,168287,4.0,ok
+es,500k,G0138,descent theorem,21323,1.6,ok
+es,500k,G0139,dimensional branes,51533,1.9,ok
+es,500k,G0140,function spaces,144221,3.0,ok
+es,500k,G0141,optical lattice investigated pump-probe,105295,3.0,ok
+es,500k,G0142,colourful holographic superconductors,8919,1.6,ok
+es,500k,G0143,mond seven,3427,1.4,ok
+es,500k,G0144,roots trigonometric polynomials s-tur,50154,2.1,ok
+es,500k,G0145,motion resonance exploring disc,64582,2.4,ok
+es,500k,G0146,first-passage times,169111,3.7,ok
+es,500k,G0147,decays factorization,45315,2.2,ok
+es,500k,G0148,collaborator selection decision-making enhance,102391,2.9,ok
+es,500k,G0149,light-cone rules,39464,2.1,ok
+es,500k,G0150,limit particle system degenerate,187686,3.9,ok
+es,500k,G0151,transitions tmttf,33407,1.7,ok
+es,500k,G0152,back metric,25530,1.5,ok
+es,500k,G0153,accretion structures during flares,109094,2.6,ok
+es,500k,G0154,observation rightarrow,89702,2.2,ok
+es,500k,G0155,flow nonlocal quantitative alexandrov,34071,2.1,ok
+es,500k,G0156,radiative corrections polarized process,102088,2.9,ok
+es,500k,G0157,there many worlds,60652,2.0,ok
+es,500k,G0158,number limit fractional euler-alignment,148640,3.6,ok
+es,500k,G0159,correlations interacting,81602,2.4,ok
+es,500k,G0160,random walks monotonically changing,59310,2.1,ok
+es,500k,G0161,quantile networks generative modeling,294205,6.8,ok
+es,500k,G0162,ground state fractal crystals,118009,3.5,ok
+es,500k,G0163,identification rare events,27999,2.1,ok
+es,500k,G0164,surfaces mirror symmetry counterexample,51983,2.4,ok
+es,500k,G0165,hyperbolic structures cusped manifolds,94362,2.7,ok
+es,500k,G0166,search dark photon electro-produced,68099,3.0,ok
+es,500k,G0167,graph convolutional,31351,2.5,ok
+es,500k,G0168,very strong,60383,2.4,ok
+es,500k,G0169,technical debt,5443,1.6,ok
+es,500k,G0170,spin-crossover transition,55746,2.4,ok
+es,500k,G0171,linear hyperbolic systems,148600,3.5,ok
+es,500k,G0172,chiral anomaly longitudinal magnetoconductance,15571,1.6,ok
+es,500k,G0173,efficient reasoning distillation,70659,2.3,ok
+es,500k,G0174,multi-label learning structured decomposition,164256,4.2,ok
+es,500k,G0175,enhanced image,68152,2.1,ok
+es,500k,G0176,encoder graph neural,57259,2.1,ok
+es,500k,G0177,renormalizable gauge invariant non-local,138710,4.0,ok
+es,500k,G0178,signal inference,46153,2.4,ok
+es,500k,G0179,inverse problems,87187,2.6,ok
+es,500k,G0180,synthesis input limits hybrid,101916,2.6,ok
+es,500k,G0181,contributions asymmetry decay,47709,2.1,ok
+es,500k,G0182,strongly coupled charged,67059,2.3,ok
+es,500k,G0183,system generated cuntz,229803,4.7,ok
+es,500k,G0184,masses mixings renormalizable,55608,2.3,ok
+es,500k,G0185,perturbed stark operators,65966,2.0,ok
+es,500k,G0186,fixed point free,93187,2.5,ok
+es,500k,G0187,green griffiths,3728,1.4,ok
+es,500k,G0188,fluctuations during,38310,1.7,ok
+es,500k,G0189,does sharpness-aware minimization minimize,61758,2.4,ok
+es,500k,G0190,strong fractional choice,58931,2.1,ok
+es,500k,G0191,prototype charge injection,29182,1.7,ok
+es,500k,G0192,discrimination nuclear recoils alpha,25779,1.7,ok
+es,500k,G0193,well-posedness semilinear heat,79571,2.1,ok
+es,500k,G0194,nakanishi integral,45883,1.7,ok
+es,500k,G0195,decaying dark,27908,1.8,ok
+es,500k,G0196,binary measurements,83037,2.3,ok
+es,500k,G0197,tkip michael,96,1.6,ok
+es,500k,G0198,wick rotated,15011,1.6,ok
+es,500k,G0199,downlink asymmetric interference,11030,1.6,ok
+es,500k,G0200,baryon density effective relativistic,146165,3.5,ok
+es,full,G0001,gluon contribution open heavy-meson,449424,7.5,ok
+es,full,G0002,single layer,405913,3.9,ok
+es,full,G0003,prediction gamma gamma gamma,433668,3.6,ok
+es,full,G0004,neuron populations neuromorphic spike,113991,2.2,ok
+es,full,G0005,phonemic graphemic,1619,1.7,ok
+es,full,G0006,example basic linear algebra,620167,6.2,ok
+es,full,G0007,helmholtz resonators including thermoviscous,494028,4.0,ok
+es,full,G0008,multi-model inference natural selection,1618432,13.1,ok
+es,full,G0009,buried threat,16926,2.1,ok
+es,full,G0010,experiments astrophysical observations neutron,939390,6.0,ok
+es,full,G0011,centrosymmetric matrices sinc collocation,163580,2.6,ok
+es,full,G0012,gate passed checks,114802,2.4,ok
+es,full,G0013,droplet emergence regular,258678,2.9,ok
+es,full,G0014,markov chains,97483,2.2,ok
+es,full,G0015,quantum computing classical stochastic,902619,7.4,ok
+es,full,G0016,impulse controls changing,429102,3.4,ok
+es,full,G0017,large group delay microwave,817228,6.3,ok
+es,full,G0018,bi-grid allen cahn equation,362239,4.0,ok
+es,full,G0019,cycles k-orbits,345976,3.8,ok
+es,full,G0020,weak magnetic field,703524,6.0,ok
+es,full,G0021,energetic particle transport,286087,3.1,ok
+es,full,G0022,dark areas molecular,240219,3.1,ok
+es,full,G0023,influence wetting properties,497444,3.7,ok
+es,full,G0024,plasmas inert reactive atmospheres,86970,2.2,ok
+es,full,G0025,infty categories,101130,2.0,ok
+es,full,G0026,knowledge graph paired dataset,617409,6.3,ok
+es,full,G0027,branes spontaneous,48067,2.0,ok
+es,full,G0028,parameterized algorithms,349747,2.7,ok
+es,full,G0029,correlations grover search,334239,3.2,ok
+es,full,G0030,then forget,8012,1.6,ok
+es,full,G0031,variation equilibrium,211328,2.5,ok
+es,full,G0032,cosmic rates black,391798,4.0,ok
+es,full,G0033,quantum mechanics mathematical equations,845191,7.7,ok
+es,full,G0034,potential large language,906546,13.3,ok
+es,full,G0035,potts models,1267816,7.6,ok
+es,full,G0036,real-time fisher,931061,6.5,ok
+es,full,G0037,navier-stokes equations,318204,3.5,ok
+es,full,G0038,near-ultraviolet continuum modeling april,1390748,9.4,ok
+es,full,G0039,security controls,297467,3.3,ok
+es,full,G0040,coherent scattering,195639,2.8,ok
+es,full,G0041,making affine correspondences work,935682,6.3,ok
+es,full,G0042,boosting byzantine,31317,1.8,ok
+es,full,G0043,suitable journal,89685,1.8,ok
+es,full,G0044,group theory raman,619378,5.9,ok
+es,full,G0045,stochastic processes,501010,4.4,ok
+es,full,G0046,earth orbit satellites,149764,2.8,ok
+es,full,G0047,improve metaphor processing,770003,6.0,ok
+es,full,G0048,higher-weight limiting modular symbols,772504,6.6,ok
+es,full,G0049,discrete breathers,110788,2.1,ok
+es,full,G0050,building coverage estimation low-resolution,819069,7.1,ok
+es,full,G0051,geometry spaces harmonic maps,723757,6.6,ok
+es,full,G0052,cognitive radio systems,800349,15.2,ok
+es,full,G0053,intention-expression aligning multi-dimensional,735132,23.5,ok
+es,full,G0054,space model prediction experimental,1788031,15.8,ok
+es,full,G0055,geometrical bounds,364901,3.8,ok
+es,full,G0056,foveal avascular zone,22941,2.0,ok
+es,full,G0057,preimage feed-forward neural,217784,5.0,ok
+es,full,G0058,role galaxy mass morphology,482639,7.1,ok
+es,full,G0059,corotation region,215880,5.0,ok
+es,full,G0060,vector vorticity advanced sensing,346440,5.5,ok
+es,full,G0061,tasks edge,373593,5.8,ok
+es,full,G0062,thermal versus vacuum magnetization,330284,6.5,ok
+es,full,G0063,class mathcal origin spindle,473393,19.6,ok
+es,full,G0064,residually finite,296809,5.7,ok
+es,full,G0065,hyperconnected parcel,899,1.9,ok
+es,full,G0066,optimal deception attack networked,638913,8.1,ok
+es,full,G0067,trials delayed treatment initiation,265967,3.5,ok
+es,full,G0068,electron impact,302995,3.4,ok
+es,full,G0069,prices case fukushima nuclear,517779,3.9,ok
+es,full,G0070,methylation dynamics approaches,946331,6.6,ok
+es,full,G0071,model extensive degeneracy,1389416,8.7,ok
+es,full,G0072,created invariant line constraint,532092,4.9,ok
+es,full,G0073,estimation moments heavy-ion,471315,4.1,ok
+es,full,G0074,measurement orthopositronium,466747,2.9,ok
+es,full,G0075,signature refreshed,53996,1.8,ok
+es,full,G0076,cqis massive,81364,2.1,ok
+es,full,G0077,comparison quantum computing architectures,901501,7.4,ok
+es,full,G0078,theory first-principles methodology applications,1274720,10.6,ok
+es,full,G0079,failure time models,1696849,28.7,ok
+es,full,G0080,cake evaluating self-supervised generalization,1290432,10.0,ok
+es,full,G0081,equations state,903620,5.6,ok
+es,full,G0082,challenge likelihood ratio,460259,4.2,ok
+es,full,G0083,diarization system voxceleb,749007,4.1,ok
+es,full,G0084,quaternion hilbert,38411,1.7,ok
+es,full,G0085,storage apps forensic taxonomy,43085,1.9,ok
+es,full,G0086,lightweight bioacoustic denoising audio,58174,2.0,ok
+es,full,G0087,landau gauge,100970,2.0,ok
+es,full,G0088,rafts self-assembled colloidal membranes,190502,2.7,ok
+es,full,G0089,dynamics trade,466445,3.6,ok
+es,full,G0090,one-pion production neutrino-nucleus,843762,6.4,ok
+es,full,G0091,excluded minors,38688,1.9,ok
+es,full,G0092,distribution structure,848811,5.7,ok
+es,full,G0093,fibonacci numbers automorphisms,424187,3.2,ok
+es,full,G0094,entanglement super-qubit quantum states,883129,8.3,ok
+es,full,G0095,processes multi-level non-parametric admixture,1258690,10.5,ok
+es,full,G0096,theorem gibbsian invariant measures,680746,6.0,ok
+es,full,G0097,framework real-time agent discovery,1249559,18.2,ok
+es,full,G0098,temperature disordered insulators,259234,4.4,ok
+es,full,G0099,quasilinear parabolic problem,519293,3.7,ok
+es,full,G0100,kondo effect novel,902406,6.4,ok
+es,full,G0101,shape selection,283712,3.5,ok
+es,full,G0102,universal model,1349527,8.4,ok
+es,full,G0103,quantitative interpretation,216277,3.0,ok
+es,full,G0104,causal discovery spatio-temporal graphs,308428,4.3,ok
+es,full,G0105,optimization second-harmonic generation touching,1338745,9.9,ok
+es,full,G0106,filtervit dropoutvit,1,1.6,ok
+es,full,G0107,dicke states,664012,3.7,ok
+es,full,G0108,order local frustration itinerant,759834,5.4,ok
+es,full,G0109,approximation wigner--fokker--planck equation applications,909481,7.1,ok
+es,full,G0110,control against,341519,3.6,ok
+es,full,G0111,artificial brain,67703,2.3,ok
+es,full,G0112,proton-proton interactions,384330,3.2,ok
+es,full,G0113,spectral type,450113,3.3,ok
+es,full,G0114,permutation automorphism groups,245768,2.9,ok
+es,full,G0115,scalable risk stochastic systems,889328,5.6,ok
+es,full,G0116,autoencoders transfer,126336,2.1,ok
+es,full,G0117,rotating black holes,206232,2.6,ok
+es,full,G0118,medicine through low-resolution inputs,887372,6.4,ok
+es,full,G0119,universal spinning black,386011,3.8,ok
+es,full,G0120,period wolf-rayet,132172,2.1,ok
+es,full,G0121,finite temperature,437164,3.7,ok
+es,full,G0122,solutions cubic-quintic,364863,3.1,ok
+es,full,G0123,shape perception emerges,265740,3.1,ok
+es,full,G0124,stars gaia data,796055,5.2,ok
+es,full,G0125,logic programming,120142,2.2,ok
+es,full,G0126,breakdown fluctuational,89948,1.8,ok
+es,full,G0127,incomplete classical,213864,2.2,ok
+es,full,G0128,affine invariant,160768,2.1,ok
+es,full,G0129,algebras associated hilbert quad,372725,3.6,ok
+es,full,G0130,tenerife impact photometric,146492,2.3,ok
+es,full,G0131,multi-modal llms,338621,4.7,ok
+es,full,G0132,kicked harper,4024,1.5,ok
+es,full,G0133,gradient-play dynamics distributed,891226,7.1,ok
+es,full,G0134,contact binary stars,257433,4.0,ok
+es,full,G0135,image representation learning deep,746084,9.1,ok
+es,full,G0136,approximate near neighbor search,526532,4.7,ok
+es,full,G0137,opportunities challenges solid-state quantum,1092675,8.3,ok
+es,full,G0138,descent theorem,138434,2.1,ok
+es,full,G0139,dimensional branes,336840,2.9,ok
+es,full,G0140,function spaces,936104,6.3,ok
+es,full,G0141,optical lattice investigated pump-probe,685019,5.5,ok
+es,full,G0142,colourful holographic superconductors,58546,2.1,ok
+es,full,G0143,mond seven,22538,2.2,ok
+es,full,G0144,roots trigonometric polynomials s-tur,326509,3.5,ok
+es,full,G0145,motion resonance exploring disc,420129,3.9,ok
+es,full,G0146,first-passage times,1102679,6.5,ok
+es,full,G0147,decays factorization,295288,3.1,ok
+es,full,G0148,collaborator selection decision-making enhance,668610,6.2,ok
+es,full,G0149,light-cone rules,258614,2.7,ok
+es,full,G0150,limit particle system degenerate,1220999,8.4,ok
+es,full,G0151,transitions tmttf,217531,2.7,ok
+es,full,G0152,back metric,167574,2.4,ok
+es,full,G0153,accretion structures during flares,707560,4.2,ok
+es,full,G0154,observation rightarrow,582296,3.6,ok
+es,full,G0155,flow nonlocal quantitative alexandrov,219433,2.7,ok
+es,full,G0156,radiative corrections polarized process,663645,4.4,ok
+es,full,G0157,there many worlds,393389,3.1,ok
+es,full,G0158,number limit fractional euler-alignment,964502,6.7,ok
+es,full,G0159,correlations interacting,532243,4.5,ok
+es,full,G0160,random walks monotonically changing,384523,3.9,ok
+es,full,G0161,quantile networks generative modeling,1909832,15.0,ok
+es,full,G0162,ground state fractal crystals,765727,5.4,ok
+es,full,G0163,identification rare events,181914,2.7,ok
+es,full,G0164,surfaces mirror symmetry counterexample,338334,3.6,ok
+es,full,G0165,hyperbolic structures cusped manifolds,611173,4.6,ok
+es,full,G0166,search dark photon electro-produced,443581,4.6,ok
+es,full,G0167,graph convolutional,203583,2.8,ok
+es,full,G0168,very strong,392135,3.4,ok
+es,full,G0169,technical debt,35197,1.9,ok
+es,full,G0170,spin-crossover transition,362794,4.2,ok
+es,full,G0171,linear hyperbolic systems,964863,6.5,ok
+es,full,G0172,chiral anomaly longitudinal magnetoconductance,100511,2.6,ok
+es,full,G0173,efficient reasoning distillation,461154,4.7,ok
+es,full,G0174,multi-label learning structured decomposition,1066139,10.4,ok
+es,full,G0175,enhanced image,442557,5.1,ok
+es,full,G0176,encoder graph neural,371548,3.9,ok
+es,full,G0177,renormalizable gauge invariant non-local,900711,7.2,ok
+es,full,G0178,signal inference,299710,3.1,ok
+es,full,G0179,inverse problems,564840,3.5,ok
+es,full,G0180,synthesis input limits hybrid,661465,5.3,ok
+es,full,G0181,contributions asymmetry decay,310036,3.0,ok
+es,full,G0182,strongly coupled charged,434663,4.0,ok
+es,full,G0183,system generated cuntz,1493808,8.9,ok
+es,full,G0184,masses mixings renormalizable,360194,3.4,ok
+es,full,G0185,perturbed stark operators,430571,3.5,ok
+es,full,G0186,fixed point free,605621,10.8,ok
+es,full,G0187,green griffiths,25077,2.1,ok
+es,full,G0188,fluctuations during,249032,2.6,ok
+es,full,G0189,does sharpness-aware minimization minimize,399891,4.2,ok
+es,full,G0190,strong fractional choice,381977,3.7,ok
+es,full,G0191,prototype charge injection,189978,2.4,ok
+es,full,G0192,discrimination nuclear recoils alpha,168062,2.6,ok
+es,full,G0193,well-posedness semilinear heat,520356,3.8,ok
+es,full,G0194,nakanishi integral,296615,2.8,ok
+es,full,G0195,decaying dark,181054,2.7,ok
+es,full,G0196,binary measurements,540660,3.4,ok
+es,full,G0197,tkip michael,596,1.5,ok
+es,full,G0198,wick rotated,95407,1.7,ok
+es,full,G0199,downlink asymmetric interference,72078,1.8,ok
+es,full,G0200,baryon density effective relativistic,950666,6.2,ok

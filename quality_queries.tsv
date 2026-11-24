@@ -1,0 +1,26 @@
+query_id	query	source	intent	partial
+Q01	graph neural network traffic prediction	tay	Dùng mạng nơ-ron đồ thị (GNN) để dự báo giao thông đường bộ (lưu lượng, tốc độ trên mạng lưới đường)	GNN cho dự báo không gian–thời gian khác (kể cả lưu lượng mạng di động); dự báo giao thông không dùng GNN
+Q02	transformer language model	tay	Mô hình ngôn ngữ dựa trên kiến trúc Transformer (kiến trúc, huấn luyện, đánh giá)	Transformer cho tác vụ không phải mô hình ngôn ngữ; mô hình ngôn ngữ không dùng Transformer
+Q03	image recognition convolutional	tay	Nhận dạng / phân loại ảnh bằng mạng nơ-ron tích chập (CNN)	CNN cho tác vụ thị giác khác (phát hiện, phân đoạn); nhận dạng ảnh không dùng CNN
+Q04	dense retrieval question answering	tay	Truy hồi dày (dense retrieval, dùng embedding) phục vụ hỏi đáp	Dense retrieval cho tác vụ khác; hỏi đáp dùng truy hồi thưa (BM25) hoặc không truy hồi
+Q05	stochastic optimization adaptive	tay	Phương pháp tối ưu ngẫu nhiên có bước học thích nghi (Adam, AdaGrad, RMSProp...)	Tối ưu ngẫu nhiên không thích nghi; phương pháp thích nghi cho tối ưu không ngẫu nhiên
+Q06	reinforcement learning robotics	tay	Học tăng cường áp dụng cho robot (điều khiển, thao tác, di chuyển)	Học tăng cường cho lĩnh vực khác hoặc thuần lý thuyết; robot không dùng học tăng cường
+Q07	federated learning privacy	tay	Bảo vệ quyền riêng tư trong học liên kết (federated learning)	Học liên kết không lấy quyền riêng tư làm trọng tâm; quyền riêng tư trong học máy nhưng không phải học liên kết
+Q08	protein structure prediction	tay	Dự đoán cấu trúc protein từ trình tự	Bài về protein gần chủ đề (gấp cuộn, docking, thiết kế protein) nhưng không dự đoán cấu trúc
+Q09	graph convolution spatial temporal	tay	Mạng tích chập đồ thị (graph convolution) cho dữ liệu không gian–thời gian	Graph convolution cho dữ liệu tĩnh; mô hình không gian–thời gian không dùng graph convolution
+Q10	self supervised representation learning	tay	Học biểu diễn tự giám sát (contrastive, masked modeling...)	Tự giám sát cho mục tiêu khác học biểu diễn; học biểu diễn có giám sát hoặc phương pháp không giám sát khác
+G0001	gluon contribution open heavy-meson	tải	Đóng góp của gluon (gluon fusion, phân bố gluon) vào sinh meson nặng mở (D, B; open heavy flavour)	Sinh meson nặng nhưng không tập trung vào gluon; vai trò gluon trong quá trình khác (vd. quarkonium)
+G0004	neuron populations neuromorphic spike	tải	Mô hình hoặc hiện thực quần thể nơ-ron phát xung (spiking) trên hệ neuromorphic	Mạng nơ-ron xung không neuromorphic; mô hình quần thể nơ-ron không dùng xung hoặc neuromorphic
+G0005	phonemic graphemic	tải	Quan hệ hoặc chuyển đổi giữa biểu diễn âm vị (phoneme) và chữ viết (grapheme), vd. grapheme-to-phoneme	Chỉ một phía (nhận dạng âm vị hoặc xử lý chữ viết) trong xử lý tiếng nói / ngôn ngữ
+G0007	helmholtz resonators including thermoviscous	tải	Bộ cộng hưởng Helmholtz có tính tổn hao nhiệt–nhớt (thermoviscous losses)	Bộ cộng hưởng Helmholtz / vật liệu âm học không xét tổn hao nhiệt–nhớt; âm học nhiệt–nhớt trong cấu trúc khác
+G0008	multi-model inference natural selection	tải	Suy luận đa mô hình (chọn mô hình, lấy trung bình mô hình, AIC...) để phát hiện hoặc ước lượng chọn lọc tự nhiên	Chọn mô hình trong sinh học tiến hoá nhưng không về chọn lọc; phát hiện chọn lọc bằng phương pháp khác
+G0009	buried threat	tải	Phát hiện vật thể nguy hiểm chôn dưới đất (mìn, IED) bằng radar xuyên đất hoặc cảm biến khác	Radar xuyên đất cho mục tiêu khác; phát hiện mối đe doạ không bị chôn
+G0011	centrosymmetric matrices sinc collocation	tải	Phương pháp sinc collocation có ma trận hệ dạng centrosymmetric (khai thác cấu trúc này để giải)	Sinc collocation không nói tới centrosymmetric; ma trận centrosymmetric trong bối cảnh khác
+G0014	markov chains	tải	Bài lấy chuỗi Markov làm đối tượng nghiên cứu chính (lý thuyết, hội tụ, mixing, mô hình hoá trực tiếp)	Dùng chuỗi Markov như công cụ phụ (vd. MCMC để suy luận cho bài toán khác)
+G0017	large group delay microwave	tải	Mạch hoặc cấu trúc vi ba đạt group delay lớn (đường trễ, slow-wave, group delay âm/dương)	Group delay trong miền khác (quang học); mạch vi ba không nhấn mạnh group delay
+G0018	bi-grid allen cahn equation	tải	Phương pháp hai lưới (two-grid / bi-grid) giải phương trình Allen–Cahn	Phương pháp số khác cho Allen–Cahn; phương pháp hai lưới cho phương trình khác
+G0021	energetic particle transport	tải	Vận chuyển hạt năng lượng cao (tia vũ trụ, hạt năng lượng Mặt Trời) trong plasma hoặc từ trường	Gia tốc hạt nhưng không bàn vận chuyển; vận chuyển trong plasma nhưng không phải hạt năng lượng cao
+G0023	influence wetting properties	tải	Ảnh hưởng của tính thấm ướt (wettability, góc tiếp xúc) lên một hiện tượng vật lý hoặc dòng chảy	Bài về thấm ướt nhưng không xét ảnh hưởng của nó, hoặc chỉ nhắc thoáng qua
+G0024	plasmas inert reactive atmospheres	tải	Plasma trong môi trường khí trơ và khí phản ứng (đặc tính, so sánh)	Plasma chỉ trong một loại khí; plasma áp suất khí quyển nói chung
+G0025	infty categories	tải	Lý thuyết ∞-category (higher category theory)	Lý thuyết phạm trù thông thường; đại số bậc cao chỉ dùng ∞-category như công cụ phụ
+G0026	knowledge graph paired dataset	tải	Bộ dữ liệu ghép cặp đồ thị tri thức với dữ liệu khác (văn bản, ảnh)	Bộ dữ liệu đồ thị tri thức không ghép cặp; bộ dữ liệu ghép cặp không dùng đồ thị tri thức

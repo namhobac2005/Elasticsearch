@@ -1,0 +1,5 @@
+ts,table,dataset,file,rows_loaded,duplicate_lines_dropped,copy_s,rows_per_s,gin_tsv_s,bm25_s,vacuum_analyze_s,heap_bytes,gin_tsv_bytes,bm25_bytes,total_bytes,pg_version,pg_search,shared_buffers,maintenance_work_mem,max_parallel_maintenance_workers
+2026-11-23T15:34:43+00:00,papers_10k,10k,D:\Works\sdh\Elasticsearch\data\arxiv_10000.jsonl,9945,0,1.88,5289.9,0.46,0.95,0.28,15007744,6094848,7200768,38404096,16.16 (Debian 16.16-1.pgdg13+1),0.26.7,1536MB,1GB,2
+2026-11-23T15:35:11+00:00,papers_100k,100k,D:\Works\sdh\Elasticsearch\data\arxiv_100000.jsonl,99961,0,17.11,5842.3,5.85,4.16,0.56,150339584,44826624,52944896,347897856,16.16 (Debian 16.16-1.pgdg13+1),0.26.7,1536MB,1GB,2
+2026-11-23T15:37:19+00:00,papers_500k,500k,D:\Works\sdh\Elasticsearch\data\arxiv_500000.jsonl,500031,6,81.16,6161.1,24.3,20.76,1.08,749699072,172908544,282804224,1703157760,16.16 (Debian 16.16-1.pgdg13+1),0.26.7,1536MB,1GB,2
+2026-11-23T15:52:00+00:00,papers_full,full,D:\Works\sdh\Elasticsearch\data\arxiv_3252452.jsonl,3252359,93,523.34,6214.6,178.51,156.32,12.85,4875649024,815685632,1829068800,10754375680,16.16 (Debian 16.16-1.pgdg13+1),0.26.7,1536MB,1GB,2
