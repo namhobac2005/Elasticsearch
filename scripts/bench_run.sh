@@ -7,7 +7,10 @@
 #   LEVELS="10k" bash scripts/bench_run.sh review   # chỉ 10k, vài phút: kiểm tra luồng còn chạy
 #
 # Cần: dữ liệu đã nạp (load_postgres.py, prepare_data.py index), queries_load.tsv, .venv.
-# Xả page cache dùng WSL của Docker Desktop (Windows); máy khác thì bước này chỉ báo lỗi rồi chạy tiếp.
+# Hướng dẫn đầy đủ theo hệ điều hành: BENCHMARK.md.
+# Xả page cache: Windows dùng WSL của Docker Desktop (cách đã dùng ở run2); máy không có wsl (macOS, Linux)
+# chạy một container privileged ghi vào /proc/sys/vm/drop_caches của nhân Docker (Linux: chính máy host).
+# Không xả được thì chỉ ghi cảnh báo rồi chạy tiếp.
 set -u -o pipefail
 export PYTHONUTF8=1 MSYS_NO_PATHCONV=1
 cd "$(dirname "$0")/.." || exit 1
@@ -19,7 +22,13 @@ PY=(.venv/Scripts/python.exe -u benchmark.py)
 mkdir -p results
 
 log() { echo "== $(date '+%F %T') $*" | tee -a "$LOG"; }
-drop_cache() { wsl -d docker-desktop sh -c "sync; echo 3 > /proc/sys/vm/drop_caches" || log "không xả được page cache"; }
+drop_cache() {
+  if command -v wsl >/dev/null 2>&1; then
+    wsl -d docker-desktop sh -c "sync; echo 3 > /proc/sys/vm/drop_caches" && return 0
+  fi
+  docker run --rm --privileged alpine:3.20 sh -c "sync; echo 3 > /proc/sys/vm/drop_caches" >/dev/null 2>&1 \
+    || log "không xả được page cache"
+}
 wait_pg() { for _ in $(seq 1 120); do docker exec arxiv-pg pg_isready -U arxiv -d arxiv -q 2>/dev/null && return 0; sleep 1; done; return 1; }
 wait_es() { for _ in $(seq 1 180); do curl -fs "http://127.0.0.1:9200/_cluster/health?wait_for_status=green&timeout=5s" >/dev/null 2>&1 && return 0; sleep 2; done; return 1; }
 pg_cold() { docker compose --profile baseline stop postgres >/dev/null 2>&1; drop_cache; docker compose --profile baseline start postgres >/dev/null 2>&1; wait_pg; sleep 3; }

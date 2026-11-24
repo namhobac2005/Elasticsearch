@@ -11,6 +11,12 @@
 ├── load_postgres.py     # Nạp cùng dữ liệu vào PostgreSQL (tsvector + GIN, chỉ mục BM25)
 ├── benchmark.py         # Đo độ trễ/QPS: ES vs PostgreSQL FTS (tsvector+GIN) vs BM25 (pg_search)
 ├── queries_load.tsv     # 200 truy vấn tải dùng chung cho benchmark (seed 42)
+├── evaluate.py          # Gán nhãn 0/1/2 (pooling), Cohen's kappa, P@10, nDCG@10
+├── quality_queries.tsv  # 25 truy vấn đánh giá chất lượng, kèm ý định tìm kiếm và tiêu chí nhãn
+├── scripts/bench_run.sh # Chạy trọn một lượt đo PG rồi ES (khởi động lại, xả cache trước mỗi hệ thống)
+├── report/report.md     # Báo cáo phần benchmark
+├── BENCHMARK.md         # Hướng dẫn chạy lại benchmark trên Windows / macOS / Linux
+├── eval/                # Kết quả đo và nhãn liên quan dùng trong report (xem eval/README.md)
 ├── docker-compose.yml   # Elasticsearch (+ PostgreSQL/ParadeDB, Kibana qua profile)
 ├── requirements.txt
 └── data/                # Đặt file dữ liệu ở đây (không đưa lên git)
@@ -81,6 +87,8 @@ Chọn **Elasticsearch** ở thanh bên (địa chỉ `http://localhost:9200`, i
 
 ### 7. Baseline PostgreSQL và đo hiệu năng
 
+Hướng dẫn chạy đầy đủ từng bước cho Windows / macOS / Linux: [BENCHMARK.md](BENCHMARK.md). Kết quả và phân tích: [report/report.md](report/report.md).
+
 PostgreSQL chạy bằng image ParadeDB (PostgreSQL 16 + extension `pg_search`). So sánh với các baseline phù hợp hiện tại thay vì `LIKE`:
 
 | Mã | Cách làm |
@@ -106,10 +114,15 @@ python benchmark.py run --systems pg_bm25 --table papers_100k --dataset 100k --r
 # 4. số bài khớp của từng truy vấn (không bấm giờ chung với bước 3)
 python benchmark.py matches --systems pg_fts_and,pg_fts_or,pg_bm25 --table papers_100k --dataset 100k
 python benchmark.py matches --systems es --index arxiv_100k --dataset 100k
-# 5. độ trùng top-10 giữa các hệ thống, top-10 để gán nhãn, rồi tổng hợp
+# 5. độ trùng top-10 giữa các hệ thống, rồi tổng hợp
 python benchmark.py overlap
-python benchmark.py top10 --index arxiv_500k --table papers_500k
 python benchmark.py summary
+# 6. chất lượng: top-10 cho bộ truy vấn quality_queries.tsv, gán nhãn 0/1/2, chấm điểm
+python benchmark.py top10 --index arxiv_full --table papers_full
+python evaluate.py pool --index arxiv_full        # tạo results/labels.csv và results/labels_blind.csv
+#   điền cột label (0/1/2) theo cột intent / partial, lưu CSV UTF-8
+python evaluate.py agreement                      # Cohen's kappa giữa hai người gán
+python evaluate.py score                          # P@10, nDCG@10, kiểm định so với ES
 ```
 
 Kết quả nằm trong thư mục `results/`:
@@ -119,7 +132,11 @@ Kết quả nằm trong thư mục `results/`:
 - `latency_raw.csv`: độ trễ của từng request (dùng để so trên cùng tập truy vấn, vẽ phân phối, phân tích theo truy vấn).
 - `matches.csv`: số bài khớp của từng truy vấn; `summary.md` dùng nó để xét độ trễ theo số bài khớp.
 - `topk.csv`, `overlap.csv`: top-10 ở lượt chạy đầu và độ trùng giữa các hệ thống (RBO, overlap@10), không cần gán nhãn.
-- `top10.csv`: 10 bài đầu của mỗi hệ thống cho 10 truy vấn mẫu. Chạy `python evaluate.py --index arxiv_500k` để tạo file gán nhãn (pooling) rồi tính **Precision@10**.
+- `top10.csv`: 10 bài đầu của mỗi hệ thống cho 25 truy vấn trong `quality_queries.tsv` (mỗi câu có ý định tìm kiếm và tiêu chí nhãn 1/2).
+- `labels.csv`, `labels_blind.csv`: file gán nhãn sau khi gộp (pooling); không có cột hệ thống, thứ tự đã xáo. Cột `key` giữ mã bài ở dạng chữ để Excel không làm hỏng mã như `1811.00740`.
+- `quality_scores.csv`, `quality_per_query.csv`: **P@10**, **nDCG@10** theo hệ thống và theo từng truy vấn.
+
+Thư mục `results/` không đưa lên git. Bản chép toàn bộ kết quả dùng trong report (đo hiệu năng run2, log nạp, nhãn và điểm chất lượng) nằm ở `eval/` (có trong git). So một lượt chạy mới với run2: `python benchmark.py compare --a eval/latency.csv --b results/latency.csv`.
 - `summary.md`: bảng tổng hợp.
 
 ES và PostgreSQL cùng bị giới hạn 4 CPU / 6 GB RAM trong `docker-compose.yml`; PostgreSQL đặt `shared_buffers` = 25% RAM. Nên để cùng một người (hoặc cùng tiêu chí) gán nhãn cho mọi hệ thống, và ghi rõ tiêu chí trong báo cáo.
