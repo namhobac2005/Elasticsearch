@@ -17,8 +17,8 @@ Các bước:
        python benchmark.py matches --systems pg_fts_and,pg_fts_or,pg_bm25 --table papers_100k --dataset 100k
   4. Độ trùng top-10 giữa các hệ thống (RBO), từ top-10 ghi lại ở lượt chạy đầu của bước 2:
        python benchmark.py overlap
-  5. Top-10 cho gán nhãn rồi tính Precision@10 bằng evaluate.py:
-       python benchmark.py top10 --index arxiv_500k --table papers_500k
+  5. Top-10 của bộ truy vấn chất lượng (quality_queries.tsv) để gán nhãn, rồi chấm bằng evaluate.py:
+       python benchmark.py top10 --index arxiv_full --table papers_full
   6. Tổng hợp bảng kết quả:
        python benchmark.py summary
 
@@ -415,19 +415,25 @@ def cmd_matches(a):
 
 
 def cmd_top10(a):
-    queries = QUALITY_QUERIES + ([q for _, q in read_queries(a.queries)] if a.queries else [])
+    """Top-10 của từng hệ thống cho bộ truy vấn chất lượng (quality_queries.tsv), để gán nhãn liên quan."""
+    if os.path.exists(a.queries):
+        queries = read_queries(a.queries)
+    else:  # chưa có file: dùng 10 truy vấn viết tay
+        queries = [(f"Q{i:02d}", q) for i, q in enumerate(QUALITY_QUERIES, 1)]
     os.makedirs(RESULTS, exist_ok=True)
     with open(TOP10, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["system", "query", "rank", "arxiv_id", "relevant(1/0)"])
+        w.writerow(["system", "query_id", "query", "rank", "arxiv_id"])
         for system in a.systems.split(","):
+            check_target(system, a)
             runner = Runner(system, a.index, a.table, a.timeout)
-            for q in queries:
+            for qid, q in queries:
                 ids, _ = runner.search(q)
                 for i, pid in enumerate(ids, 1):
-                    w.writerow([system, q, i, pid, ""])
-            print(f"{system}: {len(queries)} truy vấn")
-    print(f"Đã ghi {TOP10}. Chạy tiếp: python evaluate.py --index {a.index}")
+                    w.writerow([system, qid, q, i, pid])
+            runner.close()
+            print(f"{system}: {len(queries)} truy vấn", flush=True)
+    print(f"Đã ghi {TOP10}. Chạy tiếp: python evaluate.py pool --index {a.index}")
 
 
 # ---------------------------------------------------------------- độ trùng top-10
@@ -539,7 +545,7 @@ def read_csv(path):
         return list(csv.DictReader(f))
 
 
-def es_loading(path="results/es_loading.log"):
+def es_loading(path=f"{RESULTS}/es_loading.log"):
     """Đọc log của `prepare_data.py index` (được ghi bằng cách chuyển hướng stdout)."""
     rows, cur = [], None
     if not os.path.exists(path):
@@ -653,7 +659,7 @@ def cmd_summary(a):
         out += [f"| {r['index']} | {int(r.get('docs', 0)):,} | {r.get('seconds')} | {r.get('rate')} | {r.get('size')} |"
                 for r in es]
         out.append("")
-    pg = read_csv("results/pg_loading.csv")
+    pg = read_csv(f"{RESULTS}/pg_loading.csv")
     if pg:
         mb = lambda b: f"{int(b) / 2**20:,.0f}" if b else "-"
         out += ["## Nạp vào PostgreSQL", "",
@@ -684,6 +690,37 @@ def cmd_summary(a):
             f.write("\n".join(out) + "\n")
     print("\n".join(out))
     print(f"\nĐã ghi {SUMMARY} và {per_run}")
+
+
+def cmd_compare(a):
+    """Đặt hai lượt đo cạnh nhau. File không có cột run_id/phase (vd. latency_run1.csv) được coi là một lượt,
+    pha measure."""
+    def load(path, run):
+        rows = read_csv(path)
+        if not rows:
+            raise SystemExit(f"Không đọc được {path}")
+        if "run_id" in rows[0]:
+            run = run or latest_run(rows)
+            rows = [r for r in rows if r["run_id"] == run]
+        return run or os.path.basename(path), {(r["system"], r["dataset"], r.get("phase") or "measure",
+                                               r["concurrency"]): r for r in rows}
+    name_a, A = load(a.a, a.run_a)
+    name_b, B = load(a.b, a.run_b)
+    keys = sorted(A.keys() & B.keys(), key=lambda k: (ds_key(k[1]), k[0], k[2] != "cold", int(k[3])))
+    if not keys:
+        raise SystemExit("Hai lượt không có tổ hợp (hệ thống, mức, pha, đồng thời) nào chung.")
+    print(f"a = {name_a} ({a.a}), b = {name_b} ({a.b}); tỉ lệ = b / a")
+    print(f"{'hệ thống':<11} {'mức':>5} {'pha':<7} {'c':>3} | {'p50 a':>9} {'p50 b':>9} {'b/a':>6} | "
+          f"{'p95 a':>9} {'p95 b':>9} {'b/a':>6} | {'QPS a':>8} {'QPS b':>8} {'b/a':>6}")
+    ratio = lambda x, y: f"{float(y) / float(x):6.2f}" if x and y and float(x) else "     -"
+    for k in keys:
+        ra, rb = A[k], B[k]
+        print(f"{k[0]:<11} {k[1]:>5} {k[2]:<7} {k[3]:>3} | {ra['p50_ms']:>9} {rb['p50_ms']:>9} "
+              f"{ratio(ra['p50_ms'], rb['p50_ms'])} | {ra['p95_ms']:>9} {rb['p95_ms']:>9} "
+              f"{ratio(ra['p95_ms'], rb['p95_ms'])} | {ra['qps']:>8} {rb['qps']:>8} {ratio(ra['qps'], rb['qps'])}")
+    only_a, only_b = len(A.keys() - B.keys()), len(B.keys() - A.keys())
+    if only_a or only_b:
+        print(f"Chỉ có ở a: {only_a} tổ hợp; chỉ có ở b: {only_b} tổ hợp (không so).")
 
 
 def main():
@@ -733,13 +770,20 @@ def main():
     t.add_argument("--systems", default=DEFAULT_SYSTEMS)
     t.add_argument("--index", required=True)
     t.add_argument("--table", required=True)
-    t.add_argument("--queries", default=None, help="thêm truy vấn từ file TSV (cột query)")
+    t.add_argument("--queries", default="quality_queries.tsv", help="TSV có cột query_id, query")
     t.add_argument("--timeout", type=float, default=120.0)
     t.set_defaults(fn=cmd_top10)
 
     s = sp.add_parser("summary", help="gộp kết quả thành results/summary.md")
     s.add_argument("--run-id", default="")
     s.set_defaults(fn=cmd_summary)
+
+    c = sp.add_parser("compare", help="so hai lượt đo: p50/p95/QPS theo hệ thống, mức dữ liệu, pha, mức đồng thời")
+    c.add_argument("--a", default="eval/latency.csv", help="lượt gốc (mặc định: run2 trong eval/)")
+    c.add_argument("--run-a", default="", help="run_id trong file a (mặc định: lượt cuối của file)")
+    c.add_argument("--b", default=LATENCY, help="lượt mới (mặc định: results/latency.csv)")
+    c.add_argument("--run-b", default="", help="run_id trong file b (mặc định: lượt cuối của file)")
+    c.set_defaults(fn=cmd_compare)
 
     a = p.parse_args()
     a.fn(a)
